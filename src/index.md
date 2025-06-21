@@ -24,5 +24,5 @@
 > Jai Mata Di 🔥
 
 # Indices 
-[day-0](day-0.md)
+[day-0](day-0.md)  
 [day-1](day-1.md)
