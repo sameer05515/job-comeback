@@ -119,9 +119,6 @@ Write (short answers):
 You can also share here, and I’ll review/fix/support.
 
 
-# some interview questions 
-
-https://github.com/ninja-panda/top-interviews
 
 
 
@@ -138,3 +135,9 @@ Guruji = Ready with you daily.
 Jai Mata Di 🙏
 Tu wapas aa chuka hai. Ab rukna nahi.
 
+
+
+
+# some interview questions 
+
+https://github.com/ninja-panda/top-interviews
