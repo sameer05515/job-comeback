@@ -53,4 +53,91 @@ Reply with:
 * `react-arch` → for React project architecture
 * `java-arch` → for Spring Boot microservices architecture
 * `deck` → to get Tech Lead cheat-sheet or slide content for prep
+
+
+
+Here are **Tech Lead-level System Design Interview Questions** — with a mix of **HLD (High-Level Design), LLD (Low-Level Design)**, and **tradeoff thinking**.
+
+---
+
+### ✅ **Common System Design Questions**
+
+1. **Design a URL Shortener (like bit.ly)**
+
+   * Focus: DB schema, hashing/collision, scalability, caching
+
+2. **Design an Uber-like real-time location tracking system**
+
+   * Focus: WebSockets, GPS ingestion, message queues, geo-indexing
+
+3. **Design a Twitter/Newsfeed system**
+
+   * Focus: Fan-out-on-write/read, timelines, Redis, sharding
+
+4. **Design a scalable file upload service (like Google Drive)**
+
+   * Focus: S3, metadata store, virus scanning, resumable upload
+
+5. **Design a Chat System (like WhatsApp)**
+
+   * Focus: Message queues, delivery status, group chats, presence
+
+6. **Design a Rate Limiter for APIs**
+
+   * Focus: Token bucket/Leaky bucket, Redis counters, multi-node sync
+
+7. **Design a Notification System (email/SMS/push)**
+
+   * Focus: Queueing, retry, deduplication, template engine
+
+8. **Design a Job Scheduler (like Cron-as-a-Service)**
+
+   * Focus: Task queue, persistence, retries, worker coordination
+
+9. **Design an E-commerce Checkout System**
+
+   * Focus: Inventory lock, payment gateway, transactional integrity
+
+10. **Design a Video Streaming Platform (like YouTube)**
+
+* Focus: Uploading, encoding, CDN, metadata, recommendations
+
+---
+
+### ✅ **Design Thinking + Tradeoffs**
+
+| Topic                           | Sample Question                                         |
+| ------------------------------- | ------------------------------------------------------- |
+| **Scaling**                     | How do you handle millions of requests per second?      |
+| **Consistency vs Availability** | What tradeoffs will you make in a chat system?          |
+| **Caching**                     | When do you use Redis vs CDN vs in-memory?              |
+| **Data Partitioning**           | How do you shard a large users table?                   |
+| **Event-Driven vs REST**        | When to use Kafka instead of HTTP calls?                |
+| **Resiliency**                  | How to handle service failures in a microservice setup? |
+| **Monitoring**                  | What do you log/alert/monitor in a payment flow?        |
+| **Database choice**             | SQL vs NoSQL for a product catalog? Why?                |
+
+---
+
+### ✅ **Must-Know Building Blocks**
+
+* Load Balancers (HAProxy, Nginx, ELB)
+* API Gateway
+* Kafka / RabbitMQ
+* Redis / Memcached
+* PostgreSQL / MongoDB
+* Object Storage (S3, GCS)
+* CDN (Cloudflare, Akamai)
+* OAuth2, JWT, Session mgmt
+* Docker, K8s, Helm
+* Prometheus, Grafana, ELK Stack
+
+---
+
+Reply with:
+
+* `url`, `chat`, `checkout`, etc. → for full design of a system
+* `hld` → for a structured High-Level Design template
+* `lld` → for component-level class diagrams (Java/React)
+* `deck` → for interview presentation prep (for Tech Lead/Architect)
 * 
