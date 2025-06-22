@@ -29,4 +29,4 @@
 
 
 
-apply shanti model for recursively gain confidence and get job opportunity 
+[apply shanti model for recursively gain confidence and get job opportunity](day-1-shanti-model.md)
