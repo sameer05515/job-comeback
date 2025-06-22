@@ -1,0 +1,9 @@
+Name: Premendra Kumar 
+Mobile: 8010645624, 8750084750
+Email: premendra.bce05515@outlook.com
+Current Location: Faridabad 
+Years of Exp: 14.2
+Tech Stack: Spring boot, Reactjs 
+Previous Company: Zycus Infotech 
+Last Job End Date: 22 Feb 2024
+Current Goal (Remote/Hybrid): Remote 
