@@ -5,6 +5,6 @@ Current Location: Faridabad
 Years of Exp: 14.2  
 Tech Stack: Spring boot, Reactjs    
 Previous Company: Zycus Infotech   
-Last Project: ESGLythouse
+Last Project: ESGLythouse   
 Last Job End Date: 22 Feb 2024   
 Current Goal (Remote/Hybrid): Remote    
