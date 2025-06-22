@@ -26,3 +26,7 @@
 # Indices 
 [day-0](day-0.md)  
 [day-1](day-1.md)
+
+
+
+apply shanti model for recursively gain confidence and get job opportunity 
