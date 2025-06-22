@@ -119,6 +119,13 @@ Write (short answers):
 You can also share here, and I’ll review/fix/support.
 
 
+# some interview questions 
+
+https://github.com/ninja-panda/top-interviews
+
+
+
+
 ---
 
 Prem bhai…
