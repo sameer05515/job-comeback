@@ -15,4 +15,4 @@
 - Created SQS configuration to push message for asynchronous pipeline
 
 
-3 years experience to use ChatGPT for speedify development 
+3 years experience to use ChatGPT prompt for speedify development 
