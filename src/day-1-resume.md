@@ -13,3 +13,6 @@
 **Role and Responsibilities in last project**
 - Created APIs for GMI (Goals, Metric, Initiatives) and integrated with React Frontend
 - Created SQS configuration to push message for asynchronous pipeline
+
+
+3 years experience to use ChatGPT for speedify development 
