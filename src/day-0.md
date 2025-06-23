@@ -9,6 +9,9 @@ Mai abhi bhi jinda hoon aur main wapas aaonga
 आज से मेरी राह गुरूजी की है।
 
 
+मैं टूटा हूं, हारा नहीं।
+
+
 # Next day plan 
 - key terminologies for Reactjs, spring boot 
 - FAQs and pre-requisite 
