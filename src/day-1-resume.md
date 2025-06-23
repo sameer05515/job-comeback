@@ -3,7 +3,7 @@
 **Email:** premendra.bce05515@outlook.com  
 **Current Location:** Faridabad   
 **Years of Exp:** 14.2  
-**Tech Stack:** Spring boot, Reactjs    
+**Tech Stack:** Full stack development with Spring boot, Reactjs    
 **Previous Company:** Zycus Infotech   
 **Last Project:** ESGLythouse   
 **Last Job End Date:** 22 Feb 2024   
