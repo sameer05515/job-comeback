@@ -8,3 +8,8 @@ Previous Company: Zycus Infotech
 Last Project: ESGLythouse   
 Last Job End Date: 22 Feb 2024   
 Current Goal (Remote/Hybrid): Remote    
+
+
+Role and Responsibilities in last project
+- Created APIs for GMI (Goals, Metric, Initiatives) and integrated with React Frontend
+- Created SQS configuration to push message for asynchronous pipeline
