@@ -7,7 +7,7 @@ Here are **ReactJS interview questions** (code-focused, minimal theory, ideal fo
 1. [**What is JSX? How is it compiled?**](./reactjs/jsx.md)
 2. **Write a functional component with props.**
 3. **How to update state in React?**
-4. **Difference between `props` and `state`?**
+4. [**Difference between `props` and `state`?**](./reactjs/props-vs-state.md)
 5. **How to handle a form input in React?**
 6. **What is the purpose of `useEffect` hook?**
 7. **How does virtual DOM work in React?**
