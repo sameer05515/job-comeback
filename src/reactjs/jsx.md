@@ -165,3 +165,160 @@ Reply with:
 * `examples` → for JSX snippet pack
 * `quiz` → JSX MCQ
 * `jsx-edge` → JSX advanced usage (e.g., expressions, children, spreading props)
+
+---
+---
+## jsx-edge
+
+Here’s a **JSX Edge Case & Advanced Usage Pack** — useful for interviews and real-world React projects 👇
+
+---
+
+### ✅ **1. Embedding Expressions**
+
+You can insert **any valid JS expression** inside `{}`:
+
+```jsx
+<h1>{2 + 2}</h1> // 4
+<h2>{user?.name?.toUpperCase()}</h2>
+```
+
+---
+
+### ✅ **2. Ternary vs Short-Circuit Rendering**
+
+```jsx
+{isAdmin ? <AdminPanel /> : <GuestPanel />}
+{isLoggedIn && <LogoutButton />}
+```
+
+* `&&` renders second value if first is truthy
+* `||` can be used to render fallback value:
+
+  ```jsx
+  {name || "Guest"}
+  ```
+
+---
+
+### ✅ **3. JSX Children**
+
+```jsx
+<Component>
+  <h1>Title</h1>
+  <p>Paragraph</p>
+</Component>
+```
+
+Inside `Component`, children can be accessed via:
+
+```jsx
+function Component({ children }) {
+  return <div>{children}</div>;
+}
+```
+
+---
+
+### ✅ **4. JSX Spread Attributes**
+
+You can pass multiple props using spread syntax:
+
+```jsx
+const userProps = { name: "Prem", age: 35 };
+<User {...userProps} />
+```
+
+Also helpful for forwarding extra props:
+
+```jsx
+function InputField({ label, ...rest }) {
+  return (
+    <>
+      <label>{label}</label>
+      <input {...rest} />
+    </>
+  );
+}
+```
+
+---
+
+### ✅ **5. JSX Key Prop (Mandatory in List)**
+
+```jsx
+users.map(user => <UserCard key={user.id} {...user} />);
+```
+
+* `key` must be **unique** among siblings
+* Don't use index if list is dynamic
+
+---
+
+### ✅ **6. JSX Fragments & Grouping**
+
+Avoid unnecessary `div`s:
+
+```jsx
+<>
+  <td>Cell 1</td>
+  <td>Cell 2</td>
+</>
+```
+
+Also valid:
+
+```jsx
+<React.Fragment key={i}>...</React.Fragment>
+```
+
+---
+
+### ✅ **7. JSX Conditional Rendering with Components**
+
+```jsx
+const Component = isAdmin ? AdminPanel : GuestPanel;
+return <Component />;
+```
+
+OR dynamically from object map:
+
+```jsx
+const componentMap = {
+  home: <HomePage />,
+  about: <AboutPage />,
+};
+
+return componentMap[route];
+```
+
+---
+
+### ✅ **8. JSX with dangerouslySetInnerHTML (Use Carefully)**
+
+```jsx
+<div dangerouslySetInnerHTML={{ __html: "<strong>Hello</strong>" }} />
+```
+
+⚠️ Prevents XSS by ensuring you're fully responsible.
+
+---
+
+### ✅ Summary Cheatsheet
+
+| Pattern               | Example                                       |
+| --------------------- | --------------------------------------------- |
+| Conditional rendering | `cond && <Comp />` or `cond ? A : B`          |
+| Children              | `<Comp>...</Comp>` passed as `props.children` |
+| Spread props          | `<Comp {...obj} />`                           |
+| Inline expression     | `<h1>{name.toUpperCase()}</h1>`               |
+| Fragments             | `<>...</>` instead of extra divs              |
+
+---
+
+Type:
+
+* `examples` → for a full JSX patterns snippet pack
+* `hook-edge` → for `useEffect`, `useCallback`, `useMemo` edge patterns
+* `vite-setup` → to build & test these quickly
+
