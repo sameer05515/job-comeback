@@ -142,3 +142,138 @@ Type:
 * `adv-qna` → for advanced questions (hooks, perf, SSR, etc.)
 * `redux-qna` → for Redux-based Q\&A
 * `quiz` → MCQ-based React quiz for practice
+
+---
+---
+# adv-qna
+
+Here’s your **Advanced React Q\&A Pack** — targeted for **5–10+ YOE / Tech Lead / Sr. Dev** interviews 👇
+
+---
+
+### ✅ 1. **How does React’s reconciliation algorithm work?**
+
+React compares **virtual DOM trees** using a **diffing algorithm**:
+
+* Compares node type and keys
+* Minimizes DOM operations
+* Uses `key` prop to track elements in lists efficiently
+
+---
+
+### ✅ 2. **How does `useCallback` work? When should you use it?**
+
+`useCallback(fn, [deps])` returns a **memoized version of the function** — useful to:
+
+* Avoid re-creating handlers on every render
+* Prevent child components from unnecessary re-renders (esp. with `React.memo`)
+
+```js
+const handleClick = useCallback(() => doSomething(id), [id]);
+```
+
+---
+
+### ✅ 3. **What is `useMemo` and when should you use it?**
+
+`useMemo(() => compute(), [deps])` memoizes a **computed value** to avoid recalculating on each render.
+
+Use it for:
+
+* Expensive calculations
+* Derived values in large components
+
+---
+
+### ✅ 4. **What causes unnecessary re-renders in React?**
+
+* Props or state changes (even with same value)
+* Anonymous functions or inline objects/arrays in JSX
+* Missing `React.memo`, `useCallback`, `useMemo`
+
+---
+
+### ✅ 5. **What is React’s concurrent rendering?**
+
+React can **pause, interrupt, resume, or abandon** renders:
+
+* Improves responsiveness
+* Powered by **Fiber architecture**
+* Used in **React 18+** with **automatic batching** and **transitions**
+
+---
+
+### ✅ 6. **Difference between `useEffect`, `useLayoutEffect`, and `useInsertionEffect`**
+
+| Hook                 | When it Runs                            |
+| -------------------- | --------------------------------------- |
+| `useEffect`          | After paint (async, non-blocking)       |
+| `useLayoutEffect`    | Before paint (blocking, layout sync)    |
+| `useInsertionEffect` | Before layout/render (for styling libs) |
+
+Use `useLayoutEffect` only when DOM measurement or mutation is needed before paint.
+
+---
+
+### ✅ 7. **How do Suspense and lazy loading work in React?**
+
+```js
+const About = React.lazy(() => import('./About'));
+<Suspense fallback={<Loader />}><About /></Suspense>
+```
+
+Used for:
+
+* Code-splitting
+* Server-side rendering
+* Concurrent rendering
+
+---
+
+### ✅ 8. **How would you prevent prop drilling without Redux?**
+
+Use **Context API**:
+
+```js
+const ThemeContext = createContext();
+<ThemeContext.Provider value="dark"><App /></ThemeContext.Provider>
+```
+
+Then access with `useContext(ThemeContext)`.
+
+---
+
+### ✅ 9. **When do you use `useReducer` instead of `useState`?**
+
+Use `useReducer` when:
+
+* State logic is complex
+* You need better control/structure
+* You’re modeling state transitions
+
+```js
+const [state, dispatch] = useReducer(reducerFn, initialState);
+```
+
+---
+
+### ✅ 10. **How do you handle memory leaks in React?**
+
+* Cancel async calls inside `useEffect`
+* Clean up intervals, subscriptions:
+
+```js
+useEffect(() => {
+  const id = setInterval(...);
+  return () => clearInterval(id);
+}, []);
+```
+
+---
+
+Reply with:
+
+* `patterns` → React design patterns (container-presentational, hooks, composition)
+* `ssr` → questions on SSR, hydration, and SEO
+* `redux-qna` → advanced Redux Q\&A
+* `project` → get an end-to-end React app architecture summary
