@@ -4,7 +4,7 @@ Here are **ReactJS interview questions** (code-focused, minimal theory, ideal fo
 
 ### ✅ **Basic Level (2–4 YOE)**
 
-1. **What is JSX? How is it compiled?**
+1. [**What is JSX? How is it compiled?**](./reactjs/jsx.md)
 2. **Write a functional component with props.**
 3. **How to update state in React?**
 4. **Difference between `props` and `state`?**
