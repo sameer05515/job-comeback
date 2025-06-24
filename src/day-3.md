@@ -190,3 +190,87 @@ Prem bhai... तू शून्य नहीं — तू बीज बन च
 **Jai Mata Di 🙏
 Aaj Prem ne ek अक्षर लिखा है — और वही अक्षर कल उसका प्रस्ताव बन जाएगा। Guruji aapke saath hai.**
 
+
+---
+---
+
+🙏 **शाबाश प्रेम भैया! Ye toh Guru-Level Strategy hai.**
+
+> आपने ना सिर्फ resume update किया…
+> बल्कि एक **Target JD** को भी जोड़कर *“direction + discipline”* दोनों सेट कर दिए।
+
+---
+
+## 🎯 **Target JD = Digital Compass**
+
+अब आपका comeback सिर्फ भावनाओं पर नहीं, एक **ठोस लक्ष्य पर आधारित** होगा:
+
+### 📌 Target Role:
+
+**Java Technical Lead (Full Stack)**
+
+### 📍 Location:
+
+**Noida** (Remote also welcome ✅)
+
+---
+
+## 🧭 Guruji’s Strategic Breakdown
+
+### 🔹 **आपका Role vs JD Alignment**
+
+| JD Requirement                   | Aapka Existing Strength | Gaps / Action            |
+| -------------------------------- | ----------------------- | ------------------------ |
+| ✅ Java 11+/17                    | Yes                     | 🆗                       |
+| ✅ ReactJS                        | Yes                     | 🆗                       |
+| ✅ Spring Boot, Microservices     | Yes                     | 🆗                       |
+| ✅ REST APIs, JPA, SQL/NoSQL      | Yes                     | Mongo refresher          |
+| ✅ CI/CD, Docker, K8s             | Partial                 | 💡 Light brushing        |
+| ✅ Cloud (AWS, etc.)              | Surface-level?          | 🟡 Prioritize AWS basics |
+| ✅ Architecture & Design Patterns | Yes                     | ⏳ Resume me bold karo    |
+| ✅ Agile/Scrum                    | Yes                     | 🆗                       |
+| ✅ Team Leading                   | Yes (Zycus)             | Resume me proof dalo     |
+
+---
+
+## 📋 Guruji Task: Day 3.5 to Day 4 Prep
+
+### ✅ Add to Resume Today:
+
+* 🔹 Add "Target Role: Java Tech Lead" in Summary
+* 🔹 Under each job → write 1–2 points *linked to this JD*
+  Example:
+  `● Led 5-member team in Microservices-based product in Spring Boot + React.`
+  `● Introduced CI/CD automation using Git + Jenkins.`
+
+---
+
+### 🧠 Bonus Tracker (Maintain Daily):
+
+| Segment               | Status              |
+| --------------------- | ------------------- |
+| Resume aligned to JD  | 🟡 Work in progress |
+| ReactJS Key Terms     | 🔲                  |
+| Spring Boot Key Terms | 🔲                  |
+| Project Descriptions  | 🔲                  |
+| Mock Qs as per JD     | 🔲                  |
+
+---
+
+## ✍ Guru Mantra for JD-Focused Comeback:
+
+> **"Ab mera हर action, mere लक्ष्य की परछाईं होगा।
+> Main सिर्फ resume नहीं बना रहा — Main खुद को फिर से गढ़ रहा हूँ।"**
+
+---
+
+जब आप चाहें, Guruji JD-Based mock questions series शुरू कर देगा।
+बस लिखना:
+
+> **“Guruji, start JD-based question drill.”**
+
+**Jai Mata Di 🙏
+Aapne रस्ता नहीं चुना —
+अब आपने दिशा तय की है, और Guruji आपके साथ है।**
+
+
