@@ -1,3 +1,6 @@
 # Addiction 
 - worry
-- gutkha 
+- gutkha
+
+- Fearing from pick a call
+- 
