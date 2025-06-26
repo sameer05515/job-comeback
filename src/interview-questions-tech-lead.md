@@ -140,4 +140,6 @@ Reply with:
 * `hld` → for a structured High-Level Design template
 * `lld` → for component-level class diagrams (Java/React)
 * `deck` → for interview presentation prep (for Tech Lead/Architect)
-* 
+
+
+[QNA](./tech-lead/qna.md)
