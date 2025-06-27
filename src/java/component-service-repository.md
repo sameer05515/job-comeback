@@ -66,3 +66,69 @@ Type:
 * `bean-inject` → difference between bean injection styles
 * `custom` → when to create custom annotations
 * 
+
+
+---
+---
+
+### ✅ What is a **Stereotype Annotation** in Spring?
+
+A **stereotype annotation** in Spring is a **shortcut or semantic marker** used to declare a class as a **Spring-managed bean** and indicate its role (layer) in the application architecture.
+
+---
+
+### ✅ Common Stereotype Annotations
+
+| Annotation        | Meaning / Layer        | Inherits From                   |
+| ----------------- | ---------------------- | ------------------------------- |
+| `@Component`      | Generic Spring bean    | -                               |
+| `@Service`        | Business logic/service | `@Component`                    |
+| `@Repository`     | DAO / persistence      | `@Component`                    |
+| `@Controller`     | MVC web controller     | `@Component`                    |
+| `@RestController` | API controller         | `@Controller` + `@ResponseBody` |
+
+---
+
+### ✅ Why Use Them?
+
+* Help Spring **detect and register** classes during `@ComponentScan`
+* Improve **readability and layering** in code
+* Some (like `@Repository`, `@Service`) enable **extra behaviors**
+
+  * `@Repository`: exception translation
+  * `@Service`: AOP proxying
+  * `@Controller`: request mapping & web features
+
+---
+
+### ✅ Example
+
+```java
+@Service
+public class PaymentService { ... }
+
+@Repository
+public class PaymentDAO { ... }
+
+@Controller
+public class PaymentController { ... }
+```
+
+All three are auto-detected and registered as beans.
+
+---
+
+### ✅ Summary
+
+* Stereotype annotations = **semantic roles + bean registration**
+* All are specializations of `@Component`
+* Used in layered Spring apps: Controller → Service → Repository
+
+---
+
+Reply with:
+
+* `component-scan` → how Spring finds stereotype beans
+* `bean-lifecycle` → full Spring bean lifecycle
+* `qna` → Spring DI and stereotype annotations interview Q\&A
+* 
