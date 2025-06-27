@@ -5,7 +5,7 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 ### ✅ **Basic Level (2–4 YOE)**
 
 1. [**What is `@SpringBootApplication`?**](./java/spring-boot-configuration.md)
-3. [**Difference between `@Component`, `@Service`, `@Repository`?**](./java/component -service-repository.md)
+3. [**Difference between `@Component`, `@Service`, `@Repository`?**](./java/component-service-repository.md)
 4. [**How does `@Autowired` work internally?**](./java/autowired-internal-work.md)
 5. **What is the purpose of `application.properties`?**
 6. **Explain embedded server in Spring Boot.**
