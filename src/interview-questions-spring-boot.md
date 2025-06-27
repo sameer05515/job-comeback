@@ -4,16 +4,16 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 
 ### ✅ **Basic Level (2–4 YOE)**
 
-1. **What is `@SpringBootApplication`?**
-2. **Difference between `@Component`, `@Service`, `@Repository`?**
-3. [**How does `@Autowired` work internally?**](./java/autowired-internal-work.md)
-4. **What is the purpose of `application.properties`?**
-5. **Explain embedded server in Spring Boot.**
-6. **How to connect Spring Boot with MySQL?**
-7. **Write a simple REST controller to return list of users.**
-8. **How to handle 404 or global exceptions?**
-9. **What is `CommandLineRunner` vs `ApplicationRunner`?**
-10. **Difference between `@GetMapping` and `@RequestMapping(method = GET)`?**
+1. [**What is `@SpringBootApplication`?**](./java/spring-boot-configuration.md)
+3. **Difference between `@Component`, `@Service`, `@Repository`?**
+4. [**How does `@Autowired` work internally?**](./java/autowired-internal-work.md)
+5. **What is the purpose of `application.properties`?**
+6. **Explain embedded server in Spring Boot.**
+7. **How to connect Spring Boot with MySQL?**
+8. **Write a simple REST controller to return list of users.**
+9. **How to handle 404 or global exceptions?**
+10. **What is `CommandLineRunner` vs `ApplicationRunner`?**
+11. **Difference between `@GetMapping` and `@RequestMapping(method = GET)`?**
 
 ---
 
