@@ -1,6 +1,6 @@
 Company Name: EVC Ventures  
 Employee ID: 1961  
-Duration: 05-Dec-2022 to 17-Feb-2023  
+Duration: 06-Dec-2022 to 17-Feb-2023  
 Role: Senior Backend Developer → Tech Lead
 
 Project 1: IITD Admin  
