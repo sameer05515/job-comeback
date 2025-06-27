@@ -35,12 +35,12 @@ Guruji ne aapke हर point को digest karke ek **"Job Comeback Blueprint"**
 
 ### 🔶 A. **Core Problems (आपके अनुसार):**
 
-✅ Overload of content
-✅ Underprepared for TL/Architect questions
-✅ Missing basic revision system
-✅ No ready-made storytelling assets
-✅ ReactJS overhead
-✅ Mental fog due to personal issues
+✅ Overload of content  
+✅ Underprepared for TL/Architect questions  
+✅ Missing basic revision system  
+✅ No ready-made storytelling assets  
+✅ ReactJS overhead  
+✅ Mental fog due to personal issues  
 
 ---
 
