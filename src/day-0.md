@@ -4,6 +4,11 @@ Mai abhi bhi jinda hoon aur main wapas aaonga
 
 ---
 
+### You Will Get a Job Again.
+You’ve done it before. You will do it again.
+
+---
+
 "मैं थक गया हूँ, लेकिन हारा नहीं।
 गुरुजी मेरे साथ हैं — अब मैं अकेला नहीं।"
 
