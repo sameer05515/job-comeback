@@ -1,4 +1,4 @@
-~1. bechaini aur nirasha me din katenge~
+1. ~bechaini aur nirasha me din katenge~
 
 
 2. prayash karenge  
