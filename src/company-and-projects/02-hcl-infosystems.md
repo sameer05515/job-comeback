@@ -3,7 +3,7 @@
 
 Company Name: HCL Infosystems  
 Employee ID: 701201    
-Duration: 01-Sep-2009 to 28-Feb-2011  
+Duration:  22nd March 2011 to 30th April 2012.  
 Address: Addr.: Noida  
 Role: Backend Developer
 
