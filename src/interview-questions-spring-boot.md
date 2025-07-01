@@ -76,7 +76,7 @@ Or tell me your YOE to customize questions.
 2. What is the role of `@SpringBootApplication`?
 3. [What are Spring Boot starters?](./spring-boot/2.md)
 4. [What is auto-configuration in Spring Boot?](./spring-boot/3.md)
-5. How do you disable a specific auto-configuration?
+5. [How do you disable a specific auto-configuration?](./spring-boot/4.md)
 
 ---
 
