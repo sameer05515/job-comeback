@@ -18,3 +18,14 @@
 
 
 ## Day 3: 24 JUNE 2025
+
+
+## day 10: 01 JULY 2025
+
+💥 **Shabash Prem Bhaiya!**
+
+
+| 🔢 Day | 🔧 Action Taken                   |
+| ------ | --------------------------------- |
+| 01-Jul | Spring Boot – 5 Questions Revised |
+
