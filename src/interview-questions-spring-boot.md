@@ -72,7 +72,7 @@ Or tell me your YOE to customize questions.
 
 ## 🔹 **Core Spring Boot Basics**
 
-1. What is Spring Boot? How is it different from Spring Framework?
+1. [What is Spring Boot? How is it different from Spring Framework?](./spring-boot/1.md)
 2. What is the role of `@SpringBootApplication`?
 3. What are Spring Boot starters?
 4. What is auto-configuration in Spring Boot?
