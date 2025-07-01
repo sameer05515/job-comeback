@@ -8,7 +8,7 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 3. [**Difference between `@Component`, `@Service`, `@Repository`?**](./java/component-service-repository.md)
 4. [**How does `@Autowired` work internally?**](./java/autowired-internal-work.md)
 5. [**What is the purpose of `application.properties`?**](./spring-boot/5.md)
-6. **Explain embedded server in Spring Boot.**
+6. [**Explain embedded server in Spring Boot.**](./spring-boot/6.md)
 7. **How to connect Spring Boot with MySQL?**
 8. **Write a simple REST controller to return list of users.**
 9. **How to handle 404 or global exceptions?**
