@@ -19,7 +19,7 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 
 ### ✅ **Intermediate Level (4–7 YOE)**
 
-11. **Explain Spring Boot auto-configuration.**
+11. [**Explain Spring Boot auto-configuration.**](./spring-boot/12.md)
 12. **What are Spring Boot Starters?**
 13. **How to implement global exception handling?**
 14. **What is the use of `@Value` and how to use default value?**
