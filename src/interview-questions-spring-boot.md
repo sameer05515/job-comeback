@@ -12,7 +12,7 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 7. [**How to connect Spring Boot with MySQL?**](./spring-boot/7.md)
 8. [**Write a simple REST controller to return list of users.**](./spring-boot/8.md)
 9. [**How to handle 404 or global exceptions?**](./spring-boot/9.md)
-10. **What is `CommandLineRunner` vs `ApplicationRunner`?**
+10. [**What is `CommandLineRunner` vs `ApplicationRunner`?**](./spring-boot/10.md)
 11. **Difference between `@GetMapping` and `@RequestMapping(method = GET)`?**
 
 ---
