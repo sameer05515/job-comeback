@@ -20,7 +20,7 @@ Here are **ReactJS interview questions** (code-focused, minimal theory, ideal fo
 ### ✅ **Intermediate Level (4–7 YOE)**
 
 11. **Explain `useEffect(() => {}, [])` behavior.**
-12. **What is `React.memo`?**
+12. [**What is `React.memo`?**](../reactjs/react-memo.md)
 13. **How to prevent unnecessary re-renders?**
 14. **What are custom hooks? Give an example.**
 15. **Difference between `useCallback` and `useMemo`?**
