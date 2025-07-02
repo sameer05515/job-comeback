@@ -38,7 +38,7 @@ Here are **React/Java Tech Lead Interview Questions (with leadership focus)** â€
 2. [**How do you onboard a new developer in a large codebase?**](./tech-lead/01.md)
 3. [**What are your steps when a production issue is reported?**](./tech-lead/02.md)
 4. [**How do you do RCA and communicate it to stakeholders?**](./tech-lead/03.md)
-5. **How do you conduct technical reviews of architecture proposals?**
+5. [**How do you conduct technical reviews of architecture proposals?**](./tech-lead/04.md)
 6. **How do you prioritize tech debt in a product-driven environment?**
 7. **What is your process for planning a refactor/rewrite?**
 8. **How do you mentor junior developers?**
