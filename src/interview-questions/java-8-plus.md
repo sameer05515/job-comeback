@@ -68,3 +68,79 @@ Sure ✅ Here’s a curated list of **Java 8+ (Java 8 to 17)** interview questio
 ---
 
 Let me know if you want answers, code tasks, flashcards, or categorize these for levels (easy → tough).
+
+
+---
+---
+
+Sure ✅ Here's **25 more Java 8+ interview questions (without answers)** to extend your practice set:
+
+---
+
+### 🔹 **Functional Interfaces & Lambdas**
+
+41. What is the difference between `Function<T, R>` and `BiFunction<T, U, R>`?
+42. Can you pass a lambda as a method argument?
+43. What is a target type in context of lambda expressions?
+44. Can functional interfaces have multiple abstract methods? Why/why not?
+45. How does `Supplier<T>` differ from `Consumer<T>`?
+
+---
+
+### 🔹 **Streams – Real-World Usage**
+
+46. How to remove duplicates using Stream API?
+47. How to filter and collect data into a `Map` using streams?
+48. How to sort a list of custom objects by multiple fields using streams?
+49. How do you convert a `List<String>` to `List<Integer>` using streams?
+50. How to count the frequency of each element in a list using streams?
+51. How do you merge multiple lists using streams?
+52. What are the performance considerations with parallel streams?
+
+---
+
+### 🔹 **Collectors & Reduction**
+
+53. What is the use of `joining()` collector?
+54. How to partition a list of integers into even and odd using `partitioningBy()`?
+55. What is the purpose of `collectingAndThen()`?
+56. How does `reducing()` work as a collector?
+57. What is the difference between `reduce()` and `collect()`?
+
+---
+
+### 🔹 **Optional In Depth**
+
+58. What is the difference between `orElse()`, `orElseGet()` and `orElseThrow()`?
+59. How do you chain multiple Optionals safely?
+60. Can you filter a value inside an Optional?
+61. How do you convert an Optional to a Stream?
+
+---
+
+### 🔹 **Interface Enhancements**
+
+62. Why were default methods introduced in Java 8?
+63. Can default methods be overridden?
+64. What happens if two interfaces have the same default method?
+65. Can an interface have static methods? Why?
+
+---
+
+### 🔹 **Misc + Advanced**
+
+66. Can lambda expressions access variables from the outer scope?
+67. What is an effectively final variable in Java 8?
+68. How does method overloading work with lambdas?
+69. What are infinite streams and how do you create one?
+70. How would you paginate a stream of data?
+
+---
+
+Let me know if you want:
+
+* ✅ Categorized by Easy / Medium / Advanced
+* ✅ Questions with code tasks
+* ✅ Flashcards / PDFs for revision
+* ✅ Focused set: only Streams / Only Optional / Only Interface Enhancements etc.
+* 
