@@ -4,30 +4,30 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 
 ### ✅ **Basic Level (2–4 YOE)**
 
-1. [**What is `@SpringBootApplication`?**](./java/spring-boot-configuration.md)
-3. [**Difference between `@Component`, `@Service`, `@Repository`?**](./java/component-service-repository.md)
-4. [**How does `@Autowired` work internally?**](./java/autowired-internal-work.md)
-5. [**What is the purpose of `application.properties`?**](./spring-boot/5.md)
-6. [**Explain embedded server in Spring Boot.**](./spring-boot/6.md)
-7. [**How to connect Spring Boot with MySQL?**](./spring-boot/7.md)
-8. [**Write a simple REST controller to return list of users.**](./spring-boot/8.md)
-9. [**How to handle 404 or global exceptions?**](./spring-boot/9.md)
-10. [**What is `CommandLineRunner` vs `ApplicationRunner`?**](./spring-boot/10.md)
-11. [**Difference between `@GetMapping` and `@RequestMapping(method = GET)`?**](./spring-boot/11.md)
+1. [**What is `@SpringBootApplication`?**](../java/spring-boot-configuration.md)
+3. [**Difference between `@Component`, `@Service`, `@Repository`?**](../java/component-service-repository.md)
+4. [**How does `@Autowired` work internally?**](../java/autowired-internal-work.md)
+5. [**What is the purpose of `application.properties`?**](../spring-boot/5.md)
+6. [**Explain embedded server in Spring Boot.**](../spring-boot/6.md)
+7. [**How to connect Spring Boot with MySQL?**](../spring-boot/7.md)
+8. [**Write a simple REST controller to return list of users.**](../spring-boot/8.md)
+9. [**How to handle 404 or global exceptions?**](../spring-boot/9.md)
+10. [**What is `CommandLineRunner` vs `ApplicationRunner`?**](../spring-boot/10.md)
+11. [**Difference between `@GetMapping` and `@RequestMapping(method = GET)`?**](../spring-boot/11.md)
 
 ---
 
 ### ✅ **Intermediate Level (4–7 YOE)**
 
-11. [**Explain Spring Boot auto-configuration.**](./spring-boot/12.md)
+11. [**Explain Spring Boot auto-configuration.**](../spring-boot/12.md)
 12. **What are Spring Boot Starters?**
 13. **How to implement global exception handling?**
 14. **What is the use of `@Value` and how to use default value?**
 15. **Write an endpoint that accepts JSON and saves to DB (JPA).**
 16. **What is `@Transactional` and when to use it?**
 17. **How to customize error JSON response structure?**
-18. [**How to create custom Spring Boot starter?**](./spring-boot/13.md)
-19. [**Explain lifecycle of a Spring Boot application.**](./spring-boot/14.md)
+18. [**How to create custom Spring Boot starter?**](../spring-boot/13.md)
+19. [**Explain lifecycle of a Spring Boot application.**](../spring-boot/14.md)
 20. **What is `@RestControllerAdvice`?**
 
 ---
@@ -36,8 +36,8 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 
 21. **How does Spring Boot simplify dependency management?**
 22. **How to write a custom filter or interceptor?**
-23. [**Explain Actuator endpoints & security.**](./spring-boot/15.md)
-24. [**What is Spring Boot DevTools and when not to use it?**](./spring-boot/16.md)
+23. [**Explain Actuator endpoints & security.**](../spring-boot/15.md)
+24. [**What is Spring Boot DevTools and when not to use it?**](../spring-boot/16.md)
 25. **Explain the difference between `@ConfigurationProperties` and `@Value`.**
 26. **How to run a scheduled job in Spring Boot?**
 27. **How to expose and consume OpenAPI (Swagger) in Spring Boot?**
@@ -72,11 +72,11 @@ Or tell me your YOE to customize questions.
 
 ## 🔹 **Core Spring Boot Basics**
 
-1. [What is Spring Boot? How is it different from Spring Framework?](./spring-boot/1.md)
+1. [What is Spring Boot? How is it different from Spring Framework?](../spring-boot/1.md)
 2. What is the role of `@SpringBootApplication`?
-3. [What are Spring Boot starters?](./spring-boot/2.md)
-4. [What is auto-configuration in Spring Boot?](./spring-boot/3.md)
-5. [How do you disable a specific auto-configuration?](./spring-boot/4.md)
+3. [What are Spring Boot starters?](../spring-boot/2.md)
+4. [What is auto-configuration in Spring Boot?](../spring-boot/3.md)
+5. [How do you disable a specific auto-configuration?](../spring-boot/4.md)
 
 ---
 
