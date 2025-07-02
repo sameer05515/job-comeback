@@ -36,7 +36,7 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 
 21. **How does Spring Boot simplify dependency management?**
 22. **How to write a custom filter or interceptor?**
-23. **Explain Actuator endpoints & security.**
+23. [**Explain Actuator endpoints & security.**](./spring-boot/15.md)
 24. **What is Spring Boot DevTools and when not to use it?**
 25. **Explain the difference between `@ConfigurationProperties` and `@Value`.**
 26. **How to run a scheduled job in Spring Boot?**
