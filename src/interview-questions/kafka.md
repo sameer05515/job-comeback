@@ -58,3 +58,53 @@ Type:
 * `kafka-prod-cheatsheet` → for performance tuning tips
 * `kafka-vs-rabbitmq` → detailed comparison for interviews
 * 
+
+
+---
+---
+
+
+### ✅ Kafka vs RabbitMQ — Key Differences (Interview Ready)
+
+| Feature                  | **Kafka**                                            | **RabbitMQ**                                          |
+| ------------------------ | ---------------------------------------------------- | ----------------------------------------------------- |
+| **Type**                 | Distributed event streaming platform                 | Traditional message broker (queue-based)              |
+| **Use Case**             | High-throughput, real-time data pipelines            | Event-driven apps, task queues, short-lived jobs      |
+| **Message Model**        | **Pub-Sub + Log-based** (consumer reads from offset) | **Queue-based** (message removed after consumption)   |
+| **Message Durability**   | Persistent log with configurable retention           | Ack-based (removed after ack)                         |
+| **Message Ordering**     | Ordered within **partition**                         | FIFO (per queue, but not guaranteed with concurrency) |
+| **Throughput**           | Very High (designed for millions/sec)                | Moderate to High                                      |
+| **Scalability**          | Horizontally scalable via partitions                 | Scalable via exchanges and clustered queues           |
+| **Consumer Behavior**    | Pull-based (consumers pull from offset)              | Push-based (broker pushes messages)                   |
+| **Delivery Guarantees**  | At-most, at-least, **exactly-once** (with config)    | At-most, at-least-once                                |
+| **Replay Capability**    | ✅ Yes – re-read from any offset                      | ❌ No – message removed once acknowledged              |
+| **Built-in Retry/Delay** | ❌ Needs custom logic / DLQ                           | ✅ Built-in with retry, delay, TTL                     |
+| **Tooling**              | Kafka Connect, Kafka Streams, Schema Registry        | RabbitMQ plugins, Shovel, Federation                  |
+| **Latency**              | Lower for large batches (but tunable)                | Very low (single message delivery)                    |
+| **Protocol**             | Custom TCP protocol                                  | AMQP 0.9.1                                            |
+| **Complexity**           | Higher (needs config for brokers, Zookeeper\*)       | Easier to set up and use                              |
+| **Spring Boot Support**  | ✅ spring-kafka                                       | ✅ spring-boot-starter-amqp                            |
+
+> \* Kafka newer versions (2.8+) can run **without Zookeeper**
+
+---
+
+### 🔹 Summary:
+
+* **Kafka** → Best for **event-driven, large-scale, stream processing**, where you need high-throughput, log persistence, and replay.
+* **RabbitMQ** → Best for **task queues, workflows, guaranteed delivery**, especially where messages are short-lived and ordering/TTL is critical.
+
+---
+
+### ✅ Interview Summary Line:
+
+> "Kafka is a distributed log system optimized for high-throughput event streaming and replay, while RabbitMQ is a message broker built for reliable delivery and task queueing with rich routing and retry capabilities."
+
+---
+
+Type:
+
+* `kafka-vs-rabbitmq-cheatsheet` → printable interview table
+* `usecase-scenarios` → when to use Kafka vs RabbitMQ
+* `springboot-kafka-rabbit-demo` → side-by-side code examples
+* 
