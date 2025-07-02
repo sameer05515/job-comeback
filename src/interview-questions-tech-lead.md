@@ -35,7 +35,7 @@ Here are **React/Java Tech Lead Interview Questions (with leadership focus)** â€
 ### âœ… **Tech Leadership & Management**
 
 1. [How do you balance delivery timelines vs code quality](./tech-lead/balance-between-delivery-timeline-and-code-quality.md)
-2. **How do you onboard a new developer in a large codebase?**
+2. [**How do you onboard a new developer in a large codebase?**](./tech-lead/01.md)
 3. **What are your steps when a production issue is reported?**
 4. **How do you do RCA and communicate it to stakeholders?**
 5. **How do you conduct technical reviews of architecture proposals?**
