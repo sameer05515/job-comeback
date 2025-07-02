@@ -40,10 +40,10 @@ Here are **React/Java Tech Lead Interview Questions (with leadership focus)** â€
 4. [**How do you do RCA and communicate it to stakeholders?**](./tech-lead/03.md)
 5. [**How do you conduct technical reviews of architecture proposals?**](./tech-lead/04.md)
 6. [**How do you prioritize tech debt in a product-driven environment?**](./tech-lead/05.md)
-7. **What is your process for planning a refactor/rewrite?**
-8. **How do you mentor junior developers?**
-9. **How do you ensure knowledge sharing and avoid silos?**
-10. **How do you handle a conflict between two senior devs on tech decisions?**
+7. [**What is your process for planning a refactor/rewrite?**](./tech-lead/06.md)
+8. [**How do you mentor junior developers?**](./tech-lead/07.md)
+9. [**How do you ensure knowledge sharing and avoid silos?**](./tech-lead/08.md)
+10. [**How do you handle a conflict between two senior devs on tech decisions?**](./tech-lead/09.md)
 
 ---
 
