@@ -87,6 +87,48 @@ public class UserService {
 * Spring Boot uses constructor injection by default for better testability and immutability
 
 ---
+---
+
+
+### ✅ `BeanFactory` vs `ApplicationContext` in Spring
+
+| Feature                         | `BeanFactory`                            | `ApplicationContext`                  |
+| ------------------------------- | ---------------------------------------- | ------------------------------------- |
+| **Type**                        | Core container interface                 | Sub-interface of `BeanFactory`        |
+| **Eager vs Lazy**               | Lazy instantiation by default            | Eager instantiation by default        |
+| **Internationalization (i18n)** | ❌ Not supported                          | ✅ Supported                           |
+| **Event Handling**              | ❌ Not supported                          | ✅ Built-in event mechanism            |
+| **BeanPostProcessor, Aware**    | ❌ Not handled automatically              | ✅ Detected & registered automatically |
+| **Context Aware**               | ❌ No support                             | ✅ Supports `ApplicationContextAware`  |
+| **Use Case**                    | Lightweight containers, resource-limited | Most used in real-world Spring apps   |
+
+---
+
+### 🔹 Example
+
+```java
+// BeanFactory
+BeanFactory factory = new XmlBeanFactory(new FileSystemResource("beans.xml"));
+
+// ApplicationContext
+ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+```
+
+---
+
+### ✅ Summary Line for Interview:
+
+> "`ApplicationContext` is a more feature-rich container than `BeanFactory`, providing support for i18n, event propagation, and automatic bean post-processing — making it the standard choice in most Spring applications."
+
+---
+
+Type:
+
+* `bean-lifecycle-demo` → small code showing instantiation differences
+* `ioc-container-checklist` → when to use which container
+* 
+
+---
 
 Reply with:
 
