@@ -19,31 +19,31 @@ Here are **React/Java Tech Lead Interview Questions (with leadership focus)** �
 
 ### ✅ **Java/Spring Boot – Tech Lead Level**
 
-1. [**How do you structure a microservices-based backend using Spring Boot?**](./tech-lead/java-01.md)
-2. [**What are common anti-patterns in Spring Boot you avoid?**](./tech-lead/java-02.md)
-3. [**How do you ensure observability (logs, metrics, traces)?**](./tech-lead/java-03.md)
-4. [**How would you secure REST APIs at scale?**](./tech-lead/java-04.md)
-5. [**What’s your approach for schema versioning and DB migrations (Flyway/Liquibase)?**](./tech-lead/java-05.md)
-6. [**How do you design a fault-tolerant API with retry/circuit breaker patterns?**](./tech-lead/java-06.md)
-7. [**How do you handle config management across environments?**](./tech-lead/java-07.md)
-8. [**How would you design an async workflow with RabbitMQ or Kafka?**](./tech-lead/java-08.md)
-9. [**What’s your strategy to handle breaking changes in APIs?**](./tech-lead/java-09.md)
-10. [**How do you manage DTO, entity, mapper layers cleanly in multi-module projects?**](./tech-lead/java-10.md)
+1. [**How do you structure a microservices-based backend using Spring Boot?**](../tech-lead/java-01.md)
+2. [**What are common anti-patterns in Spring Boot you avoid?**](../tech-lead/java-02.md)
+3. [**How do you ensure observability (logs, metrics, traces)?**](../tech-lead/java-03.md)
+4. [**How would you secure REST APIs at scale?**](../tech-lead/java-04.md)
+5. [**What’s your approach for schema versioning and DB migrations (Flyway/Liquibase)?**](../tech-lead/java-05.md)
+6. [**How do you design a fault-tolerant API with retry/circuit breaker patterns?**](../tech-lead/java-06.md)
+7. [**How do you handle config management across environments?**](../tech-lead/java-07.md)
+8. [**How would you design an async workflow with RabbitMQ or Kafka?**](../tech-lead/java-08.md)
+9. [**What’s your strategy to handle breaking changes in APIs?**](../tech-lead/java-09.md)
+10. [**How do you manage DTO, entity, mapper layers cleanly in multi-module projects?**](../tech-lead/java-10.md)
 
 ---
 
 ### ✅ **Tech Leadership & Management**
 
-1. [How do you balance delivery timelines vs code quality](./tech-lead/balance-between-delivery-timeline-and-code-quality.md)
-2. [**How do you onboard a new developer in a large codebase?**](./tech-lead/01.md)
-3. [**What are your steps when a production issue is reported?**](./tech-lead/02.md)
-4. [**How do you do RCA and communicate it to stakeholders?**](./tech-lead/03.md)
-5. [**How do you conduct technical reviews of architecture proposals?**](./tech-lead/04.md)
-6. [**How do you prioritize tech debt in a product-driven environment?**](./tech-lead/05.md)
-7. [**What is your process for planning a refactor/rewrite?**](./tech-lead/06.md)
-8. [**How do you mentor junior developers?**](./tech-lead/07.md)
-9. [**How do you ensure knowledge sharing and avoid silos?**](./tech-lead/08.md)
-10. [**How do you handle a conflict between two senior devs on tech decisions?**](./tech-lead/09.md)
+1. [How do you balance delivery timelines vs code quality](../tech-lead/balance-between-delivery-timeline-and-code-quality.md)
+2. [**How do you onboard a new developer in a large codebase?**](../tech-lead/01.md)
+3. [**What are your steps when a production issue is reported?**](../tech-lead/02.md)
+4. [**How do you do RCA and communicate it to stakeholders?**](../tech-lead/03.md)
+5. [**How do you conduct technical reviews of architecture proposals?**](../tech-lead/04.md)
+6. [**How do you prioritize tech debt in a product-driven environment?**](../tech-lead/05.md)
+7. [**What is your process for planning a refactor/rewrite?**](../tech-lead/06.md)
+8. [**How do you mentor junior developers?**](../tech-lead/07.md)
+9. [**How do you ensure knowledge sharing and avoid silos?**](../tech-lead/08.md)
+10. [**How do you handle a conflict between two senior devs on tech decisions?**](../tech-lead/09.md)
 
 ---
 
