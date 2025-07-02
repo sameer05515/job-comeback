@@ -27,7 +27,7 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 16. **What is `@Transactional` and when to use it?**
 17. **How to customize error JSON response structure?**
 18. [**How to create custom Spring Boot starter?**](./spring-boot/13.md)
-19. **Explain lifecycle of a Spring Boot application.**
+19. [**Explain lifecycle of a Spring Boot application.**](./spring-boot/14.md)
 20. **What is `@RestControllerAdvice`?**
 
 ---
