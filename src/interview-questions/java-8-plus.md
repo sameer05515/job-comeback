@@ -7,7 +7,7 @@ Sure ✅ Here’s a curated list of **Java 8+ (Java 8 to 17)** interview questio
 1. [What are the key features introduced in Java 8?](../java-8/001.md)
 2. [What is a functional interface? Can you create one?](../java-8/002.md)
 3. [What is the use of `@FunctionalInterface` annotation?](../java-8/002.md)
-4. What are lambda expressions? Provide syntax examples.
+4. [What are lambda expressions? Provide syntax examples.](../java-8/003.md)
 5. What is the difference between `Predicate`, `Function`, and `Consumer`?
 6. How does the Stream API work in Java 8?
 7. What is the difference between `map()` and `flatMap()`?
