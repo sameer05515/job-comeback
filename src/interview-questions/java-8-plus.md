@@ -11,7 +11,7 @@ Sure ✅ Here’s a curated list of **Java 8+ (Java 8 to 17)** interview questio
 5. [What is the difference between `Predicate`, `Function`, and `Consumer`?](../java-8/004.md)
 6. [How does the Stream API work in Java 8?](../java-8/005.md)
 7. [What is the difference between `map()` and `flatMap()`?](../java-8/006.md)
-8. What is the use of `Optional` in Java 8?
+8. [What is the use of `Optional` in Java 8?](../java-8/007.md)
 9. How does `forEach()` differ from a traditional loop?
 10. Explain method reference and its types.
 11. What are default and static methods in interfaces?
