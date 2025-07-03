@@ -1,6 +1,6 @@
-**PREMENDRA KUMAR**
-Sec-55, Faridabad, Haryana-121004
-Mobile: +91-8010645624 / +91-8750084750
+**PREMENDRA KUMAR**  
+Sec-55, Faridabad, Haryana-121004  
+Mobile: +91-8010645624 / +91-8750084750  
 Email: [premendra.bce05515@gmail.com](mailto:premendra.bce05515@gmail.com) / [premendra.bce05515@outlook.com](mailto:premendra.bce05515@outlook.com)
 
 ---
@@ -25,75 +25,75 @@ Experienced and versatile **Full Stack Developer** with **14.2 years** of proven
 
 ### PROFESSIONAL EXPERIENCE
 
-**Zycus Infotech Pvt. Ltd.** – Bangalore, India
-**Senior Staff Engineer**
-*June 2023 – Feb 2024*
-**Project:** ESG Lythouse
+**Zycus Infotech Pvt. Ltd.** – Bangalore, India  
+**Senior Staff Engineer**  
+*June 2023 – Feb 2024*  
+**Project:** ESG Lythouse  
 
 * Developed and enhanced modules using Java, Spring Boot, Spring GraphQL, MongoDB, ReactJS
 * Implemented features like Category, EU Taxonomy, Goals, Initiatives, and Metrics
 * Participated in Agile ceremonies, client requirement gathering, and story creation
 * Guided teammates in story implementation, QA issue resolution, and environment deployment
 
-**EVC Ventures** – Gurgaon, India
-**Senior Backend Developer**
-*Dec 2022 – Feb 2023*
-**Projects:** IITD-Admin, SPortal
+**EVC Ventures** – Gurgaon, India  
+**Senior Backend Developer**  
+*Dec 2022 – Feb 2023*  
+**Projects:** IITD-Admin, SPortal  
 
 * Built backend services using Spring Boot, Spring REST, MyBatis, and integrated with ReactJS and Bootstrap UI
 
-**RSystems International Pvt. Ltd.** – Noida, India
-**Project Leader**
-*Oct 2021 – Dec 2022*
-**Project:** Ephesoft Transact
+**RSystems International Pvt. Ltd.** – Noida, India  
+**Project Leader**  
+*Oct 2021 – Dec 2022*  
+**Project:** Ephesoft Transact  
 
 * Led backend module development with Java, Spring Boot JPA, REST, Oracle 12g
 * Collaborated with cross-functional teams using Agile and led junior developers
 
-**Dhani Stocks Ltd. (formerly Indiabulls)** – Gurgaon, India
-**Technical Lead**
-*Sep 2019 – Oct 2021*
-**Projects:** ShubhWeb, Notis API, KRA, SFTP
+**Dhani Stocks Ltd. (formerly Indiabulls)** – Gurgaon, India  
+**Technical Lead**  
+*Sep 2019 – Oct 2021*  
+**Projects:** ShubhWeb, Notis API, KRA, SFTP  
 
 * Led Spring Boot-based backend and ReactJS frontend modules
 
-**Concentrix Daksh Services Pvt. Ltd.** – Gurgaon, India
-**Assistant Manager, IT Applications**
-*Jan 2014 – Sep 2019*
-**Projects:** Zetta, GIP, Gain Manager, ResolveJiffy, WebDOTS, QAA, UnI, eConvey
+**Concentrix Daksh Services Pvt. Ltd.** – Gurgaon, India  
+**Assistant Manager, IT Applications**  
+*Jan 2014 – Sep 2019*  
+**Projects:** Zetta, GIP, Gain Manager, ResolveJiffy, WebDOTS, QAA, UnI, eConvey  
 
 * Built enterprise solutions, integrated multiple systems, mentored junior engineers
 
-**Novelvox Software India Pvt Ltd** – Faridabad, India
-**Application Developer (Contractual)**
-*May 2012 – Dec 2013*
-**Projects:** iAgent 4.0, Survey, KnowledgeBase
+**Novelvox Software India Pvt Ltd** – Faridabad, India  
+**Application Developer (Contractual)**  
+*May 2012 – Dec 2013*  
+**Projects:** iAgent 4.0, Survey, KnowledgeBase  
 
-* Developed Java/J2EE + Flex4 solutions
+* Developed Java/J2EE + Flex4 solutions   
 
-**HCL Infosystems Ltd.** – Noida, India
-**Developer (Contractual)**
-*Mar 2011 – Apr 2012*
-**Projects:** CIPA/CIPRUS (Java Swing)
+**HCL Infosystems Ltd.** – Noida, India  
+**Developer (Contractual)**  
+*Mar 2011 – Apr 2012*  
+**Projects:** CIPA/CIPRUS (Java Swing)  
 
-**GreenApple WebWare** – New Delhi, India
-**Developer (Contractual)**
-*Sep 2009 – Feb 2011*
-**Projects:** OSCART (J2EE, HTML, JS)
+**GreenApple WebWare** – New Delhi, India  
+**Developer (Contractual)**  
+*Sep 2009 – Feb 2011*  
+**Projects:** OSCART (J2EE, HTML, JS)  
 
 ---
 
-### EDUCATION
+### EDUCATION  
 
-**B.Tech, Computer Science & Engineering**
-BCE Bhagalpur, Bhagalpur, Bihar
-*2005 – 2009 | 72.31%*
+**B.Tech, Computer Science & Engineering**  
+BCE Bhagalpur, Bhagalpur, Bihar  
+*2005 – 2009 | 72.31%*  
 
-**Intermediate (Science – Mathematics)**
-Munshi Singh College, Motihari, Bihar (BIEC) – 2004
+**Intermediate (Science – Mathematics)**  
+Munshi Singh College, Motihari, Bihar (BIEC) – 2004  
 
-**Matriculation**
-Gopal Sah Vidyalaya, Motihari, Bihar (BSEB) – 2002
+**Matriculation**  
+Gopal Sah Vidyalaya, Motihari, Bihar (BSEB) – 2002  
 
 ---
 
