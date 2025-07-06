@@ -99,7 +99,7 @@ Sure ✅ Here's **25 more Java 8+ interview questions (without answers)** to ext
 
 ---
 
-### 🔹 **Collectors & Reduction**
+### 🔹 [**Collectors & Reduction**](../java-8/010.md)
 
 53. What is the use of `joining()` collector?
 54. How to partition a list of integers into even and odd using `partitioningBy()`?
