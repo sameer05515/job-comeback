@@ -85,3 +85,12 @@ Reply with:
 * `stream-qna` → focused stream Q\&A
 * `interview-set2` → 20 more Java 8-only questions
 * 
+
+
+---
+---
+
+# Java coding questions
+
+- [Java 8 का सिंपल और effective प्रोग्राम जो Stream से unique words और उनकी occurrence count निकालता है](./java-8/programs/001.md)
+- [Problem : Find average marks for each student](./java-8/programs/002.md)
