@@ -13,7 +13,7 @@ Sure ✅ Here’s a curated list of **Java 8+ (Java 8 to 17)** interview questio
 7. [What is the difference between `map()` and `flatMap()`?](../java-8/006.md)
 8. [What is the use of `Optional` in Java 8?](../java-8/007.md)
 9. [How does `forEach()` differ from a traditional loop?](../java-8/008.md)
-10. Explain method reference and its types.
+10. [Explain method reference and its types.](../java-8/009.md)
 11. What are default and static methods in interfaces?
 12. How do you handle null checks using `Optional`?
 
