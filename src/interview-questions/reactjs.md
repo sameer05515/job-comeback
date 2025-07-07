@@ -10,7 +10,7 @@ Here are **ReactJS interview questions** (code-focused, minimal theory, ideal fo
 4. [**Difference between `props` and `state`?**](../reactjs/props-vs-state.md)
 5. **How to handle a form input in React?**
 6. [**What is the purpose of `useEffect` hook?**](../reactjs/purpose-of-use-effect-hook.md)
-7. **How does virtual DOM work in React?**
+7. [**How does virtual DOM work in React?**](../reactjs/virtual-dom.md)
 8. **How to conditionally render a component?**
 9. **How to lift state up in React?**
 10. **Difference between controlled and uncontrolled components?**
