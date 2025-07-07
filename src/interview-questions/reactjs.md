@@ -13,8 +13,8 @@ Here are **ReactJS interview questions** (code-focused, minimal theory, ideal fo
 7. [**How does virtual DOM work in React?**](../reactjs/virtual-dom.md)
 8. **How to conditionally render a component?**
 9. **How to lift state up in React?**
-10. **Difference between controlled and uncontrolled components?**
-
+10. [**Difference between controlled and uncontrolled components?**](../reactjs/
+controlled-vs-uncontrolled-components.md)
 ---
 
 ### ✅ **Intermediate Level (4–7 YOE)**
