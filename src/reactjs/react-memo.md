@@ -73,3 +73,68 @@ Type:
 
 * `memo-vs-useMemo` → for side-by-side usage
 * `react-perf-checklist` → optimize list rendering & rerenders
+
+
+---
+---
+
+✅ **HOC (Higher-Order Component)** in React is a **function** that takes a component and returns a **new enhanced component**.
+
+It’s used to **reuse logic** (like authentication, logging, theming) across multiple components without repeating code.
+
+---
+
+### 🔹 **Basic Syntax:**
+
+```js
+const withFeature = (WrappedComponent) => {
+  return function EnhancedComponent(props) {
+    // add logic here
+    return <WrappedComponent {...props} />;
+  };
+};
+```
+
+---
+
+### 🔹 ✅ Example: `withLogger`
+
+```js
+const withLogger = (Component) => {
+  return function Wrapped(props) {
+    console.log("Props received:", props);
+    return <Component {...props} />;
+  };
+};
+
+const Hello = (props) => <h1>Hello {props.name}</h1>;
+
+const HelloWithLogger = withLogger(Hello);
+
+// Usage
+<HelloWithLogger name="Prem" />
+```
+
+---
+
+### 🔹 **Use Cases of HOC:**
+
+* Access control (auth guard)
+* Logging, analytics
+* Code reuse (similar to mixins)
+* Loading states / error boundaries (pre-hooks era)
+
+---
+
+### 🔹 Rules:
+
+* Don’t mutate the original component
+* Use pure functions
+* Can be **composed** with other HOCs
+
+---
+
+### ✅ Summary Line for Interview:
+
+> "A Higher-Order Component is a function that takes a component and returns a new one, allowing logic reuse like logging, access control, and UI wrapping without modifying the original component."
+> 
