@@ -23,7 +23,7 @@ Here are **ReactJS interview questions** (code-focused, minimal theory, ideal fo
 12. [**What is `React.memo`?**](../reactjs/react-memo.md)
 13. **How to prevent unnecessary re-renders?**
 14. **What are custom hooks? Give an example.**
-15. **Difference between `useCallback` and `useMemo`?**
+15. [**Difference between `useCallback` and `useMemo`?**](../reactjs/usecallback-vs-usememo.md)
 16. **What is context API and how to use it?**
 17. **How to fetch data in React and show a loading spinner?**
 18. **Why keys are important in lists?**
