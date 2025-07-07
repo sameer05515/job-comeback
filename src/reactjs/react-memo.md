@@ -138,3 +138,56 @@ const HelloWithLogger = withLogger(Hello);
 
 > "A Higher-Order Component is a function that takes a component and returns a new one, allowing logic reuse like logging, access control, and UI wrapping without modifying the original component."
 > 
+
+
+---
+---
+
+✅ **`React.memo` vs `useMemo`** — both help in **performance optimization**, but serve different purposes.
+
+---
+
+### 🔹 **React.memo**
+
+👉 A **Higher-Order Component (HOC)** that **memoizes a component**
+👉 Prevents **re-render** if props didn’t change
+
+```jsx
+const MyComponent = React.memo((props) => {
+  // only re-renders if props change
+  return <div>{props.value}</div>;
+});
+```
+
+➡ Usage: When you want to **skip rendering** of a whole component unless props changed.
+
+---
+
+### 🔹 **useMemo**
+
+👉 A **hook** that **memoizes a computed value**
+👉 Avoids recalculating expensive functions
+
+```jsx
+const result = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+```
+
+➡ Usage: When you want to **cache calculation results** between renders unless dependencies change.
+
+---
+
+### 🔹 ✅ Difference Table
+
+| Feature       | `React.memo`                       | `useMemo`                       |
+| ------------- | ---------------------------------- | ------------------------------- |
+| Type          | HOC (wraps component)              | Hook (inside component)         |
+| Memoizes      | Component render output            | Return value of a function      |
+| Purpose       | Avoid unnecessary component render | Avoid unnecessary recalculation |
+| Usage example | `React.memo(MyComponent)`          | `useMemo(() => ..., [deps])`    |
+
+---
+
+### ✅ Summary Line for Interview:
+
+> "`React.memo` prevents re-renders of a component when props don’t change, while `useMemo` caches expensive calculations inside a component to avoid recomputation."
+> 
