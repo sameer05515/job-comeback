@@ -196,14 +196,14 @@ Here is a comprehensive list of questions based on the provided study plan:
 
 ## Redux and State Management:
 
-- Describe the role of reducers and actions in Redux.
-- How would you integrate Redux with React? Write an example using useSelector and useDispatch.
-- Compare Context API and Redux. When would you prefer one over the other?
+- [Describe the role of reducers and actions in Redux.](./ques-and-ans/reactjs--redux-and-state-management--role-of-reducers-and-actions-in-redux.md)
+- [How would you integrate Redux with React? Write an example using useSelector and useDispatch.](./ques-and-ans/reactjs--redux-and-state-management--integration-of-redux-with-react--with-example-using-useselector-and-usedispatch.md)
+- [Compare Context API and Redux. When would you prefer one over the other?](./ques-and-ans/reactjs--redux-and-state-management--context-api-and-redux--preference-criteria-to-use-them.md)
 
 ## CSS in React:
 
-- How does the CSS Box Model work? Provide an example.
-- What are the advantages of using Styled-Components or Material UI in React applications?
+- [How does the CSS Box Model work? Provide an example.](./ques-and-ans/reactjs--css-in-react--how-does-the-css-box-model-work--provide-an-example.md)
+- [What are the advantages of using Styled-Components or Material UI in React applications?](./ques-and-ans/reactjs--css-in-react--advantages-of-using-styledcomponents-or-material-ui-or-tailwindcss.md)
 
 # Section 3: Java & Spring Boot
 
