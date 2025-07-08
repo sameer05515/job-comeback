@@ -171,28 +171,28 @@ Here is a comprehensive list of questions based on the provided study plan:
 
 ## Single Thread vs. Multi-threading:
 
-- Why is JavaScript called a single-threaded language, and how does the event loop manage asynchronous tasks?
-- Explain the difference between callbacks, Promises, and async/await in JavaScript. Provide examples.
+- [Why is JavaScript called a single-threaded language, and how does the event loop manage asynchronous tasks?](./ques-and-ans/javascript--event-loop--why-is-javascript-called-a-singlethreaded-language-and-how-does-the-event-loop-manage-asynchronous-tasks.md)
+- [Explain the difference between callbacks, Promises, and async/await in JavaScript. Provide examples.](./ques-and-ans/javascript--event-loop--explain-the-difference-between-callbacks-promises-and-asyncawait-in-javascript-provide-examples.md)
 
 ## Asynchronous Programming:
 
-- Describe the event loop and how it manages the call stack and web APIs.
-- Write a code snippet to fetch data from an API using both fetch and Axios.
-- How can you handle errors in an async function using try/catch? Provide an example.
+- [Describe the event loop and how it manages the call stack and web APIs.](./ques-and-ans/javascript--event-loop--describe-the-event-loop-and-how-it-manages-the-call-stack-and-web-apis.md)
+- [Write a code snippet to fetch data from an API using both fetch and Axios.](./ques-and-ans/javascript--asynchronous-programming--write-a-code-snippet-to-fetch-data-from-an-api-using-both-fetch-and-axios.md)
+- [How can you handle errors in an async function using try/catch? Provide an example.](./ques-and-ans/javascript--asynchronous-programming--how-can-you-handle-errors-in-an-async-function-using-trycatch-provide-an-example.md)
 
 ## Peer Code Review:
 
-- What are the key points to consider when conducting a peer code review?
-- How can constructive feedback improve code quality during a code review?
+- [What are the key points to consider when conducting a peer code review?](./ques-and-ans/peer-code-review--what-are-the-key-points-to-consider-when-conducting-a-peer-code-review.md)
+- [How can constructive feedback improve code quality during a code review?](./ques-and-ans/peer-code-review--how-can-constructive-feedback-improve-code-quality-during-a-code-review.md)
 
 # Section 2: React.js
 
 ## React Basics:
 
-- What are the key differences between functional components and class components?
-- Explain the usage of useState and useEffect hooks with examples.
-- How can you optimize performance in React using React.memo?
-- What are the differences between useMemo and useCallback? Provide examples.
+- [What are the key differences between functional components and class components?](./ques-and-ans/reactjs--basics--key-differences-between-functional-and-class-components.md)
+- [Explain the usage of useState and useEffect hooks with examples.](./ques-and-ans/reactjs--basics--usage-of-usestate-and-useeffect-hooks-with-examples.md)
+- [How can you optimize performance in React using React.memo?](./ques-and-ans/reactjs--basics--process-to-optimize-performance-in-react-using-reactmemo.md)
+- [What are the differences between useMemo and useCallback? Provide examples.](./ques-and-ans/reactjs--basics--differences-between-usememo-and-usecallback--with-examples.md)
 
 ## Redux and State Management:
 
