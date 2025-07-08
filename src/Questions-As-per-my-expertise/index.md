@@ -239,62 +239,63 @@ Here is a comprehensive list of questions based on the provided study plan:
 
 ## Microservice Design:
 
-- Compare microservices and monolithic architectures with examples.
-- How does Spring Boot enable service registration and discovery in a microservices architecture?
+- [Compare microservices and monolithic architectures with examples.](./ques-and-ans/java--compare-microservices-and-monolithic-architectures-with-examples.md)
+- [How does Spring Boot enable service registration and discovery in a microservices architecture?](./ques-and-ans/java--how-does-spring-boot-enable-service-registration-and-discovery-in-a-microservices-architecture.md)
 
 ## Spring Boot and Microservices:
 
-- Compare RestTemplate and WebClient for consuming REST APIs.
-- How would you implement a circuit breaker in a Spring Boot microservices application?
+- [Compare RestTemplate and WebClient for consuming REST APIs.](./ques-and-ans/java--compare-resttemplate-and-webclient-for-consuming-rest-apis.md)
+- [How would you implement a circuit breaker in a Spring Boot microservices application?](./ques-and-ans/java--how-would-you-implement-a-circuit-breaker-in-a-spring-boot-microservices-application.md)
 
 ## API Security and JWT:
 
-- How do you secure microservices using OAuth2 and Spring Security?
+- [How do you secure microservices using OAuth2 and Spring Security?](./ques-and-ans/java--how-do-you-secure-microservices-using-oauth2-and-spring-security.md)
 
 ## Error Handling:
 
-- Explain how to handle instance failures in microservices using retries or circuit breakers.
+- [Explain how to handle instance failures in microservices using retries or circuit breakers.](./ques-and-ans/java--explain-how-to-handle-instance-failures-in-microservices-using-retries-or-circuit-breakers.md)
 
 # Section 5: Cloud & DevOps
 
 ## AWS & GCP Cloud Services:
 
-- How would you programmatically upload a file to an S3 bucket using AWS SDK?
-- What are the key steps to manage an RDS database in AWS?
+- [How would you programmatically upload a file to an S3 bucket using AWS SDK?](./ques-and-ans/aws-cloud--how-would-you-programmatically-upload-a-file-to-an-s3-bucket-using-aws-sdk.md)
+- [What are the key steps to manage an RDS database in AWS?](./ques-and-ans/aws-cloud--what-are-the-key-steps-to-manage-an-rds-database-in-aws.md)
 
 ## Deployment:
 
-- What are the key steps for manually deploying a Java application?
-- How would you configure a CI/CD pipeline using Jenkins for automated deployments?
+- [What are the key steps for manually deploying a Java application?](./ques-and-ans/aws-cloud--what-are-the-key-steps-for-manually-deploying-a-java-application.md)
+- [How would you configure a CI/CD pipeline using Jenkins for automated deployments?](./ques-and-ans/aws-cloud--how-would-you-configure-a-ci-and-cd-pipeline-using-jenkins-for-automated-deployments.md)
 
 ## DevOps Tools:
 
-- What is Docker, and how does it ensure consistent deployments?
-- Explain the purpose of Kubernetes configuration files in application deployment.
+- [What is Docker, and how does it ensure consistent deployments?](./ques-and-ans/aws-cloud--what-is-docker-and-how-does-it-ensure-consistent-deployments.md)
+- [Explain the purpose of Kubernetes configuration files in application deployment.](./ques-and-ans/aws-cloud--explain-the-purpose-of-kubernetes-configuration-files-in-application-deployment.md)
 
 # Section 6: Design Patterns & Best Practices
 
 ## Design Patterns:
 
-- Provide an example of using the Singleton pattern in Java.
-- What are the key benefits of using the Factory pattern in enterprise applications?
+- [Provide an example of using the Singleton pattern in Java.](./ques-and-ans/design-patterns--provide-an-example-of-using-the-singleton-pattern-in-java.md)
+- [What are the key benefits of using the Factory pattern in enterprise applications?](./ques-and-ans/design-patterns--what-are-the-key-benefits-of-using-the-factory-pattern-in-enterprise-applications.md)
 
 ## Enterprise Application Development:
 
-- How do you handle concurrency in large-scale applications?
-- Why is immutability important in Java? Provide a practical example.
+- [How do you handle concurrency in large-scale applications?](./ques-and-ans/enterprise-application-development--how-do-you-handle-concurrency-in-largescale-applications.md)
+- [Why is immutability important in Java? Provide a practical example.](./ques-and-ans/enterprise-application-development--why-is-immutability-important-in-java-provide-a-practical-example.md)
 
 # Section 7: Miscellaneous
 
 ## JMX & MXBeans:
 
-- What is the role of JMX in monitoring Java applications?
-DriverManager:
+- [What is the role of JMX in monitoring Java applications?](./ques-and-ans/miscellaneous--jmx-n-mxbeans--what-is-the-role-of-jmx-in-monitoring-java-applications.md)
 
-- Compare Statement, PreparedStatement, and CallableStatement with examples.
+# DriverManager:
+
+- [Compare Statement, PreparedStatement, and CallableStatement with examples.](./ques-and-ans/miscellaneous--drivermanager--compare-statement-preparedstatement-and-callablestatement-with-examples.md)
 
 ## Kafka Messaging:
 
-- How would you troubleshoot and handle failures in a Kafka messaging system?
+- [How would you troubleshoot and handle failures in a Kafka messaging system?](./ques-and-ans/miscellaneous--kafka-messaging--how-would-you-troubleshoot-and-handle-failures-in-a-kafka-messaging-system.md)
 
 > Feel free to refine or expand on these questions as needed.
