@@ -32,4 +32,15 @@ Rasta nhi bhi dikh raha toh dikh jayega🤠
 
 # Next day plan 
 - key terminologies for Reactjs, spring boot 
-- FAQs and pre-requisite 
+- FAQs and pre-requisite
+
+---
+---
+
+सफलता छः चीजें मांगती है।  
+मेहनत    
+बलिदान   
+संघर्ष   
+जूनून   
+सब्र   
+विश्वास   
