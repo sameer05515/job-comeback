@@ -134,7 +134,7 @@ Please vist [**here**](/testing?tester=InterviewFinalRoundPreparationV1) for det
 
 - **Question:** Write a Java program to remove duplicates from an array.
 - **Question:** [Write a Java program to find the second largest element in an array.](./ques-and-ans/java-programs--write-a-java-program-to-find-the-second-largest-element-in-an-array.md)
-- **Question:** Write a Java program to demonstrate the use of ArrayList and LinkedList.
+- **Question:** [Write a Java program to demonstrate the use of ArrayList and LinkedList.](./ques-and-ans/java-programs--write-a-java-program-to-demonstrate-the-use-of-arraylist-and-linkedlist.md)
 - **Question:** Write a program to demonstrate polymorphism in Java.
  
 
