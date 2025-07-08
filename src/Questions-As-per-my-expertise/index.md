@@ -227,13 +227,13 @@ Here is a comprehensive list of questions based on the provided study plan:
 
 ## JPA/Hibernate:
 
-- Compare the Criteria API and HQL with examples.
-- What is the difference between lazy and eager loading in Hibernate? Provide examples.
+- [Compare the Criteria API and HQL with examples.](./ques-and-ans/java--compare-the-criteria-api-and-hql-with-examples.md)
+- [What is the difference between lazy and eager loading in Hibernate? Provide examples.](./ques-and-ans/java--what-is-the-difference-between-lazy-and-eager-loading-in-hibernate-provide-examples.md)
 
 ## Concurrency and Multithreading:
 
-- What is the difference between Callable and Runnable interfaces?
-- How do you ensure thread safety in a multithreaded Java application?
+- [What is the difference between Callable and Runnable interfaces?](./ques-and-ans/java--what-is-the-difference-between-callable-and-runnable-interfaces.md)
+- [How do you ensure thread safety in a multithreaded Java application?](./ques-and-ans/java--how-do-you-ensure-thread-safety-in-a-multithreaded-java-application.md)
 
 # Section 4: Microservices
 
