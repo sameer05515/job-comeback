@@ -159,15 +159,15 @@ Here is a comprehensive list of questions based on the provided study plan:
 
 ## JavaScript ES6 Concepts:
 
-- 1.What are the differences between let, const, and var in terms of scope and reassignability?
+- [1.What are the differences between let, const, and var in terms of scope and reassignability?](./ques-and-ans/javascript--es6-concepts--what-are-the-differences-between-let-const-and-var-in-terms-of-scope-and-reassignability.md)
 
-- 2.How do arrow functions differ from regular functions in terms of syntax, this binding, and usage?
+- [2.How do arrow functions differ from regular functions in terms of syntax, this binding, and usage?](./ques-and-ans/javascript--es6-concepts--how-do-arrow-functions-differ-from-regular-functions-in-terms-of-syntax-this-binding-and-usage.md)
 
-- 3.Give an example of using .map() to transform an array.
+- [3.Give an example of using .map() to transform an array.](./ques-and-ans/javascript--es6-concepts--give-an-example-of-using-map-to-transform-an-array.md)
 
-- 4.When would you use .reduce() instead of .forEach()? Provide an example.
+- [4.When would you use .reduce() instead of .forEach()? Provide an example.](./ques-and-ans/javascript--es6-concepts--when-would-you-use-reduce-instead-of-foreach-provide-an-example.md)
 
-- 5.Explain the differences between .filter() and .map() with a practical use case.
+- [5.Explain the differences between .filter() and .map() with a practical use case.](./ques-and-ans/javascript--es6-concepts--explain-the-differences-between-filter-and-map-with-a-practical-use-case.md)
 
 ## Single Thread vs. Multi-threading:
 
