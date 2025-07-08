@@ -209,16 +209,16 @@ Here is a comprehensive list of questions based on the provided study plan:
 
 ## Java Basics:
 
-- What are lambda expressions, and how do they differ from anonymous classes?
-- Explain the Stream API and provide an example of filtering and sorting a collection.
-- How would you create and handle a custom exception in Java?
-Compare ArrayList and LinkedList in terms of usage and performance.
+- [What are lambda expressions, and how do they differ from anonymous classes?](./ques-and-ans/java--what-are-lambda-expressions-and-how-do-they-differ-from-anonymous-classes.md)
+- [Explain the Stream API and provide an example of filtering and sorting a collection.](./ques-and-ans/java--explain-the-stream-api-and-provide-an-example-of-filtering-and-sorting-a-collection.md)
+- [How would you create and handle a custom exception in Java?](./ques-and-ans/java--how-would-you-create-and-handle-a-custom-exception-in-java.md)
+- [Compare ArrayList and LinkedList in terms of usage and performance.](./ques-and-ans/java--compare-arraylist-and-linkedlist-in-terms-of-usage-and-performance.md)
 
 ## Spring Boot:
 
-- Write a sample @RestController with @GetMapping and @PostMapping.
-- How do you implement JWT for authentication and authorization in Spring Boot?
-- What is the purpose of @ControllerAdvice in Spring Boot applications?
+- [Write a sample @RestController with @GetMapping and @PostMapping.](./ques-and-ans/java--write-a-sample-restcontroller-with-getmapping-and-postmapping.md)
+- [How do you implement JWT for authentication and authorization in Spring Boot?](./ques-and-ans/java--how-do-you-implement-jwt-for-authentication-and-authorization-in-spring-boot.md)
+- [What is the purpose of @ControllerAdvice in Spring Boot applications?](./ques-and-ans/java--what-is-the-purpose-of-controlleradvice-in-spring-boot-applications.md)
 
 ## Spring Security:
 
