@@ -222,8 +222,8 @@ Here is a comprehensive list of questions based on the provided study plan:
 
 ## Spring Security:
 
-- Explain the key differences between OAuth2 and JWT for securing APIs.
-- How is a RestController different from a Controller in Spring Boot?
+- [Explain the key differences between OAuth2 and JWT for securing APIs.](./ques-and-ans/java--explain-the-key-differences-between-oauth2-and-jwt-for-securing-apis.md)
+- [How is a RestController different from a Controller in Spring Boot?](./ques-and-ans/java--how-is-a-restcontroller-different-from-a-controller-in-spring-boot.md)
 
 ## JPA/Hibernate:
 
