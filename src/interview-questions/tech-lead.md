@@ -143,3 +143,5 @@ Reply with:
 
 
 [QNA](./tech-lead/qna.md)
+
+[GIT-cheatsheet](../tech-lead/git-01.md)
