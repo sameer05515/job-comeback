@@ -13,3 +13,129 @@ My long-term vision is to grow into a **Software Architect** role, contributing 
 
 In my free time, I love to explore new technologies, travel, and connect with like-minded professionals.
 
+
+
+---
+---
+
+Bilkul Prem bhaiya 🙏
+Aapke **Full Stack Developer About Me** section ke base par interviewer kin areas se **follow-up questions** puch sakta hai — uska detailed breakdown neeche diya hai ✅
+
+---
+
+### ✅ 🔹 **Java (Spring Boot)**
+
+* Java 8 features (Streams, Optional, Lambda, Method references)
+* REST API design principles
+* Exception handling using `@ControllerAdvice`
+* Spring Boot annotations (`@RestController`, `@Service`, `@Configuration`)
+* Spring Security with JWT (implementation flow, filters)
+* Microservices communication (Feign, RestTemplate, WebClient)
+
+---
+
+### ✅ 🔹 **ReactJS Frontend**
+
+* Functional components vs class components
+* React hooks (`useState`, `useEffect`, custom hooks)
+* Component communication and props handling
+* Conditional rendering, controlled vs uncontrolled components
+* Calling REST APIs using fetch/axios
+* State management strategy (Context API or Redux)
+
+---
+
+### ✅ 🔹 **Full-Stack Integration**
+
+* How backend API responses are consumed on frontend
+* How you handle async behavior between client and server
+* Cross-Origin Resource Sharing (CORS) handling in Spring Boot + React
+* Folder structure best practices for full-stack projects
+
+---
+
+### ✅ 🔹 **Microservices**
+
+* Microservices design patterns (Circuit Breaker, API Gateway)
+* Monolith vs Microservices pros & cons
+* Deployment strategies for microservices
+* How you handle distributed logging, config, and monitoring
+
+---
+
+### ✅ 🔹 **Database**
+
+* CRUD operations using JPA / Spring Data
+* Transactions and isolation levels
+* Query optimization in MySQL
+* Use of MongoDB in microservices
+* Pagination and sorting
+
+---
+
+### ✅ 🔹 **DevOps / CI/CD / Tools**
+
+* Dockerfile creation and usage in local dev/test
+* Kubernetes basics (pods, deployments, services)
+* GitHub Actions workflows (build/test/deploy)
+* Jenkins usage in CI/CD pipelines
+* Debugging logs from containers
+
+---
+
+### ✅ 🔹 **Agile / Team Collaboration**
+
+* Sprint planning experience and your role in grooming stories
+* Peer review process and code quality practices
+* Conflict resolution within a team
+* Onboarding and mentoring strategy for new team members
+
+---
+
+### ✅ 🔹 **Project-Specific (ESG Lythouse)**
+
+* What was your role in ESG Lythouse?
+* How many team members were there and how did you collaborate?
+* Specific features or modules you worked on
+* Any production issues faced and how you resolved them
+
+---
+
+### ✅ 🔹 **Architectural Vision**
+
+* What does “clean architecture” mean to you?
+* Layers in your typical application (Controller → Service → Repo → Entity/DTO)
+* How would you architect a new system from scratch?
+* Future tech you want to explore as part of your architect journey
+
+---
+
+### ✅ 🔹 **Certifications / Continuous Learning**
+
+* Java 8: Favorite features, practical usage
+* JWT & Spring Security: How did you apply it?
+* Docker/Kubernetes: How deep is your knowledge? (e.g., self-hosted or team-managed?)
+* GitHub Actions: Deployment example?
+
+---
+
+### ✅ 🔹 **Soft Skills & Hobbies**
+
+* How do you stay up to date?
+* Why do you want to be a Software Architect?
+* What kind of team or company are you looking for?
+* Any open-source, side project, or freelance work?
+
+---
+
+### 🎯 Bonus Tip:
+
+Prepare **2-minute crisp answers** for:
+
+* “Tell me about your last full-stack project.”
+* “How do you ensure quality in both frontend and backend?”
+* “How do you handle tight deadlines across both sides?”
+
+---
+
+**Boliye bhaiya – kisi section ka Q\&A version chahiye ho to bataiye. Mock interview script bhi bana sakta hoon for practice.**

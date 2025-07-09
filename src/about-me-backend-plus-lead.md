@@ -20,6 +20,108 @@ In my free time, I love to explore new technologies, travel, and connect with li
 
 
 
+---
+---
+
+Bilkul Prem bhaiya 🙏
+Aapke "About Me" section ke base par interview me jo questions ban sakte hain — unhe **topics ke roop me** neeche categorize karke diya gaya hai. Is list ka use aap **preparation roadmap** ke रूप में भी कर सकते हैं ✅
+
+---
+
+### ✅ 🔹 **Java + Backend Development**
+
+* Java 8 features (e.g., Streams, Optional, Lambda, Functional interfaces)
+* Exception handling best practices
+* Java concurrency (ExecutorService, Future, Callable)
+* Collections API and performance optimization
+* Object-oriented design patterns (Factory, Singleton, Strategy)
+* SOLID principles with Java examples
+
+---
+
+### ✅ 🔹 **Spring Boot & Microservices**
+
+* Spring Boot starters, auto-configuration, and profiles
+* REST API versioning and security (JWT, Spring Security)
+* Exception handling with `@ControllerAdvice`
+* Microservices design patterns (Circuit breaker, API Gateway, Service registry)
+* Inter-service communication (RestTemplate, WebClient, Feign)
+* Spring Data JPA & Hibernate (lazy/eager loading, caching, N+1 problems)
+
+---
+
+### ✅ 🔹 **Databases (SQL + NoSQL)**
+
+* SQL joins, indexes, query optimization in MySQL
+* MongoDB schema design and aggregation
+* Differences between RDBMS and NoSQL
+* Transaction management in Spring
+
+---
+
+### ✅ 🔹 **Asynchronous & Batch Processing**
+
+* Spring Batch architecture and job processing
+* Kafka basics: producer/consumer, message delivery semantics
+* Thread safety, non-blocking calls, and async execution
+
+---
+
+### ✅ 🔹 **Frontend (ReactJS)**
+
+* Functional components vs class components
+* Hooks (useEffect, useState, custom hooks)
+* Component communication & lifting state
+* Consuming REST APIs and error handling in React
+* SPA behavior and routing
+
+---
+
+### ✅ 🔹 **DevOps & CI/CD**
+
+* Jenkins pipelines basics
+* Dockerfile creation and image optimization
+* Kubernetes basics (pods, deployments, services)
+* GitHub Actions usage in build + deployment
+
+---
+
+### ✅ 🔹 **Project & Leadership**
+
+* Team onboarding strategy and knowledge transfer
+* Handling production issues and debugging
+* Agile rituals: sprint planning, retrospectives, stand-ups
+* Collaborating with QA, product owners, and stakeholders
+* Giving feedback and reviewing PRs
+
+---
+
+### ✅ 🔹 **Architecture & Vision**
+
+* How do you approach clean architecture?
+* Difference between monolith and microservices
+* Designing a scalable backend system
+* Use of DTOs, mappers, and layered architecture
+
+---
+
+### ✅ 🔹 **Soft Skills & Career Intent**
+
+* Why do you want to be a Software Architect?
+* How do you stay updated with tech?
+* What challenges did you face in team coordination?
+* Tell me about a time when you resolved a technical conflict
+
+---
+
+### 🧠 Bonus Tip:
+
+> Practice **STAR (Situation, Task, Action, Result)** framework for storytelling in leadership/project questions.
+
+---
+
+**Boliye Prem bhaiya – kisi bhi section pe mock Q\&A chahiye toh taiyaar hai. Resume sync + interview prep dono parallel me ho jayega.**
+
 
 
 
