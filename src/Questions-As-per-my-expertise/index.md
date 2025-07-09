@@ -13,7 +13,7 @@ Please vist [**here**](/testing?tester=InterviewFinalRoundPreparationV1) for det
 
 ## 15 Design Patterns Questions
 
-- How would you implement the Singleton Pattern in a thread-safe manner using Java 8 features?
+- [How would you implement the Singleton Pattern in a thread-safe manner using Java 8 features?](./ques-and-ans/design-patterns--how-would-you-implement-the-singleton-pattern-in-a-threadsafe-manner-using-java-8-features.md)
 - Can you explain the Factory Pattern and provide an example of its implementation in the ShubhWeb project?
 - Describe the Abstract Factory Pattern and how it can be used in integrating multiple database systems.
 - What are the advantages of the Builder Pattern when constructing complex objects like REST API responses?
