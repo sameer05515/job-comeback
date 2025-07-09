@@ -11,5 +11,5 @@ I hold certifications in **Java 8, ReactJS, Spring Security (JWT), Docker, Kuber
 
 My long-term vision is to grow into a **Software Architect** role, contributing to high-impact systems with clean architecture and scalable design.
 
-In my free time, I love to **learn new technologies**, **travel to new places**, and **build meaningful connections**.
+In my free time, I love to explore new technologies, travel, and connect with like-minded professionals.
 
