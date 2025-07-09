@@ -178,3 +178,94 @@
 ---
 
 Let me know if you'd like a **sequence diagram**, **architecture diagram**, or **code samples** for any module.
+
+
+---
+---
+
+# how to secure application, so that one user's data is not accessed by another user, by copying access-token
+
+✅ To **prevent user data leakage** even if an access token is copied or stolen, implement **robust token validation + user context-based security**. Here's **how to secure your app**:
+
+---
+
+## 🔐 1. **Token Binding with User Context (Server-side Check)**
+
+Always extract the **user identity from the token**, and fetch data **only belonging to that user**.
+
+### Example: Spring Boot
+
+```java
+@GetMapping("/documents")
+public List<Document> getDocs(@AuthenticationPrincipal Jwt principal) {
+    String userId = principal.getSubject(); // extract from token
+    return documentService.findByUserId(userId); // scoped query
+}
+```
+
+⛔ **Never trust incoming IDs** (like `/documents?userId=xyz`) — use token-derived info only.
+
+---
+
+## 🛡️ 2. **Short-Lived Access Token + Refresh Token Strategy**
+
+* Use **short expiry** for access token (e.g., 15 min)
+* Use **secure, HTTP-only, rotating refresh tokens**
+* Store refresh token in secure cookie, not localStorage
+
+---
+
+## 🔍 3. **Token Signature Validation + Audience Check**
+
+* Validate **JWT signature** using public/private keys
+* Ensure the token's `aud` (audience) and `iss` (issuer) match your backend
+
+---
+
+## 🚨 4. **Prevent Token Replay (Advanced)**
+
+* **Token Binding**: Bind JWT to browser/device fingerprint or IP (if feasible)
+* Use **opaque tokens** (token stored server-side) if high security is needed
+* Implement **one-time token usage** for sensitive actions
+
+---
+
+## 🧯 5. **Multi-Tenant Isolation (Optional)**
+
+* Store a `tenant_id` or `user_id` with every row
+* Every query must filter by that ID (`WHERE user_id = ?`)
+
+---
+
+## 🔒 6. **Secure Frontend Usage**
+
+* Don't store tokens in `localStorage` (XSS risk)
+* Prefer `HttpOnly` cookies (less vulnerable)
+* Sanitize user inputs to prevent XSS/CSRF
+
+---
+
+## ⚙️ 7. **Audit & Monitor**
+
+* Log all token usage
+* Alert on suspicious usage (e.g., same token from different IPs/devices)
+* Rate-limit sensitive endpoints
+
+---
+
+## ✅ Summary
+
+| Step                | Measure                                  |
+| ------------------- | ---------------------------------------- |
+| 🔐 Token validation | Always derive `user_id` from JWT         |
+| 🔄 Token lifecycle  | Use short-lived JWT + refresh tokens     |
+| 🧯 Access isolation | DB queries always scoped by `user_id`    |
+| 🔍 Signature check  | Validate `iss`, `aud`, `exp`, `iat`      |
+| 💾 Secure storage   | Use `HttpOnly` cookie for refresh tokens |
+| 📈 Logging          | Monitor token usage, detect anomalies    |
+
+---
+
+Would you like a **Spring Security JWT config template** to enforce these practices?
+
+
