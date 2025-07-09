@@ -59,3 +59,11 @@ Reply with:
 * `task` → to get 2–3 real interview coding tasks
 * `redux` → for Redux-based QnA
 * 
+
+
+---
+---
+
+# Javascript questions 
+
+- [ES6 FEATURES](../javascript/ES6-features.md)
