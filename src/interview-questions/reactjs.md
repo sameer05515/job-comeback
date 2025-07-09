@@ -66,4 +66,4 @@ Reply with:
 
 # Javascript questions 
 
-- [ES6 FEATURES](../javascript/ES6-FEATURES.md)
+- [ES6 FEATURES](../javascript/ES6-features.md)
