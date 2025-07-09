@@ -145,3 +145,5 @@ Reply with:
 [QNA](./tech-lead/qna.md)
 
 [GIT-cheatsheet](../tech-lead/git-01.md)
+
+[System Design: Upload document and secure application](../tech-lead/system-design-01.md)
