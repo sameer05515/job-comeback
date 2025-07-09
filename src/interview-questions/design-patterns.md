@@ -8,7 +8,7 @@ Here are **interview questions on Design Patterns** – from basic to advanced, 
 2. [**What is the difference between Factory and Abstract Factory pattern?**](../design-patterns/2-what-is-the-difference-between-factory-and-abstract-factory-pattern.md)
 3. [**Explain the Singleton pattern. How do you implement it in Java?**](../design-patterns/3-explain-the-singleton-pattern-how-do-you-implement-it-in-java.md)
 4. [**What is the use of the Builder pattern? Where is it used in Java?**](../design-patterns/4-what-is-the-use-of-the-builder-pattern-where-is-it-used-in-java.md)
-5. **Give a real-life example of the Adapter pattern.**
+5. [**Give a real-life example of the Adapter pattern.**](../design-patterns/5-give-a-reallife-example-of-the-adapter-pattern.md)
 6. **What is the Observer pattern? Where is it used in UI frameworks?**
 7. **How is the Decorator pattern different from inheritance?**
 8. **What is the Strategy pattern? How would you use it to replace `if-else` chains?**
