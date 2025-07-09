@@ -4,8 +4,8 @@ Here are **interview questions on Design Patterns** – from basic to advanced, 
 
 ### ✅ **Basic Level (2–4 YOE)**
 
-1. **What is a design pattern? Why do we use them?**
-2. **What is the difference between Factory and Abstract Factory pattern?**
+1. [**What is a design pattern? Why do we use them?**](../design-patterns/1-what-is-a-design-pattern-why-do-we-use-them.md)
+2. [**What is the difference between Factory and Abstract Factory pattern?**](../design-patterns/2-what-is-the-difference-between-factory-and-abstract-factory-pattern.md)
 3. **Explain the Singleton pattern. How do you implement it in Java?**
 4. **What is the use of the Builder pattern? Where is it used in Java?**
 5. **Give a real-life example of the Adapter pattern.**
