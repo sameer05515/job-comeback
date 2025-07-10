@@ -62,43 +62,43 @@ Here are **Tech Lead-level System Design Interview Questions** — with a mix of
 
 ### ✅ **Common System Design Questions**
 
-1. **Design a URL Shortener (like bit.ly)**
+1. [**Design a URL Shortener (like bit.ly)**](../tech-lead/system-design--design-a-url-shortener-like-bitly.md)
 
    * Focus: DB schema, hashing/collision, scalability, caching
 
-2. **Design an Uber-like real-time location tracking system**
+2. [**Design an Uber-like real-time location tracking system**](../tech-lead/system-design--design-an-uberlike-realtime-location-tracking-system.md)
 
    * Focus: WebSockets, GPS ingestion, message queues, geo-indexing
 
-3. **Design a Twitter/Newsfeed system**
+3. [**Design a Twitter/Newsfeed system**](../tech-lead/system-design--design-a-twitter-newsfeed-system.md)
 
    * Focus: Fan-out-on-write/read, timelines, Redis, sharding
 
-4. **Design a scalable file upload service (like Google Drive)**
+4. [**Design a scalable file upload service (like Google Drive)**](../tech-lead/system-design--design-a-scalable-file-upload-service-like-google-drive.md)
 
    * Focus: S3, metadata store, virus scanning, resumable upload
 
-5. **Design a Chat System (like WhatsApp)**
+5. [**Design a Chat System (like WhatsApp)**](../tech-lead/system-design--design-a-chat-system-like-whatsapp.md)
 
    * Focus: Message queues, delivery status, group chats, presence
 
-6. **Design a Rate Limiter for APIs**
+6. [**Design a Rate Limiter for APIs**](../tech-lead/system-design--design-a-rate-limiter-for-apis.md)
 
    * Focus: Token bucket/Leaky bucket, Redis counters, multi-node sync
 
-7. **Design a Notification System (email/SMS/push)**
+7. [**Design a Notification System (email/SMS/push)**](../tech-lead/system-design--design-a-notification-system--email-sms-push.md)
 
    * Focus: Queueing, retry, deduplication, template engine
 
-8. **Design a Job Scheduler (like Cron-as-a-Service)**
+8. [**Design a Job Scheduler (like Cron-as-a-Service)**](../tech-lead/system-design--design-a-job-scheduler--like-cron-as-a-service.md)
 
    * Focus: Task queue, persistence, retries, worker coordination
 
-9. **Design an E-commerce Checkout System**
+9. [**Design an E-commerce Checkout System**](../tech-lead/system-design--design-an-e-commerce-checkout-system.md)
 
    * Focus: Inventory lock, payment gateway, transactional integrity
 
-10. **Design a Video Streaming Platform (like YouTube)**
+10. [**Design a Video Streaming Platform (like YouTube)**](../tech-lead/system-design--design-a-video-streaming-platform--like-youtube.md)
 
 * Focus: Uploading, encoding, CDN, metadata, recommendations
 
