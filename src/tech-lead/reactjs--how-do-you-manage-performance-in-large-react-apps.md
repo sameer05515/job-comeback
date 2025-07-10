@@ -1,3 +1,5 @@
+# 1. **How do you manage performance in large React apps?**
+
 ✅ Here's a checklist-style answer to **"How do you manage performance in large React apps?"** — interview-ready and practical:
 
 ---

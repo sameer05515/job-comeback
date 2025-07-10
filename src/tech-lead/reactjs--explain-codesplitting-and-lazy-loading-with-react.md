@@ -1,3 +1,5 @@
+# 2. **Explain code-splitting and lazy loading with React.**
+
 ✅ Here's a concise and practical explanation of **code-splitting and lazy loading in React**, with code examples:
 
 ---
