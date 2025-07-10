@@ -4,16 +4,16 @@ Here are **React/Java Tech Lead Interview Questions (with leadership focus)** �
 
 ### ✅ **React/Frontend – Tech Lead Level**
 
-1. **How do you manage performance in large React apps?**
-2. **Explain code-splitting and lazy loading with React.**
-3. **How would you structure a React app with 50+ screens?**
-4. **What's your approach to managing shared state across modules?**
-5. **How do you ensure accessibility (a11y) in your React apps?**
-6. **How do you coordinate between designers and frontend devs?**
-7. **How do you avoid prop drilling in deep component trees?**
-8. **How would you handle SEO in a React SPA?**
-9. **Compare CRA, Vite, and Next.js – when would you pick each?**
-10. **How do you structure reusable UI components in a team project?**
+1. [**How do you manage performance in large React apps?**](../tech-lead/reactjs--how-do-you-manage-performance-in-large-react-apps.md)
+2. [**Explain code-splitting and lazy loading with React.**](../tech-lead/reactjs--explain-codesplitting-and-lazy-loading-with-react.md)
+3. [**How would you structure a React app with 50+ screens?**](../tech-lead/reactjs--how-would-you-structure-a-react-app-with-50-plus-screens.md)
+4. [**What's your approach to managing shared state across modules?**](../tech-lead/reactjs--whats-your-approach-to-managing-shared-state-across-modules.md)
+5. [**How do you ensure accessibility (a11y) in your React apps?**](../tech-lead/reactjs--how-do-you-ensure-accessibility--a11y--in-your-react-apps.md)
+6. [**How do you coordinate between designers and frontend devs?**](../tech-lead/reactjs--how-do-you-coordinate-between-designers-and-frontend-devs.md)
+7. [**How do you avoid prop drilling in deep component trees?**](../tech-lead/reactjs--how-do-you-avoid-prop-drilling-in-deep-component-trees.md)
+8. [**How would you handle SEO in a React SPA?**](../tech-lead/reactjs--how-would-you-handle-seo-in-a-react-spa.md)
+9. [**Compare CRA, Vite, and Next.js – when would you pick each?**](../tech-lead/reactjs--compare--cra--vite-and--nextjs--when-would-you-pick-each.md)
+10. [**How do you structure reusable UI components in a team project?**](../tech-lead/reactjs--how-do-you-structure-reusable-ui-components-in-a-team-project.md)
 
 ---
 
