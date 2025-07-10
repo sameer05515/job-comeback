@@ -1,3 +1,5 @@
+# 3. **How would you structure a React app with 50+ screens?**
+
 ✅ Here's how to **structure a scalable React app with 50+ screens**, optimized for clarity, reusability, and maintainability:
 
 ---
