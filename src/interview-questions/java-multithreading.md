@@ -53,7 +53,7 @@ Yeh rahe kuch **basic Java multithreading interview questions** — mostly asked
 * Producer-consumer with `BlockingQueue`
 * Deadlock example + how to avoid it
 * Use `ExecutorService` to run multiple tasks
-* Use `CompletableFuture` to run tasks in parallel and combine results
+* [Use `CompletableFuture` to run tasks in parallel and combine results](../java/multithreading/java--multithreading--use-completablefuture-to-run-tasks-in-parallel-and-combine-results.md)
 
 ---
 
