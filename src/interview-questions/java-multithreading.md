@@ -19,7 +19,7 @@ Yeh rahe kuch **basic Java multithreading interview questions** — mostly asked
 7. [Difference between `synchronized` method and `synchronized` block?](../java/multithreading/java--multithreading--difference-between-synchronized-method-and-synchronized-block.md)
 8. [What is `volatile` keyword? How is it used?](../java/multithreading/java--multithreading--what-is-volatile-keyword-how-is-it-used.md)
 9. [What is `ReentrantLock`? How is it better than `synchronized`?](../java/multithreading/java--multithreading--what-is-reentrantlock--how-is-it-better-than-synchronized.md)
-10. What is a **deadlock**? Can you explain with an example?
+10. [What is a **deadlock**? Can you explain with an example?](../java/multithreading/java--multithreading--what-is-a-deadlock--can-you-explain-with-an-example.md)
 
 #### 🔹 Concurrency API
 
