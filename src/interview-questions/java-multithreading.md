@@ -7,11 +7,11 @@ Yeh rahe kuch **basic Java multithreading interview questions** — mostly asked
 
 #### 🔹 Basic Understanding
 
-1. What is multithreading in Java?
-2. What is the difference between `process` and `thread`?
+1. [What is multithreading in Java?](../java/multithreading/java--multithreading--what-is-multithreading-in-java.md)
+2. [What is the difference between `process` and `thread`?](../java/multithreading/java--multithreading--what-is-the-difference-between-process-and-thread.md)
 3. How do you create a thread in Java?
-4. What is the difference between extending `Thread` and implementing `Runnable`?
-5. What are the different states of a thread in Java?
+4. [What is the difference between extending `Thread` and implementing `Runnable`?](../java/multithreading/java--multithreading--difference-between-thread-and-runnable.md)
+5. [What are the different states of a thread in Java?](../java/multithreading/java--multithreading--what-are-the-different-states-of-a-thread-in-java.md)
 
 #### 🔹 Synchronization & Locks
 
