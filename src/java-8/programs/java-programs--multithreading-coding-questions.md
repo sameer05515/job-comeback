@@ -164,7 +164,7 @@ public class ProducerConsumer {
 
 | Question                                                                 | Type              |
 | ------------------------------------------------------------------------ | ----------------- |
-| Difference between Thread and Runnable                                   | Concept           |
+| [Difference between Thread and Runnable](../../java/multithreading/java--multithreading--difference-between-thread-and-runnable.md)                                   | Concept           |
 | What is the use of `volatile` keyword?                                   | Memory visibility |
 | What is a race condition?                                                | Concurrency       |
 | Difference between `wait()` and `sleep()`                                | Object vs Thread  |
