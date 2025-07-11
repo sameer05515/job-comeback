@@ -15,9 +15,9 @@ Yeh rahe kuch **basic Java multithreading interview questions** — mostly asked
 
 #### 🔹 Synchronization & Locks
 
-6. What is synchronization in Java? Why is it needed?
-7. Difference between `synchronized` method and `synchronized` block?
-8. What is `volatile` keyword? How is it used?
+6. [What is synchronization in Java? Why is it needed?](../java/multithreading/java--multithreading--what-is-synchronization-in-java--why-is-it-needed.md)
+7. [Difference between `synchronized` method and `synchronized` block?](../java/multithreading/java--multithreading--difference-between-synchronized-method-and-synchronized-block.md)
+8. [What is `volatile` keyword? How is it used?](../java/multithreading/java--multithreading--what-is-volatile-keyword-how-is-it-used.md)
 9. What is `ReentrantLock`? How is it better than `synchronized`?
 10. What is a **deadlock**? Can you explain with an example?
 
