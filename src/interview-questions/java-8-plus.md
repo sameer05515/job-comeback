@@ -144,3 +144,8 @@ Let me know if you want:
 * ✅ Flashcards / PDFs for revision
 * ✅ Focused set: only Streams / Only Optional / Only Interface Enhancements etc.
 * 
+
+
+---
+---
+- [java-programs--multithreading-coding-questions](../java-8/programs/java-programs--multithreading-coding-questions.md)
