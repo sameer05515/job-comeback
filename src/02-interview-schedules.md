@@ -3,5 +3,5 @@
 - pushpa- Wipro 99444 10978
   - java
   - max budjet 35LPA, 15% variable
-  - 3-4 PM Monday
+  - 3-4 PM Monday 14 jul 2025
   - java 14
