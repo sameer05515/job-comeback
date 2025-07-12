@@ -1,5 +1,7 @@
 Here are **Spring Boot interview questions** (code-oriented, minimal theory) – suitable for 2–10 YOE (Years of Experience):
 
+
+- [**Plan: Spring Boot: From Novice to Expert**](../spring-boot/01-plan.md)
 ---
 
 ### ✅ **Basic Level (2–4 YOE)**
