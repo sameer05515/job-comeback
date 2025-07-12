@@ -2,6 +2,7 @@ Here are **Spring Boot interview questions** (code-oriented, minimal theory) –
 
 
 - [**Plan: Spring Boot: From Novice to Expert**](../spring-boot/01-plan.md)
+  - [**Remote Plan**](https://github.com/premendrakumar/spring-boot-practice/blob/master/README.md)
 ---
 
 ### ✅ **Basic Level (2–4 YOE)**
