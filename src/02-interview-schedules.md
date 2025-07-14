@@ -1,3 +1,7 @@
+# 07 July 2025
+
+[System Design: Upload document and secure application](./tech-lead/system-design-01.md)
+
 # 11 July 2025
 
 - pushpa- Wipro 99444 10978
