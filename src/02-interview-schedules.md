@@ -9,9 +9,9 @@
 ## Interview me below questions pucha gaya tha
 
 - write a program to reverse a string
-- what is difference between String and StringBuffer
+- [what is difference between String and StringBuffer](./java/java--what-is-difference-between-string-and-stringbuffer.md)
 - How to make a class immutable
-- Pass by value and pass by reference
+- [Pass by value and pass by reference](./java/java--pass-by-value-and-pass-by-reference-in-java.md)
 - Write a query to find largest number from a table (say column is id, integer value)
 - write query to find third largest salary
 - Write a java stream program to find 3rd largest number from given array
