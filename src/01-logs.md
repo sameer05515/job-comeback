@@ -8,3 +8,7 @@
   - https://www.udemy.com/course/graphql-with-java-spring-boot-query-mutation-schema-resolver-edge-jpa/learn/lecture/21852272#overview
 
 
+# 13 July 2025
+- not learning Spring security with https://www.udemy.com/course/spring-security-zero-to-master/learn/lecture/22132390#overview
+
+
