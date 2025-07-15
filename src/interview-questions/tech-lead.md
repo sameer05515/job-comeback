@@ -2,6 +2,8 @@ Here are **React/Java Tech Lead Interview Questions (with leadership focus)** �
 
 ---
 
+[What is HLD and LLD](../tech-lead/system-design--what-is-hld-and-lld.md)
+
 ### ✅ **React/Frontend – Tech Lead Level**
 
 1. [**How do you manage performance in large React apps?**](../tech-lead/reactjs--how-do-you-manage-performance-in-large-react-apps.md)
@@ -150,4 +152,3 @@ Reply with:
 
 [Docker commands](../tech-lead/docker-commands.md)
 
-[What is HLD and LLD](../tech-lead/system-design--what-is-hld-and-lld.md)
