@@ -149,3 +149,5 @@ Reply with:
 [System Design: Upload document and secure application](../tech-lead/system-design-01.md)
 
 [Docker commands](../tech-lead/docker-commands.md)
+
+[What is HLD and LLD](../tech-lead/system-design--what-is-hld-and-lld.md)
