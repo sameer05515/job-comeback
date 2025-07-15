@@ -153,3 +153,9 @@ Let me know if you want:
 - [Callable vs Runnable](../java/multithreading/java--multithreading--callable-vs-runnable.md)
 - [Difference between Thread and Runnable](../java/multithreading/java--multithreading--difference-between-thread-and-runnable.md)
 - [Future vs CompletableFuture](../java/multithreading/java--multithreading--future-vs-completablefuture.md)
+
+
+---
+
+Java 8 programs
+- [Write a function to **add the two numbers** and return the sum as a linked list.](https://github.com/sameer05515/java-playground/blob/main/java-coding-practice/src/main/java/com/coding/practice/interview/questions/leetcode/q4/problem.md)
