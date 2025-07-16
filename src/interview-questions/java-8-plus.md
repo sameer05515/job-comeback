@@ -24,7 +24,7 @@ Sure ✅ Here’s a curated list of **Java 8+ (Java 8 to 17)** interview questio
 13. [How is a stream different from a collection?](../java-8/java-8--how-is-a-stream-different-from-a-collection.md)
 14. [What is the difference between sequential and parallel streams?](../java-8/java-8--what-is-the-difference-between-sequential-and-parallel-streams.md)
 15. [What are intermediate and terminal operations in streams?](../java-8/java-8--what-are-intermediate-and-terminal-operations-in-streams.md)
-16. How does `collect(Collectors.toList())` work internally?
+16. [How does `collect(Collectors.toList())` work internally?](../java-8/java-8--how-does--collect-collectors-tolist---work-internally.md)
 17. What does `reduce()` do in a stream pipeline?
 18. How do you use `groupingBy()` in a stream?
 19. How to sort a list using stream API?
