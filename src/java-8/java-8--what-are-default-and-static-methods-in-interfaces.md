@@ -164,3 +164,72 @@ Map<String, Integer> map = Map.of("A", 1, "B", 2);
 
 Let me know if you'd like code demos for `computeIfAbsent()`, `merge()`, or Java 9+ collection factory methods in practice.
 
+---
+---
+
+# Java 9+ collection factory methods in practice
+
+Sure **Premendra**, here are practical examples of **Java 9+ collection factory methods** — `List.of()`, `Set.of()`, `Map.of()` and `Map.ofEntries()` — that create **immutable** collections.
+
+---
+
+## ✅ 1. `List.of(...)` – Immutable List
+
+```java
+List<String> names = List.of("Ram", "Shyam", "Sita");
+
+System.out.println(names);         // [Ram, Shyam, Sita]
+// names.add("Radha");             // ❌ Throws UnsupportedOperationException
+```
+
+---
+
+## ✅ 2. `Set.of(...)` – Immutable Set (no duplicates allowed)
+
+```java
+Set<String> cities = Set.of("Delhi", "Mumbai", "Chennai");
+
+// Set<String> errorSet = Set.of("A", "B", "A"); // ❌ Throws IllegalArgumentException (duplicate)
+```
+
+---
+
+## ✅ 3. `Map.of(...)` – Immutable Map (max 10 entries)
+
+```java
+Map<String, Integer> marks = Map.of(
+    "Ram", 85,
+    "Sita", 90,
+    "Shyam", 75
+);
+
+System.out.println(marks.get("Sita")); // 90
+// marks.put("Mohan", 60);             // ❌ UnsupportedOperationException
+```
+
+---
+
+## ✅ 4. `Map.ofEntries(...)` – For more than 10 entries
+
+```java
+Map<String, String> countries = Map.ofEntries(
+    Map.entry("IN", "India"),
+    Map.entry("US", "United States"),
+    Map.entry("JP", "Japan"),
+    Map.entry("DE", "Germany")
+);
+
+System.out.println(countries.get("JP"));  // Japan
+```
+
+---
+
+## ⚠️ Points to Remember
+
+* These are **immutable** — no `add`, `put`, or `remove` allowed.
+* `Set.of(...)` and `Map.of(...)` throw exceptions on **null** or **duplicates**.
+* Good for **read-only config, constants, lookup data**, etc.
+
+---
+
+Let me know if you want a `Collections.unmodifiableXXX()` comparison or use in service layers.
