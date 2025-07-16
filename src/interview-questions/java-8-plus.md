@@ -14,14 +14,14 @@ Sure ✅ Here’s a curated list of **Java 8+ (Java 8 to 17)** interview questio
 8. [What is the use of `Optional` in Java 8?](../java-8/007.md)
 9. [How does `forEach()` differ from a traditional loop?](../java-8/008.md)
 10. [Explain method reference and its types.](../java-8/009.md)
-11. What are default and static methods in interfaces?
-12. How do you handle null checks using `Optional`?
+11. [What are default and static methods in interfaces?](../java-8/java-8--what-are-default-and-static-methods-in-interfaces.md)
+12. [How do you handle null checks using `Optional`?](../java-8/java-8--how-do-you-handle-null-checks-using-optional.md)
 
 ---
 
 ### 🔹 **Java Streams API**
 
-13. How is a stream different from a collection?
+13. [How is a stream different from a collection?](../java-8/java-8--how-is-a-stream-different-from-a-collection.md)
 14. What is the difference between sequential and parallel streams?
 15. What are intermediate and terminal operations in streams?
 16. How does `collect(Collectors.toList())` work internally?
