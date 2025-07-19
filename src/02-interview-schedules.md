@@ -23,3 +23,9 @@
 - tell me architecture of last project which you worked
 - what is SAGA pattern
 - If my messaging queue is not working, how to handle this situation in your microservices project
+
+
+# 19 July 2025
+
+- [sql question](./sql/001.md)
+- [stream question](./java-8/programs/003.md)
