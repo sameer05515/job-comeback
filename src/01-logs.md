@@ -11,11 +11,16 @@
 # 13 July 2025
 - learning Spring security with https://www.udemy.com/course/spring-security-zero-to-master/learn/lecture/22132390#overview
 
-# 21 July 2025
+# 20 July 2025
 
 - Learning Spring microservices  
 Learn & Develop Microservices with Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Helm, Microservices Security
 
 https://www.udemy.com/course/master-microservices-with-spring-docker-kubernetes/learn/lecture/26024406?start=0#overview
+
+# 21 July 2025
+- Learning **Master Java 8 to Java 21: Functional Programming, Records, Sealed Classes, Pattern Matching, and more through hands-on.**
+
+https://www.udemy.com/course/modern-java-learn-java-8-features-by-coding-it/learn/lecture/10525698?start=0#overview
 
 

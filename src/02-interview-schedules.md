@@ -32,4 +32,10 @@
 
 # 21 July 2025
 
-- [Java 8+ program using Streams to find common elements in all three arrays]()
+- [Java 8+ program using Streams to find common elements in all three arrays](./java-8/programs/004.md)
+- What is difference between intermediate and terminal operations
+- What lazy operations
+- What are new features introduced in java 17
+- What are key features introduced in java 8
+- What is default methods in predicate
+- What is state in Reactjs
