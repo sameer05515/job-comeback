@@ -9,6 +9,13 @@
 
 
 # 13 July 2025
-- not learning Spring security with https://www.udemy.com/course/spring-security-zero-to-master/learn/lecture/22132390#overview
+- learning Spring security with https://www.udemy.com/course/spring-security-zero-to-master/learn/lecture/22132390#overview
+
+# 21 July 2025
+
+- Learning Spring microservices  
+Learn & Develop Microservices with Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Helm, Microservices Security
+
+https://www.udemy.com/course/master-microservices-with-spring-docker-kubernetes/learn/lecture/26024406?start=0#overview
 
 
