@@ -32,6 +32,8 @@
 
 # 21 July 2025
 
+## LTIMindtree
+
 - [Java 8+ program using Streams to find common elements in all three arrays](./java-8/programs/004.md)
 - What is difference between intermediate and terminal operations
 - What lazy operations
