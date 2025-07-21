@@ -29,3 +29,7 @@
 
 - [sql question](./sql/001.md)
 - [stream question](./java-8/programs/003.md)
+
+# 21 July 2025
+
+- [Java 8+ program using Streams to find common elements in all three arrays]()
