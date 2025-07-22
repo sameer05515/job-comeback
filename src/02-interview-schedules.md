@@ -41,3 +41,4 @@
 - What are key features introduced in java 8
 - What is default methods in predicate
 - [What is state in Reactjs](./reactjs/reactjs--what-is-state-in-reactjs.md)
+- [](./java-8/java8--stateful-and-stateless-functions-in-stream-api.md)
