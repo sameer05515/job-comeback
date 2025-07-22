@@ -146,6 +146,8 @@ Let me know if you want:
 * 
 
 
+[What is difference between intermediate and terminal operations](../java-8/java-8--what-is-difference-between-intermediate-and-terminal-operations.md)
+
 ---
 ---
 - [Java multithreading](./java-multithreading.md)
