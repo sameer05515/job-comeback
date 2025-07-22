@@ -24,3 +24,9 @@ https://www.udemy.com/course/master-microservices-with-spring-docker-kubernetes/
 https://www.udemy.com/course/modern-java-learn-java-8-features-by-coding-it/learn/lecture/10525698?start=0#overview
 
 
+# 22 July 2025
+- Learning **Learn Mockito and JUnit - the most popular Java unit testing and mocking frameworks - with 25 Examples**
+
+https://www.udemy.com/course/mockito-tutorial-with-junit-examples/learn/lecture/5678212?src=sac&kw=junit#overview
+
+

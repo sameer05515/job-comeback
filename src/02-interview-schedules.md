@@ -2,6 +2,8 @@
 
 [System Design: Upload document and secure application](./tech-lead/system-design-01.md)
 
+---
+---
 # 11 July 2025
 
 - pushpa- Wipro 99444 10978
@@ -24,14 +26,17 @@
 - what is SAGA pattern
 - If my messaging queue is not working, how to handle this situation in your microservices project
 
-
+---
+---
 # 19 July 2025
+## Coforge
 
 - [sql question](./sql/001.md)
 - [stream question](./java-8/programs/003.md)
 
+---
+---
 # 21 July 2025
-
 ## LTIMindtree
 
 - [Java 8+ program using Streams to find common elements in all three arrays](./java-8/programs/004.md)
@@ -42,3 +47,11 @@
 - What is default methods in predicate
 - [What is state in Reactjs](./reactjs/reactjs--what-is-state-in-reactjs.md)
 - [stateful and stateless functions in Stream API](./java-8/java8--stateful-and-stateless-functions-in-stream-api.md)
+
+---
+---
+
+# 22 July 2025
+# GSpann
+
+- [what is role of volatile keyword in multithreading](./java/multithreading/java-multithreading--what-is-role-of-volatile-keyword-in-multithreading.md)
