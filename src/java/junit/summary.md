@@ -253,3 +253,72 @@ mvn test
 
 Let me know if you want **tags-based filtering** or **dynamic inclusion** in suite.
 
+---
+---
+
+Yes ✅, `spring-boot-starter-test` **already includes Mockito** by default.
+
+---
+
+### 📦 Maven Dependency
+
+When you add:
+
+```xml
+<dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-test</artifactId>
+  <scope>test</scope>
+</dependency>
+```
+
+It pulls in these key test libraries:
+
+| Library       | Purpose                         |
+| ------------- | ------------------------------- |
+| JUnit Jupiter | Unit testing framework          |
+| Mockito Core  | Mocking/stubbing in unit tests  |
+| Hamcrest      | Matchers for assertions         |
+| AssertJ       | Fluent assertions               |
+| Spring Test   | Spring-specific testing support |
+
+---
+
+### 🔍 Confirm by checking dependencies:
+
+Run this Maven command to view all resolved test dependencies:
+
+```bash
+mvn dependency:tree -Dscope=test
+```
+
+You’ll see:
+
+```
+org.mockito:mockito-core
+```
+
+---
+
+### ✅ Example Usage
+
+```java
+@ExtendWith(MockitoExtension.class)
+class MyServiceTest {
+
+  @Mock
+  private MyRepository repository;
+
+  @InjectMocks
+  private MyService service;
+
+  @Test
+  void testSomething() {
+    when(repository.findSomething()).thenReturn("hello");
+    String result = service.process();
+    assertEquals("HELLO", result);
+  }
+}
+```
+
+Let me know if you want `@WebMvcTest` or `@MockBean` examples too.
