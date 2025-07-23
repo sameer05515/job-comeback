@@ -449,3 +449,88 @@ class UserServiceTest {
 ---
 
 Let me know if you want a **Spring Boot REST Controller + @MockBean** version also.
+
+
+---
+---
+
+# Please list hamcrest matchers
+
+Here is a list of commonly used **Hamcrest matchers** (used in JUnit tests):
+
+---
+
+### ✅ **Core Matchers**
+
+| Matcher             | Description                        |
+| ------------------- | ---------------------------------- |
+| `is(value)`         | Exact match                        |
+| `equalTo(value)`    | Equal to                           |
+| `not(value)`        | Negation                           |
+| `nullValue()`       | Checks for null                    |
+| `notNullValue()`    | Checks for not null                |
+| `sameInstance(obj)` | Same instance (reference equality) |
+| `instanceOf(Class)` | Checks type                        |
+
+---
+
+### ✅ **Number Matchers**
+
+| Matcher                   | Description                      |
+| ------------------------- | -------------------------------- |
+| `greaterThan(n)`          | Greater than n                   |
+| `greaterThanOrEqualTo(n)` | Greater than or equal to n       |
+| `lessThan(n)`             | Less than n                      |
+| `lessThanOrEqualTo(n)`    | Less than or equal to n          |
+| `closeTo(value, delta)`   | Within a range (floating points) |
+
+---
+
+### ✅ **String Matchers**
+
+| Matcher                             | Description                    |
+| ----------------------------------- | ------------------------------ |
+| `startsWith(prefix)`                | Starts with                    |
+| `endsWith(suffix)`                  | Ends with                      |
+| `containsString(substring)`         | Contains substring             |
+| `equalToIgnoringCase(str)`          | Case-insensitive match         |
+| `equalToCompressingWhiteSpace(str)` | Ignores whitespace differences |
+
+---
+
+### ✅ **Collection Matchers**
+
+| Matcher                       | Description                 |
+| ----------------------------- | --------------------------- |
+| `hasItem(item)`               | Contains item               |
+| `hasItems(item1, item2, ...)` | Contains all items          |
+| `contains(item1, item2, ...)` | Exact order match           |
+| `containsInAnyOrder(...)`     | Match items, any order      |
+| `empty()` / `emptyIterable()` | Checks for empty collection |
+| `hasSize(n)`                  | Checks collection size      |
+| `everyItem(matcher)`          | All items match condition   |
+
+---
+
+### ✅ **Map Matchers**
+
+| Matcher                | Description             |
+| ---------------------- | ----------------------- |
+| `hasKey(key)`          | Contains key            |
+| `hasValue(value)`      | Contains value          |
+| `hasEntry(key, value)` | Contains key-value pair |
+
+---
+
+### ✅ **Combinable Matchers**
+
+| Matcher              | Description             |
+| -------------------- | ----------------------- |
+| `allOf(m1, m2, ...)` | All matchers must match |
+| `anyOf(m1, m2, ...)` | At least one must match |
+| `both(m1).and(m2)`   | Same as `allOf()`       |
+| `either(m1).or(m2)`  | Same as `anyOf()`       |
+
+---
+
+Let me know if you want **practical test examples** with any of these.
