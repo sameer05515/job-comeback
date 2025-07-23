@@ -1,3 +1,16 @@
+# junit related code projects
+## Junit 4 based
+- [JUnit4In28Minutes](https://github.com/sameer05515/java-playground/tree/main/JUnit4In28Minutes)
+- [MockitoTutorialForBeginners](https://github.com/sameer05515/java-playground/tree/main/MockitoTutorialForBeginners)
+
+## Junit 5 based
+- [junit-test-example](https://github.com/sameer05515/java-playground/tree/main/junit-test-example) 
+
+
+
+---
+---
+
 Here’s a quick summary of commonly used **JUnit** annotations and usage (assuming JUnit 5):
 
 ---
