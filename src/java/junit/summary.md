@@ -256,6 +256,8 @@ Let me know if you want **tags-based filtering** or **dynamic inclusion** in sui
 ---
 ---
 
+# Spring starter test me mockito bhi add hota hai kya?
+
 Yes ✅, `spring-boot-starter-test` **already includes Mockito** by default.
 
 ---
