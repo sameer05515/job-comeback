@@ -174,3 +174,82 @@ class CsvSourceExampleTest {
 ```
 
 Bataiye agar `@MethodSource` ya custom provider ka example bhi chahiye.
+
+
+---
+---
+
+In **JUnit 5**, you can organize and run multiple test classes together using a **test suite** with the `@Suite` annotation.
+
+---
+
+### ✅ Step-by-step: Create Test Suite in JUnit 5
+
+1. Add the following imports from `org.junit.platform.suite.api`.
+2. Use annotations: `@Suite`, `@SelectClasses`, `@SelectPackages`, etc.
+
+---
+
+### 🔹 Example: Using `@SelectClasses`
+
+```java
+package com.prem.junit.suite;
+
+import org.junit.platform.suite.api.SelectClasses;
+import org.junit.platform.suite.api.Suite;
+
+@Suite
+@SelectClasses({
+    com.prem.junit.test.CalculatorTest.class,
+    com.prem.junit.test.StringUtilTest.class
+})
+public class MyTestSuite {
+}
+```
+
+---
+
+### 🔹 Example: Using `@SelectPackages`
+
+```java
+package com.prem.junit.suite;
+
+import org.junit.platform.suite.api.SelectPackages;
+import org.junit.platform.suite.api.Suite;
+
+@Suite
+@SelectPackages("com.prem.junit.test")
+public class PackageTestSuite {
+}
+```
+
+This will run all test classes under `com.prem.junit.test` package.
+
+---
+
+### 🧪 How to Run
+
+* Use your IDE (e.g., IntelliJ, Eclipse) to run `MyTestSuite`.
+* Or, run using Maven:
+
+```bash
+mvn test
+```
+
+---
+
+### 📦 Required Dependency (if not added):
+
+```xml
+<dependency>
+  <groupId>org.junit.platform</groupId>
+  <artifactId>junit-platform-suite</artifactId>
+  <version>1.10.0</version> <!-- Match your junit-jupiter version -->
+  <scope>test</scope>
+</dependency>
+```
+
+---
+
+Let me know if you want **tags-based filtering** or **dynamic inclusion** in suite.
+
