@@ -115,3 +115,62 @@ class MyTest {
 
 Let me know if you want a working project setup or migration example.
 
+---
+---
+
+JUnit 5 में Parameterized Test के लिए `@ParameterizedTest` annotation और साथ में `@ValueSource`, `@CsvSource`, आदि का उपयोग होता है।
+
+### ✅ Example using `@ValueSource` (Single parameter):
+
+```java
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.ValueSource;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+class ValueSourceExampleTest {
+
+    @ParameterizedTest
+    @ValueSource(ints = {2, 4, 6, 8, 10})
+    void testEvenNumbers(int number) {
+        assertTrue(number % 2 == 0, number + " is not even");
+    }
+}
+```
+
+---
+
+### ✅ Example using `@CsvSource` (Multiple parameters):
+
+```java
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+class CsvSourceExampleTest {
+
+    @ParameterizedTest
+    @CsvSource({
+        "2, 3, 5",
+        "10, 20, 30",
+        "-1, 1, 0"
+    })
+    void testAddition(int a, int b, int expectedSum) {
+        assertEquals(expectedSum, a + b);
+    }
+}
+```
+
+---
+
+### ⚙️ Required Dependency in `pom.xml`:
+
+```xml
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-params</artifactId>
+    <version>5.10.0</version> <!-- or your JUnit 5 version -->
+    <scope>test</scope>
+</dependency>
+```
+
+Bataiye agar `@MethodSource` ya custom provider ka example bhi chahiye.
