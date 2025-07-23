@@ -324,3 +324,115 @@ class MyServiceTest {
 ```
 
 Let me know if you want `@WebMvcTest` or `@MockBean` examples too.
+
+
+---
+---
+
+# Mockito ko use karna hai. please share example code
+
+Sure Prem! Here's a **simple Mockito example** using `@Mock`, `@InjectMocks`, and JUnit 5:
+
+---
+
+### ✅ Scenario
+
+We want to test `UserService`, which depends on `UserRepository`.
+
+---
+
+### 📁 `User.java`
+
+```java
+public class User {
+    private int id;
+    private String name;
+
+    // constructors, getters, setters
+    public User(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public String getName() { return name; }
+}
+```
+
+---
+
+### 📁 `UserRepository.java`
+
+```java
+public interface UserRepository {
+    User findUserById(int id);
+}
+```
+
+---
+
+### 📁 `UserService.java`
+
+```java
+public class UserService {
+
+    private final UserRepository userRepository;
+
+    public UserService(UserRepository userRepository) {
+        this.userRepository = userRepository;
+    }
+
+    public String getUsername(int id) {
+        User user = userRepository.findUserById(id);
+        return user != null ? user.getName() : "Unknown";
+    }
+}
+```
+
+---
+
+### ✅ Test with Mockito (JUnit 5)
+
+📁 `UserServiceTest.java`
+
+```java
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+
+@ExtendWith(MockitoExtension.class)
+class UserServiceTest {
+
+    @Mock
+    UserRepository userRepository;
+
+    @InjectMocks
+    UserService userService;
+
+    @Test
+    void testGetUsername() {
+        // Arrange
+        when(userRepository.findUserById(101)).thenReturn(new User(101, "Prem"));
+
+        // Act
+        String result = userService.getUsername(101);
+
+        // Assert
+        assertEquals("Prem", result);
+    }
+
+    @Test
+    void testUserNotFound() {
+        when(userRepository.findUserById(999)).thenReturn(null);
+        assertEquals("Unknown", userService.getUsername(999));
+    }
+}
+```
+
+---
+
+Let me know if you want a **Spring Boot REST Controller + @MockBean** version also.
