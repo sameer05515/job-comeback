@@ -145,6 +145,7 @@ Let me know if you want:
 * ✅ Focused set: only Streams / Only Optional / Only Interface Enhancements etc.
 * 
 
+[PermGen vs Metaspace in Java](../java-8/PermGen-vs-Metaspace-in-Java.md)
 
 [What is difference between intermediate and terminal operations](../java-8/java-8--what-is-difference-between-intermediate-and-terminal-operations.md)
 
