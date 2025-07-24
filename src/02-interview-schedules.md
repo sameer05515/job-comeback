@@ -57,3 +57,4 @@
 - [what is role of volatile keyword in multithreading](./java/multithreading/java-multithreading--what-is-role-of-volatile-keyword-in-multithreading.md)
 - [Microservices communication]
 - [PermGen vs Metaspace in Java](./java-8/PermGen-vs-Metaspace-in-Java.md)
+- [how microservices communicate each other?](./microservices/microservices--how-microservices-communicate-each-other.md)
