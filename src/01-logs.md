@@ -44,3 +44,11 @@ https://www.udemy.com/course/mockito-tutorial-with-junit-examples/learn/lecture/
 ---
 ---
 
+# 25 July 2025
+
+- Learning **Java Masterclass 2025: 130+ Hours of Expert Lessons**
+
+https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lecture/34998522#overview
+
+---
+---
