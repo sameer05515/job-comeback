@@ -52,3 +52,13 @@ https://www.udemy.com/course/java-the-complete-java-developer-course/learn/lectu
 
 ---
 ---
+
+# 27 July 2025
+
+- Learning **MongoDB (NoSQL) With Spring Boot using Spring Data. Learn to deploy Spring Boot App to Pivotal Cloud Foundry with mLab**
+
+https://www.udemy.com/course/mongodb-with-spring-boot-spring-data-mongorepository-mlab-cloudfoundry/learn/lecture/18329484#overview
+
+---
+---
+
