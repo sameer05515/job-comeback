@@ -58,3 +58,9 @@
 - [Microservices communication]
 - [PermGen vs Metaspace in Java](./java-8/PermGen-vs-Metaspace-in-Java.md)
 - [how microservices communicate each other?](./microservices/microservices--how-microservices-communicate-each-other.md)
+
+
+# 28 July 2025
+# Wipro BerriBot interview
+
+- [java program to Check if one string is a rotation of another](./java/programs/001.md)
