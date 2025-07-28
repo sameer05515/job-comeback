@@ -2,6 +2,8 @@
 > 
 > The biggest advantage of going for a microservices architecture is that you can make changes easily. To make a change, you only need to make a change in a specific microservice and deploy it. You don't really need to test everything else that is not changing. You'll also be able to innovate quickly, because each microservice is independent from the others. You'll be able to try new things — you'll be able to try new frameworks, new approaches when it comes to your microservices architecture.
 
+> https://www.youtube.com/shorts/oeTdlqO0gdQ
+
 
 
 - [What are microservices?](../microservices/what-is-microservices.md)
