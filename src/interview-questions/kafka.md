@@ -4,7 +4,7 @@
 
 ### 🔹 **Basic Level**
 
-1. **What is Apache Kafka?**
+1. [**What is Apache Kafka?**](../kafka/what-is-apache-kafka.md)
 2. **What is a Topic in Kafka?**
 3. **What is a Partition and why is it used?**
 4. **What is the difference between a Producer and a Consumer?**
@@ -49,6 +49,8 @@
 28. **How to configure retry and backoff for Kafka listeners?**
 29. **What is `@KafkaListener`? How does it work under the hood?**
 30. **How do you secure Kafka with SSL or SASL in Spring Boot?**
+
+- [**How to run kafka in docker?**](../kafka/how-to-run-kafka-in-docker.md)
 
 ---
 
