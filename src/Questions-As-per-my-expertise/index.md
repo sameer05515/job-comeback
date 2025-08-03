@@ -86,10 +86,10 @@ Please vist [**here**](/testing?tester=InterviewFinalRoundPreparationV1) for det
 
 ## 10 Builder Pattern Questions
 
-- What are the advantages of the Builder Pattern over telescoping constructors in Java?
-- How would you use the Builder Pattern to construct complex JSON responses?
-- Provide a use case for the Builder Pattern in your microservices experience.
-- How would you implement the Builder Pattern for constructing immutable objects?
+- [What are the advantages of the Builder Pattern over telescoping constructors in Java?](./ques-and-ans/design-patterns--what-are-the-advantages-of-the-builder-pattern-over-telescoping-constructors-in-java.md)
+- [How would you use the Builder Pattern to construct complex JSON responses?](./ques-and-ans/design-patterns--how-would-you-use-the-builder-pattern-to-construct-complex-json-responses.md)
+- [Provide a use case for the Builder Pattern in your microservices experience.](./ques-and-ans/design-patterns--provide-a-use-case-for-the-builder-pattern-in-your-microservices-experience.md)
+- [How would you implement the Builder Pattern for constructing immutable objects?](./ques-and-ans/design-patterns--how-would-you-implement-the-builder-pattern-for-constructing-immutable-objects.md)
 - Discuss a scenario where the Builder Pattern improved code readability and maintainability.
 - How can you use the Builder Pattern in creating dynamic SQL queries?
 - Explain the difference between the Factory Pattern and Builder Pattern with examples.
@@ -132,7 +132,7 @@ Please vist [**here**](/testing?tester=InterviewFinalRoundPreparationV1) for det
 
 ## Additional Questions
 
-- **Question:** Write a Java program to remove duplicates from an array.
+- **Question:** [Write a Java program to remove duplicates from an array.](./ques-and-ans/java--write-a-java-program-to-remove-duplicates-from-an-array.md)
 - **Question:** [Write a Java program to find the second largest element in an array.](./ques-and-ans/java-programs--write-a-java-program-to-find-the-second-largest-element-in-an-array.md)
 - **Question:** [Write a Java program to demonstrate the use of ArrayList and LinkedList.](./ques-and-ans/java-programs--write-a-java-program-to-demonstrate-the-use-of-arraylist-and-linkedlist.md)
 - **Question:** Write a program to demonstrate polymorphism in Java.
