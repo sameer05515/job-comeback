@@ -67,3 +67,35 @@ Internally:
 ### 🧠 HashMap is NOT thread-safe!
 
 Use `ConcurrentHashMap` in multi-threaded environments.
+
+
+---
+---
+
+# in which version Entry got replaced with Node in hashmap?
+
+In **Java 8**, the internal implementation of `HashMap` replaced the `Entry` class with a new internal class called `Node`.
+
+---
+
+### 🔄 Summary of the Change:
+
+| Java Version     | Internal Class Used                |
+| ---------------- | ---------------------------------- |
+| Java 7 and below | `Entry<K, V>` (static inner class) |
+| Java 8 and above | `Node<K, V>` (static inner class)  |
+
+---
+
+### Why the change?
+
+Java 8 introduced performance improvements to `HashMap`, such as using **Red-Black Trees** in buckets when hash collisions exceed a threshold (default is 8). To support this change:
+
+* `Node<K, V>` became the new basic storage class.
+* `TreeNode<K, V>` extends `Node<K, V>` for tree-based buckets.
+
+These enhancements required a more flexible structure than the old `Entry` class.
+
+---
+
+✅ You can confirm this in the source code of `java.util.HashMap` in the Java 8 JDK.
