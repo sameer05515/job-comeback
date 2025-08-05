@@ -102,7 +102,7 @@
 - [As a spring boot developer having 8+ years of experience, What are technical challenges you have observed and how you have handled them?](./spring-boot/18.md)
 - [As a reactjs developer having 8+ years of experience, What are technical challenges you have observed and how you have handled them?](./reactjs/reactjs--technical-challenges-you-have-observed-and-how-you-have-handled-them.md)
 - [Can we save a pdf, xmlfile data in mongodb](./mongodb/01.md)
-- [Spring boot me multithreading kaise use karenge?]
+- [Spring boot me multithreading kaise use karenge?](./spring-boot/spring-boot-me-multithreading-kaise-use-karenge.md)
 
 ---
 ---
@@ -114,7 +114,7 @@
 - What is difference between @Component, @Service, @Controller
 - Why we use Fiegn client
 - What are different ways for Inter-Service communication in microservices
-- What is difference between HashMap and ConcurrentHashMap
+- [What is difference between HashMap and ConcurrentHashMap](./java/what-is-difference-between-hashmap-and-concurrenthashmap.md)
 - What is use of useEffect hook?
 - Write a query to return all customer count having duplicate email and phone values
 - Optimizing SQL
