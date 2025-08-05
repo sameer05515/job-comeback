@@ -62,9 +62,13 @@ Reply with:
 * 
 
 
+- [How to add redux in a react application?](../reactjs/how-to-add-redux-in-a-react-application.md)
+
 ---
 ---
 
 # Javascript questions 
 
 - [ES6 FEATURES](../javascript/ES6-features.md)
+
+- 
