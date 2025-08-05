@@ -59,11 +59,16 @@
 - [PermGen vs Metaspace in Java](./java-8/PermGen-vs-Metaspace-in-Java.md)
 - [how microservices communicate each other?](./microservices/microservices--how-microservices-communicate-each-other.md)
 
+---
+---
 
 # 28 July 2025
 # Wipro BerriBot interview
 
 - [java program to Check if one string is a rotation of another](./java/programs/001.md)
+
+---
+---
 
 # 02 Aug 2025
 # L1 discussion Infinite
@@ -71,6 +76,9 @@
 - What is dependency injection
 - what is exception handling in spring boot rest application
 - What is difference between functional and class components
+
+---
+---
 
 
 # 05 Aug 2025
@@ -83,6 +91,10 @@
 - Internal working of HashMap
 - Given list of Employees (id, name,age) . Write java 8 code to sort employees in ascending order of age.
 
+
+---
+---
+
 # 05 Aug 2025
 # L2 discussion Infinite
 
@@ -91,3 +103,27 @@
 - [As a reactjs developer having 8+ years of experience, What are technical challenges you have observed and how you have handled them?](./reactjs/reactjs--technical-challenges-you-have-observed-and-how-you-have-handled-them.md)
 - [Can we save a pdf, xmlfile data in mongodb](./mongodb/01.md)
 - [Spring boot me multithreading kaise use karenge?]
+
+---
+---
+
+
+# 05 Aug 2025
+# Virtual Labs
+
+- What is difference between @Component, @Service, @Controller
+- Why we use Fiegn client
+- What are different ways for Inter-Service communication in microservices
+- What is difference between HashMap and ConcurrentHashMap
+- What is use of useEffect hook?
+- Write a query to return all customer count having duplicate email and phone values
+- Optimizing SQL
+
+
+**Few suggestions**  
+- do lots of mock interviews
+- do lots of coding excercises
+- move towards java + Python
+
+---
+---
