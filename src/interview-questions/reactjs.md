@@ -63,6 +63,7 @@ Reply with:
 
 
 - [How to add redux in a react application?](../reactjs/how-to-add-redux-in-a-react-application.md)
+- [what is difference between React.memo and useMemo](../reactjs/what-is-difference-between-reactmemo-and-usememo.md)
 
 ---
 ---

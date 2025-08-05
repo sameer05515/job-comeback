@@ -64,3 +64,30 @@
 # Wipro BerriBot interview
 
 - [java program to Check if one string is a rotation of another](./java/programs/001.md)
+
+# 02 Aug 2025
+# L1 discussion Infinite
+
+- What is dependency injection
+- what is exception handling in spring boot rest application
+- What is difference between functional and class components
+
+
+# 05 Aug 2025
+# Birlasoft
+
+- What is diffenece between WebClient and RestTemplate
+- how to build API Gateway
+- how to build Service Discovery
+- What is predicate in java 8
+- Internal working of HashMap
+- Given list of Employees (id, name,age) . Write java 8 code to sort employees in ascending order of age.
+
+# 05 Aug 2025
+# L2 discussion Infinite
+
+- [Spring boot application me ek property file project ka bhitar kahi rakhi hai. usko kaise use karenge.](./spring-boot/17.md)
+- [As a spring boot developer having 8+ years of experience, What are technical challenges you have observed and how you have handled them?](./spring-boot/18.md)
+- [As a reactjs developer having 8+ years of experience, What are technical challenges you have observed and how you have handled them?](./reactjs/reactjs--technical-challenges-you-have-observed-and-how-you-have-handled-them.md)
+- [Can we save a pdf, xmlfile data in mongodb](./mongodb/01.md)
+- [Spring boot me multithreading kaise use karenge?]
