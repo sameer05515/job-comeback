@@ -88,7 +88,7 @@
 - how to build API Gateway
 - how to build Service Discovery
 - What is predicate in java 8
-- Internal working of HashMap
+- [Internal working of HashMap](./java/internal-working-of-hashmap.md)
 - Given list of Employees (id, name,age) . Write java 8 code to sort employees in ascending order of age.
 
 
