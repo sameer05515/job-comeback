@@ -75,7 +75,7 @@
 
 - [What is dependency injection](./spring-boot/spring-boot--what-is-dependency-injection.md)
 - what is exception handling in spring boot rest application
-- What is difference between functional and class components in reactjs
+- [What is difference between functional and class components in reactjs](./reactjs/difference-between-functional-and-class-components.md)
 
 ---
 ---
