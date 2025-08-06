@@ -85,9 +85,9 @@
 # Birlasoft
 
 - What is diffenece between WebClient and RestTemplate
-- how to build API Gateway
-- how to build Service Discovery
-- Predicate in java 8
+- [how to build API Gateway](./microservices/spring-boot--how-to-build-api-gateway.md)
+- [how to build Service Discovery](./microservices/spring-boot--how-to-build-service-discovery.md)
+- [Predicate in java 8](./java-8/predicate-in-java-8.md)
 - [Internal working of HashMap](./java/internal-working-of-hashmap.md)
 - [Given list of Employees (id, name,age) . Write java 8 code to sort employees in ascending order of age.](./java-8/programs/005.md)
 
@@ -114,8 +114,8 @@
 # Virtual Labs
 
 - [What is difference between @Component, @Service, @Controller](./spring-boot/spring-boot--what-is-difference-between-component-service-controller.md)
-- Why we use Fiegn client
-- What are different ways for Inter-Service communication in microservices
+- [Why we use Fiegn client](./microservices/spring-boot--why-we-use-fiegn-client.md)
+- [What are different ways for Inter-Service communication in microservices](./microservices/microservices--how-microservices-communicate-each-other.md)
 - [What is difference between HashMap and ConcurrentHashMap](./java/what-is-difference-between-hashmap-and-concurrenthashmap.md)
 - What is use of useEffect hook?
 - [Write a query to return all customer count having duplicate email and phone values](./sql/002.md)
