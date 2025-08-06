@@ -75,7 +75,7 @@
 
 - What is dependency injection
 - what is exception handling in spring boot rest application
-- What is difference between functional and class components
+- What is difference between functional and class components in reactjs
 
 ---
 ---
@@ -84,7 +84,7 @@
 # 05 Aug 2025
 # Birlasoft
 
-- What is diffenece between WebClient and RestTemplate
+- [What is diffenece between WebClient and RestTemplate](./spring-boot/spring-boot--what-is-difference-between-webclient-and-resttemplate.md)
 - [how to build API Gateway](./microservices/spring-boot--how-to-build-api-gateway.md)
 - [how to build Service Discovery](./microservices/spring-boot--how-to-build-service-discovery.md)
 - [Predicate in java 8](./java-8/predicate-in-java-8.md)
