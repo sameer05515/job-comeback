@@ -43,7 +43,7 @@
 - [What is difference between intermediate and terminal operations](./java-8/java-8--what-is-difference-between-intermediate-and-terminal-operations.md)
 - What lazy operations
 - [What are new features introduced in java 17](./java/java--what-are-new-features-introduced-in-java-17.md)
-- What are key features introduced in java 8
+- [What are key features introduced in java 8](./java-8/001.md)
 - What is default methods in predicate
 - [What is state in Reactjs](./reactjs/reactjs--what-is-state-in-reactjs.md)
 - [stateful and stateless functions in Stream API](./java-8/java8--stateful-and-stateless-functions-in-stream-api.md)
