@@ -87,9 +87,9 @@
 - What is diffenece between WebClient and RestTemplate
 - how to build API Gateway
 - how to build Service Discovery
-- What is predicate in java 8
+- Predicate in java 8
 - [Internal working of HashMap](./java/internal-working-of-hashmap.md)
-- Given list of Employees (id, name,age) . Write java 8 code to sort employees in ascending order of age.
+- [Given list of Employees (id, name,age) . Write java 8 code to sort employees in ascending order of age.](./java-8/programs/005.md)
 
 
 ---
@@ -103,6 +103,7 @@
 - [As a reactjs developer having 8+ years of experience, What are technical challenges you have observed and how you have handled them?](./reactjs/reactjs--technical-challenges-you-have-observed-and-how-you-have-handled-them.md)
 - [Can we save a pdf, xmlfile data in mongodb](./mongodb/01.md)
 - [Spring boot me multithreading kaise use karenge?](./spring-boot/spring-boot-me-multithreading-kaise-use-karenge.md)
+- [Write java 8+ program to create a map having deptId and list of Employee names from given employee list](./java-8/programs/005.md)
 
 ---
 ---
