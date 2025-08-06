@@ -113,7 +113,7 @@
 # 05 Aug 2025
 # Virtual Labs
 
-- What is difference between @Component, @Service, @Controller
+- [What is difference between @Component, @Service, @Controller](./spring-boot/spring-boot--what-is-difference-between-component-service-controller.md)
 - Why we use Fiegn client
 - What are different ways for Inter-Service communication in microservices
 - [What is difference between HashMap and ConcurrentHashMap](./java/what-is-difference-between-hashmap-and-concurrenthashmap.md)
