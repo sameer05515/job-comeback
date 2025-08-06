@@ -73,7 +73,7 @@
 # 02 Aug 2025
 # L1 discussion Infinite
 
-- What is dependency injection
+- [What is dependency injection](./spring-boot/spring-boot--what-is-dependency-injection.md)
 - what is exception handling in spring boot rest application
 - What is difference between functional and class components in reactjs
 
@@ -117,7 +117,7 @@
 - [Why we use Fiegn client](./microservices/spring-boot--why-we-use-fiegn-client.md)
 - [What are different ways for Inter-Service communication in microservices](./microservices/microservices--how-microservices-communicate-each-other.md)
 - [What is difference between HashMap and ConcurrentHashMap](./java/what-is-difference-between-hashmap-and-concurrenthashmap.md)
-- What is use of useEffect hook?
+- [What is use of useEffect hook?](./reactjs/purpose-of-use-effect-hook.md)
 - [Write a query to return all customer count having duplicate email and phone values](./sql/002.md)
 - [Optimizing SQL](./sql/optimizing-sql-queries.md)
 
