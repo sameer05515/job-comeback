@@ -104,6 +104,7 @@
 - [Can we save a pdf, xmlfile data in mongodb](./mongodb/01.md)
 - [Spring boot me multithreading kaise use karenge?](./spring-boot/spring-boot-me-multithreading-kaise-use-karenge.md)
 - [Write java 8+ program to create a map having deptId and list of Employee names from given employee list](./java-8/programs/005.md)
+- [caching in spring boot rest application](./spring-boot/caching-in-spring-boot-application.md)
 
 ---
 ---
