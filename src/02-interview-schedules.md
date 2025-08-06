@@ -116,7 +116,7 @@
 - What are different ways for Inter-Service communication in microservices
 - [What is difference between HashMap and ConcurrentHashMap](./java/what-is-difference-between-hashmap-and-concurrenthashmap.md)
 - What is use of useEffect hook?
-- Write a query to return all customer count having duplicate email and phone values
+- [Write a query to return all customer count having duplicate email and phone values](./sql/002.md)
 - Optimizing SQL
 
 
