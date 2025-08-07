@@ -24,8 +24,8 @@ Here are Java Serialization-related interview questions only (no answers, as req
 13. Can you customize the serialization process?
 14. What is the role of `readObject()` and `writeObject()` methods?
 15. What is `ObjectOutputStream` and `ObjectInputStream`?
-16. How do you prevent a class from being serialized?
-17. Can you serialize a singleton class? How?
+16. [How do you prevent a class from being serialized?](./how-do-you-prevent-a-class-from-being-serialized.md)
+17. [Can you serialize a singleton class? How?](./can-you-serialize-a-singleton-class--how.md)
 18. How to exclude a field from serialization?
 
 ---
@@ -38,7 +38,7 @@ Here are Java Serialization-related interview questions only (no answers, as req
 22. What is the role of `ObjectStreamClass`?
 23. How to change the serialized form of a class without breaking compatibility?
 24. What alternatives are there to Java's default serialization?
-25. What are the security concerns with Java serialization?
+25. [What are the security concerns with Java serialization?](./what-are-the-security-concerns-with-java-serialization.md)
 
 ---
 
