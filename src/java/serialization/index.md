@@ -19,8 +19,8 @@ Here are Java Serialization-related interview questions only (no answers, as req
 ### 🔹 **Intermediate Level**
 
 10. [How does Java handle versioning in serialization?](./how-does-java-handle-versioning-in-serialization.md)
-11. What is the use of `Externalizable` interface?
-12. Difference between `Serializable` and `Externalizable`?
+11. [What is the use of `Externalizable` interface?](./what-is-the-use-of-externalizable-interface.md)
+12. [Difference between `Serializable` and `Externalizable`?](./difference-between-serializable-and-externalizable.md)
 13. Can you customize the serialization process?
 14. What is the role of `readObject()` and `writeObject()` methods?
 15. What is `ObjectOutputStream` and `ObjectInputStream`?
