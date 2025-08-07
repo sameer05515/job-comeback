@@ -132,3 +132,11 @@
 
 ---
 ---
+
+# 07 Aug 2025
+## Infinite client UI round (L3)
+
+- [is state management in react synchronous?](./reactjs/is-state-management-in-react-synchronous.md)
+- [What are rules of memoization in react?](./reactjs/what-are-rules-of-memoization-in-react.md)
+- [Explain virtual DOM in react?](./reactjs/explain-virtual-dom-in-react.md)
+- [what are commonly used design patterns in creating reactjs components](./reactjs/)
