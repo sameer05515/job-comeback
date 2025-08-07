@@ -1,0 +1,45 @@
+Here are Java Serialization-related interview questions only (no answers, as requested):
+
+---
+
+### 🔹 **Basic Level**
+
+1. What is serialization in Java?
+2. What is the purpose of the `Serializable` interface?
+3. Can you serialize static fields?
+4. What is the use of `serialVersionUID`?
+5. What happens if `serialVersionUID` is not defined?
+6. What is the default value of `serialVersionUID`?
+7. Can a class be serialized if it has a reference to a non-serializable object?
+8. What is the difference between `transient` and `static` in serialization?
+9. What will happen if a `transient` variable is serialized?
+
+---
+
+### 🔹 **Intermediate Level**
+
+10. How does Java handle versioning in serialization?
+11. What is the use of `Externalizable` interface?
+12. Difference between `Serializable` and `Externalizable`?
+13. Can you customize the serialization process?
+14. What is the role of `readObject()` and `writeObject()` methods?
+15. What is `ObjectOutputStream` and `ObjectInputStream`?
+16. How do you prevent a class from being serialized?
+17. Can you serialize a singleton class? How?
+18. How to exclude a field from serialization?
+
+---
+
+### 🔹 **Advanced Level**
+
+19. What are the performance issues with Java serialization?
+20. How does Java serialization maintain object graph integrity?
+21. How to handle circular references during serialization?
+22. What is the role of `ObjectStreamClass`?
+23. How to change the serialized form of a class without breaking compatibility?
+24. What alternatives are there to Java's default serialization?
+25. What are the security concerns with Java serialization?
+
+---
+
+Let me know if you want detailed answers or code examples for any.

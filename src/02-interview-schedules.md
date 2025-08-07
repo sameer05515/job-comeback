@@ -146,8 +146,8 @@
 # 07 Aug 2025
 ## Persistent first round
 
-- Multithreading
-- Serialization
+- [Multithreading](./java/multithreading/index.md)
+- [Serialization](./java/serialization/index.md)
 - Singleton design pattern
 - Spring transaction
 - JWT
