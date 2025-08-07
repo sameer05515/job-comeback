@@ -122,6 +122,7 @@
 - [Write a query to return all customer count having duplicate email and phone values](./sql/002.md)
 - [Optimizing SQL](./sql/optimizing-sql-queries.md)
 - [write a java program to print current date time on interval of 1 second](./java/programs/002.md)
+- [What is difference between JVM, JRE, JDK](./java/jvm-jre-jdk.md)
 
 
 **Few suggestions**  
