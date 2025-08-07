@@ -99,3 +99,9 @@ These enhancements required a more flexible structure than the old `Entry` class
 ---
 
 ✅ You can confirm this in the source code of `java.util.HashMap` in the Java 8 JDK.
+
+---
+---
+
+# related youtube video
+- [Internal Working of HashMap & Java-8 Enhancement](https://www.youtube.com/watch?v=-oafFAPgLao)
