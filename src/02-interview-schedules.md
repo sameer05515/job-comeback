@@ -142,3 +142,14 @@
 - [what are commonly used design patterns in creating reactjs components](./reactjs/what-are-commonly-used-design-patterns-in-creating-reactjs-components.md)
 - [what will be output of (10+"1"-2)?](./javascript/programs/001.md)
 - [Can we have multiple stores in react application?](./reactjs/can-we-have-multiple-stores-in-react-application.md)
+
+# 07 Aug 2025
+## Persistent first round
+
+- Multithreading
+- Serialization
+- Singleton design pattern
+- Spring transaction
+- JWT
+- SQL
+
