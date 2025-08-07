@@ -4,8 +4,8 @@ Here are Java Serialization-related interview questions only (no answers, as req
 
 ### 🔹 **Basic Level**
 
-1. What is serialization in Java?
-2. What is the purpose of the `Serializable` interface?
+1. [What is serialization in Java?](./what-is-serialization-in-java.md)
+2. [What is the purpose of the `Serializable` interface?](./what-is-the-purpose-of-the-serializable-interface.md)
 3. Can you serialize static fields?
 4. What is the use of `serialVersionUID`?
 5. What happens if `serialVersionUID` is not defined?
