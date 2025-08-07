@@ -140,3 +140,5 @@
 - [What are rules of memoization in react?](./reactjs/what-are-rules-of-memoization-in-react.md)
 - [Explain virtual DOM in react?](./reactjs/explain-virtual-dom-in-react.md)
 - [what are commonly used design patterns in creating reactjs components](./reactjs/)
+- [what will be output of (10+"1"-2)?](./javascript/programs/001.md)
+- [Can we have multiple stores in react application?](./reactjs/can-we-have-multiple-stores-in-react-application.md)
