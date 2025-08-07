@@ -18,7 +18,7 @@ Here are Java Serialization-related interview questions only (no answers, as req
 
 ### 🔹 **Intermediate Level**
 
-10. How does Java handle versioning in serialization?
+10. [How does Java handle versioning in serialization?](./how-does-java-handle-versioning-in-serialization.md)
 11. What is the use of `Externalizable` interface?
 12. Difference between `Serializable` and `Externalizable`?
 13. Can you customize the serialization process?
