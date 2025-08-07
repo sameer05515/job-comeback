@@ -8,7 +8,7 @@ Here are Java Serialization-related interview questions only (no answers, as req
 2. [What is the purpose of the `Serializable` interface?](./what-is-the-purpose-of-the-serializable-interface.md)
 3. [Can you serialize static fields?](./can-you-serialize-static-fields.md)
 4. [What is the use of `serialVersionUID`?](./what-is-the-use-of-serialversionuid.md)
-5. What happens if `serialVersionUID` is not defined?
+5. [What happens if `serialVersionUID` is not defined?](./what-happens-if-serialversionuid-is-not-defined.md)
 6. What is the default value of `serialVersionUID`?
 7. Can a class be serialized if it has a reference to a non-serializable object?
 8. What is the difference between `transient` and `static` in serialization?
