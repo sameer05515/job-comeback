@@ -121,6 +121,7 @@
 - [What is use of useEffect hook?](./reactjs/purpose-of-use-effect-hook.md)
 - [Write a query to return all customer count having duplicate email and phone values](./sql/002.md)
 - [Optimizing SQL](./sql/optimizing-sql-queries.md)
+- [write a java program to print current date time on interval of 1 second](./java/programs/002.md)
 
 
 **Few suggestions**  
