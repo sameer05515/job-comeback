@@ -18,8 +18,8 @@
 - [what is difference between String and StringBuffer](./java/java--what-is-difference-between-string-and-stringbuffer.md)
 - How to make a class immutable
 - [Pass by value and pass by reference](./java/java--pass-by-value-and-pass-by-reference-in-java.md)
-- Write a query to find largest number from a table (say column is id, integer value)
-- write query to find third largest salary
+- [Write a query to find largest number from a table (say column is id, integer value)](./sql/003.md)
+- [write query to find third largest salary](./sql/003.md)
 - Write a java stream program to find 3rd largest number from given array
 - what is distributed transaction
 - tell me architecture of last project which you worked
