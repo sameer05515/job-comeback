@@ -124,7 +124,7 @@
 - [write a java program to print current date time on interval of 1 second](./java/programs/002.md)
 - [What is difference between JVM, JRE, JDK](./java/jvm-jre-jdk.md)
 - [Equals hashcode contract](./java/equals-hashcode-contract.md)
-- [Print word frequency map in ascending order of frequency]
+- [Print word frequency map in ascending order of frequency](./java-8/programs/006.md)
 
 
 **Few suggestions**  
