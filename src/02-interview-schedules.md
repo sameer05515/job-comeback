@@ -144,6 +144,9 @@
 - [what will be output of (10+"1"-2)?](./javascript/programs/001.md)
 - [Can we have multiple stores in react application?](./reactjs/can-we-have-multiple-stores-in-react-application.md)
 
+---
+---
+
 # 07 Aug 2025
 ## Persistent first round
 
@@ -152,5 +155,5 @@
 - Singleton design pattern
 - Spring transaction
 - JWT
-- SQL
+- [sql query to find all project names where employee name is 'Prem'](./sql/004.md)
 
