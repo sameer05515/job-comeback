@@ -123,6 +123,7 @@
 - [Optimizing SQL](./sql/optimizing-sql-queries.md)
 - [write a java program to print current date time on interval of 1 second](./java/programs/002.md)
 - [What is difference between JVM, JRE, JDK](./java/jvm-jre-jdk.md)
+- [Equals hashcode contract](./java/equals-hashcode-contract.md)
 
 
 **Few suggestions**  
