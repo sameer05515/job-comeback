@@ -168,7 +168,7 @@
 - String methods
 - [var limitations](./java-8/var-limitations.md)
 - [What is difference between @Component, @Service, @Controller](./spring-boot/spring-boot--what-is-difference-between-component-service-controller.md)
-- CompletableFuture
+- [CompletableFuture example](./java/multithreading/completablefuture-example.md)
 - Concurrency
 
 **Few suggestions**  
