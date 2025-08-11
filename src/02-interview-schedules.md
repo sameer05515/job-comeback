@@ -163,7 +163,7 @@
 ## Virtual Labs
 
 - [new features introduced in java 11 plus](./java/new-features-introduced-in-java-11-plus.md)
-- HttpClient
+- [HttpClient API](./java-8/tell-me-about-http-client-api.md)
 - Lambda parameters
 - String methods
 - [var limitations](./java-8/var-limitations.md)
