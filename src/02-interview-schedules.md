@@ -158,3 +158,22 @@
 - JWT
 - [sql query to find all project names where employee name is 'Prem'](./sql/004.md)
 
+
+# 11 Aug 2025
+## Virtual Labs
+
+- [new features introduced in java 11 plus](./java/new-features-introduced-in-java-11-plus.md)
+- HttpClient
+- Lambda parameters
+- String methods
+- [var limitations](./java-8/var-limitations.md)
+- [What is difference between @Component, @Service, @Controller](./spring-boot/spring-boot--what-is-difference-between-component-service-controller.md)
+- CompletableFuture
+- Concurrency
+
+**Few suggestions**  
+- do lots of mock interviews
+- do lots of coding excercises
+- move towards java + Python
+- Banking Domain
+
