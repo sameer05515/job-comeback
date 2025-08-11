@@ -164,7 +164,7 @@
 
 - [new features introduced in java 11 plus](./java/new-features-introduced-in-java-11-plus.md)
 - [HttpClient API](./java-8/tell-me-about-http-client-api.md)
-- Lambda parameters
+- [Lambda parameters](./java-8/lambda-parameters.md)
 - String methods
 - [var limitations](./java-8/var-limitations.md)
 - [What is difference between @Component, @Service, @Controller](./spring-boot/spring-boot--what-is-difference-between-component-service-controller.md)
