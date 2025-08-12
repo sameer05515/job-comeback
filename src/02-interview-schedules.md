@@ -179,6 +179,9 @@
 - Banking Domain
 
 
+---
+---
+
 # 12 Aug 2025
 ## Qualitest
 
@@ -235,3 +238,45 @@ export default function App() {
   return <button onClick={() => setCount(count + 1)}>Click</button>;
 }
 ```
+
+---
+---
+
+
+# 12 Aug 2025
+## Synechron L1
+
+- write sql query to delete duplicate records (identified by name).
+
+```sql
+
+-- create
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Clark', 'Sales');
+INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Accounting');
+INSERT INTO EMPLOYEE VALUES (0003, 'Ava', 'Sales');
+INSERT INTO EMPLOYEE VALUES (0004, 'Clark', 'Sales');
+INSERT INTO EMPLOYEE VALUES (0005, 'Dave', 'Accounting');
+INSERT INTO EMPLOYEE VALUES (0006, 'Ava', 'Sales');
+INSERT INTO EMPLOYEE VALUES (0007, 'Prem', 'Sales');
+INSERT INTO EMPLOYEE VALUES (0008, 'Sameer', 'Accounting');
+INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
+
+```
+
+- How collision is handled in HashMap
+- what is difference between ConcurrentHashMap and SynchronisedMap
+- Multithreading
+- what is difference between Field injection and Constructor injection? which one is preffered ?
+- Spring boot lazy loading
+- difference between @Controller and @RestController
+- Which design patterns you have used in Microservices
+- What are different ways of communication in microservices?
+- What is difference between `git fetch` and `git pull`
+- What is difference between NoSql and SQL databases? which one should be used when?
