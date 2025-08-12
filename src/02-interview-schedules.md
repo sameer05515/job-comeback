@@ -190,7 +190,7 @@
 
 - What is difference between Functional and class components
 
-- please explain, why "<input value="Hello" />" is not editable
+- please explain, why ```<input value="Hello" />``` is not editable
 
 ```
 export default function App() {
