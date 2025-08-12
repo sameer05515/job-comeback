@@ -271,7 +271,7 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 ```
 
 - How collision is handled in HashMap
-- what is difference between ConcurrentHashMap and SynchronisedMap
+- [what is difference between ConcurrentHashMap and SynchronisedMap](./java/concurrenthashmap-vs-synchronizedmap-comparison.md)
 - [What are 3rd party api libraries to be used with multi threading](./java/multithreading/3rd-party-api-libraries-to-be-used-with-multi-threading.md)
 - what is difference between Field injection and Constructor injection? which one is preffered ?
 - Spring boot lazy loading
