@@ -201,3 +201,155 @@ public class AsyncPostJsonExample {
 
 Do you want me to also give you a **version with multiple async POST requests running in parallel** for interview prep? That’s a common follow-up question.
 
+
+---
+---
+
+# **version with multiple async POST requests running in parallel**
+
+Here’s a **Java 11 HttpClient + CompletableFuture** example making **multiple async POST requests in parallel** and processing all results when done:
+
+```java
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.http.HttpRequest.BodyPublishers;
+import java.net.http.HttpResponse.BodyHandlers;
+import java.time.Duration;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+import java.util.stream.Collectors;
+
+public class MultipleAsyncPostExample {
+    public static void main(String[] args) {
+        HttpClient client = HttpClient.newHttpClient();
+
+        List<String> jsonBodies = List.of(
+                """
+                {"name": "John Doe", "age": 30}
+                """,
+                """
+                {"name": "Jane Smith", "age": 25}
+                """,
+                """
+                {"name": "Mike Johnson", "age": 40}
+                """
+        );
+
+        List<CompletableFuture<HttpResponse<String>>> futures = jsonBodies.stream()
+                .map(json -> {
+                    HttpRequest request = HttpRequest.newBuilder()
+                            .uri(URI.create("https://jsonplaceholder.typicode.com/posts"))
+                            .timeout(Duration.ofSeconds(10))
+                            .header("Content-Type", "application/json")
+                            .POST(BodyPublishers.ofString(json))
+                            .build();
+                    return client.sendAsync(request, BodyHandlers.ofString());
+                })
+                .collect(Collectors.toList());
+
+        CompletableFuture<Void> allFutures = CompletableFuture.allOf(
+                futures.toArray(new CompletableFuture[0])
+        );
+
+        allFutures
+                .thenRun(() -> {
+                    System.out.println("All requests completed!");
+                    futures.forEach(future -> {
+                        try {
+                            HttpResponse<String> response = future.join();
+                            System.out.println("Status: " + response.statusCode());
+                            System.out.println("Body: " + response.body());
+                        } catch (Exception e) {
+                            System.err.println("Error: " + e.getMessage());
+                        }
+                    });
+                })
+                .join(); // Wait for all to finish
+    }
+}
+```
+
+**Key points for interviews:**
+
+* `CompletableFuture.allOf()` waits for all futures to complete.
+* Requests run **truly in parallel** (I/O bound) with a single `HttpClient`.
+* Using `.join()` instead of `.get()` avoids checked exceptions.
+* Useful for **batch API calls** or microservices communication.
+
+I can also show you a **version that collects results into a `List<String>` without manually looping** using streams — it’s a neat functional style often asked in interviews. Would you like that?
+
+
+---
+---
+
+# a **version that collects results into a `List<String>` without manually looping** using streams
+
+Here’s the **functional style version** that collects all async POST responses into a `List<String>` without manually looping:
+
+```java
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.http.HttpRequest.BodyPublishers;
+import java.net.http.HttpResponse.BodyHandlers;
+import java.time.Duration;
+import java.util.List;
+import java.util.concurrent.CompletableFuture;
+import java.util.stream.Collectors;
+
+public class MultipleAsyncPostFunctional {
+    public static void main(String[] args) {
+        HttpClient client = HttpClient.newHttpClient();
+
+        List<String> jsonBodies = List.of(
+                """
+                {"name": "John Doe", "age": 30}
+                """,
+                """
+                {"name": "Jane Smith", "age": 25}
+                """,
+                """
+                {"name": "Mike Johnson", "age": 40}
+                """
+        );
+
+        List<CompletableFuture<String>> futures = jsonBodies.stream()
+                .map(json -> {
+                    HttpRequest request = HttpRequest.newBuilder()
+                            .uri(URI.create("https://jsonplaceholder.typicode.com/posts"))
+                            .timeout(Duration.ofSeconds(10))
+                            .header("Content-Type", "application/json")
+                            .POST(BodyPublishers.ofString(json))
+                            .build();
+
+                    return client.sendAsync(request, BodyHandlers.ofString())
+                            .thenApply(HttpResponse::body);
+                })
+                .collect(Collectors.toList());
+
+        // Combine all into a single future that contains a list of results
+        CompletableFuture<List<String>> allResponses = CompletableFuture.allOf(
+                futures.toArray(new CompletableFuture[0])
+        ).thenApply(v ->
+                futures.stream()
+                        .map(CompletableFuture::join)
+                        .collect(Collectors.toList())
+        );
+
+        // Get and print results
+        List<String> results = allResponses.join();
+        results.forEach(System.out::println);
+    }
+}
+```
+
+**Why this is cleaner:**
+
+* The `thenApply(HttpResponse::body)` transformation extracts only the body at each step.
+* `CompletableFuture.allOf()` returns a `Void` future, but we map it into a list in `.thenApply()`.
+* No manual `forEach()` after completion — it’s handled inside the functional chain.
+
+If you want, I can show a **non-blocking version** that just prints results as they arrive instead of waiting for all. That’s a pattern often asked in *reactive programming* interviews.
