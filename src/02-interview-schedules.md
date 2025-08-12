@@ -246,7 +246,7 @@ export default function App() {
 # 12 Aug 2025
 ## Synechron L1
 
-- write sql query to delete duplicate records (identified by name).
+- [write sql query to delete duplicate records (identified by name).](./sql/sql-query-to-delete-duplicate-records-identified-by-name.md)
 
 ```sql
 
