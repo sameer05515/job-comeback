@@ -178,3 +178,46 @@
 - move towards java + Python
 - Banking Domain
 
+
+# 12 Aug 2025
+## Qualitest
+
+- [What is JMM  (Java memory model) in java](./java/multithreading/what-is-jmm--java-memory-model-in-java.md)
+- [what is difference between wait, sleep and join](./java/multithreading/difference-between-wait-sleep-and-join.md)
+- [What is difference between volatile, synchronized and atomic variables](./java/multithreading/difference-between-volatile-synchronized-and-atomic-variables.md)
+- What is garbage collection in java
+- Feature flags in CI/CD
+
+- What is difference between Functional and class components
+
+- please explain, why "<input value="Hello" />" is not editable
+
+```
+export default function App() {
+return (
+<>
+    <input defaultValue="Hello" />
+    <input value="Hello" />
+</>
+);
+}
+
+```
+
+- What is the console output of below program
+
+```
+import React from "react";
+
+export default function App() {
+  const [count, setCount] = React.useState(0);
+  React.useEffect(() => {
+    console.log("effect runs");
+    return () => {
+      console.log("Cleanup runs");
+    };
+  }, [count]);
+
+  return <button onClick={() => setCount(count + 1)}>Click</button>;
+}
+```
