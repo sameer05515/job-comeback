@@ -106,3 +106,186 @@ Here’s a **quick reference table** for Java lambda parameter syntax variations
 ---
 
 If you want, I can also prepare a **Java Lambda Interview Q\&A sheet** with such short syntax tables + key rules. That would cover 90% of what’s asked in interviews.
+
+
+---
+---
+
+#  Java Lambda Interview Q&A sheet with such short syntax tables + key rules.
+
+Here’s a **Java Lambda Expressions Quick Interview Sheet** with **syntax variations** + **key rules** so you can revise fast.
+
+---
+
+## **1. Lambda Parameter Syntax Table**
+
+| **Case**                                    | **Syntax**                                 | **Example**                                |
+| ------------------------------------------- | ------------------------------------------ | ------------------------------------------ |
+| **No parameters**                           | `() -> expression`                         | `() -> System.out.println("Hello")`        |
+| **Single parameter (type inferred)**        | `x -> expression`                          | `n -> n * 2`                               |
+| **Single parameter (type declared)**        | `(String s) -> expression`                 | `(String s) -> s.length()`                 |
+| **Multiple parameters (type inferred)**     | `(a, b) -> expression`                     | `(x, y) -> x + y`                          |
+| **Multiple parameters (type declared)**     | `(int a, int b) -> expression`             | `(int x, int y) -> x * y`                  |
+| **Block body with return**                  | `(a, b) -> { return a + b; }`              | `(x, y) -> { return x + y; }`              |
+| **Block body without return**               | `(a, b) -> { System.out.println(a + b); }` | `(x, y) -> { System.out.println(x * y); }` |
+| **Single parameter (parentheses optional)** | `s -> s.toUpperCase()`                     | `name -> name.toUpperCase()`               |
+
+---
+
+## **2. Key Lambda Rules**
+
+1. **Type inference** – Java compiler infers parameter types from context (target type from functional interface).
+2. **Functional interface required** – Must have exactly **one abstract method** (e.g., `Runnable`, `Comparator`).
+3. **Parentheses**:
+
+   * Optional for **1 parameter without type**: `x -> x * x`
+   * Mandatory for **0 or multiple parameters** or when **type is declared**.
+4. **Return keyword**:
+
+   * Omit `return` if single expression (no `{}`).
+   * Must use `return` inside `{}` blocks.
+5. **Variable capture**:
+
+   * Can use variables from enclosing scope only if they are **final or effectively final**.
+6. **`this` keyword** inside lambda refers to **enclosing class instance**, not lambda itself.
+7. **No checked exceptions** unless declared in functional interface method.
+
+---
+
+## **3. Common Built-in Functional Interfaces**
+
+| **Interface**       | **Method**    | **Example Lambda**                |
+| ------------------- | ------------- | --------------------------------- |
+| `Runnable`          | `run()`       | `() -> System.out.println("Run")` |
+| `Callable<T>`       | `call()`      | `() -> "Done"`                    |
+| `Predicate<T>`      | `test(T t)`   | `x -> x > 10`                     |
+| `Function<T,R>`     | `apply(T t)`  | `x -> x.toString()`               |
+| `Consumer<T>`       | `accept(T t)` | `s -> System.out.println(s)`      |
+| `Supplier<T>`       | `get()`       | `() -> new Date()`                |
+| `BiFunction<T,U,R>` | `apply(T,U)`  | `(a, b) -> a + b`                 |
+| `BinaryOperator<T>` | `apply(T,T)`  | `(a, b) -> a * b`                 |
+
+---
+
+## **4. Quick Example**
+
+```java
+List<String> names = List.of("John", "Jane", "Mark");
+
+names.stream()
+     .filter(s -> s.startsWith("J"))        // Predicate
+     .map(String::toUpperCase)              // Function
+     .forEach(System.out::println);         // Consumer
+```
+
+---
+
+If you want, I can prepare a **similar one-page Q\&A sheet for Java Streams** so you can revise **Lambdas + Streams** together in interviews. That combo is often tested.
+
+
+---
+---
+
+# a **similar one-page Q\&A sheet for Java Streams** so you can revise **Lambdas + Streams** together in interviews
+
+Here’s your **Java Streams Quick Interview Q\&A Sheet** — compact, syntax-focused, and interview-ready.
+
+---
+
+## **1. Stream Creation**
+
+| **Source**         | **Example**                     |
+| ------------------ | ------------------------------- |
+| From `Collection`  | `list.stream()`                 |
+| From `Arrays`      | `Arrays.stream(arr)`            |
+| From `Stream.of()` | `Stream.of(1, 2, 3)`            |
+| Infinite Stream    | `Stream.iterate(0, n -> n + 2)` |
+
+---
+
+## **2. Intermediate Operations (lazy)**
+
+| **Operation**        | **Purpose**            | **Example**                  |
+| -------------------- | ---------------------- | ---------------------------- |
+| `filter`             | Keep matching elements | `.filter(x -> x > 5)`        |
+| `map`                | Transform elements     | `.map(String::toUpperCase)`  |
+| `flatMap`            | Flatten nested streams | `.flatMap(List::stream)`     |
+| `distinct`           | Remove duplicates      | `.distinct()`                |
+| `sorted()`           | Natural order          | `.sorted()`                  |
+| `sorted(Comparator)` | Custom order           | `.sorted((a,b) -> b-a)`      |
+| `peek`               | Debug (no change)      | `.peek(System.out::println)` |
+| `limit`              | Take first N           | `.limit(5)`                  |
+| `skip`               | Skip first N           | `.skip(3)`                   |
+
+---
+
+## **3. Terminal Operations (eager)**
+
+| **Operation** | **Purpose**            | **Example**                       |
+| ------------- | ---------------------- | --------------------------------- |
+| `forEach`     | Consume elements       | `.forEach(System.out::println)`   |
+| `collect`     | Mutable reduction      | `.collect(Collectors.toList())`   |
+| `toArray`     | Convert to array       | `.toArray(String[]::new)`         |
+| `reduce`      | Immutable reduction    | `.reduce(0, Integer::sum)`        |
+| `count`       | Count elements         | `.count()`                        |
+| `min/max`     | Find element           | `.max(Comparator.naturalOrder())` |
+| `anyMatch`    | At least one match     | `.anyMatch(x -> x > 10)`          |
+| `allMatch`    | All match              | `.allMatch(String::isEmpty)`      |
+| `noneMatch`   | No matches             | `.noneMatch(String::isEmpty)`     |
+| `findFirst`   | First element          | `.findFirst()`                    |
+| `findAny`     | Any element (parallel) | `.findAny()`                      |
+
+---
+
+## **4. Collectors**
+
+| **Collector**      | **Example**                                                |
+| ------------------ | ---------------------------------------------------------- |
+| `toList()`         | `.collect(Collectors.toList())`                            |
+| `toSet()`          | `.collect(Collectors.toSet())`                             |
+| `toMap()`          | `.collect(Collectors.toMap(k->k, v->v.length()))`          |
+| `joining()`        | `.collect(Collectors.joining(", "))`                       |
+| `groupingBy()`     | `.collect(Collectors.groupingBy(String::length))`          |
+| `partitioningBy()` | `.collect(Collectors.partitioningBy(s -> s.length() > 3))` |
+| `counting()`       | `.collect(Collectors.counting())`                          |
+| `summarizingInt()` | `.collect(Collectors.summarizingInt(String::length))`      |
+
+---
+
+## **5. Parallel Streams**
+
+```java
+list.parallelStream()
+    .filter(x -> x > 100)
+    .forEach(System.out::println);
+```
+
+* Use when operations are **stateless**, **non-blocking**, and data size is large.
+* Be careful with **thread safety** for shared mutable state.
+
+---
+
+## **6. Common Pitfalls**
+
+* **Streams are single-use** – once consumed, can’t reuse.
+* **Null elements** in source can break terminal ops (e.g., `map(String::length)`).
+* Avoid **stateful operations** inside parallel streams.
+* Don’t mix parallel + I/O heavy tasks — poor performance.
+
+---
+
+## **7. Quick Example**
+
+```java
+List<String> names = List.of("John", "Jane", "Mark", "John");
+
+Map<String, Long> freq =
+    names.stream()
+         .collect(Collectors.groupingBy(s -> s, Collectors.counting()));
+
+freq.forEach((k,v) -> System.out.println(k + " -> " + v));
+```
+
+---
+
+If you want, I can now combine **this Streams sheet** with the **Lambdas sheet** into a **single double-sided interview cheat sheet** so you can print and carry it. That way, both topics are revised together in one glance.
