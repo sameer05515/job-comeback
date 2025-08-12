@@ -185,8 +185,22 @@
 - [What is JMM  (Java memory model) in java](./java/multithreading/what-is-jmm--java-memory-model-in-java.md)
 - [what is difference between wait, sleep and join](./java/multithreading/difference-between-wait-sleep-and-join.md)
 - [What is difference between volatile, synchronized and atomic variables](./java/multithreading/difference-between-volatile-synchronized-and-atomic-variables.md)
-- What is garbage collection in java
+- [What is garbage collection in java](./java/memory-management/garbage-collection.md)
 - Feature flags in CI/CD
+
+- please explain what will be output of below program?
+
+```java
+public class Main{
+static int x=0;
+static { x=x++ + ++x + x-- + --x;}
+{ x=x++ + ++x;}
+public static void main(String[] args){
+new Main();
+System.out.println(x);
+}
+}
+```
 
 - What is difference between Functional and class components
 

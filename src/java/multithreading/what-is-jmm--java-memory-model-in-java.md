@@ -1,5 +1,7 @@
 You mean **JMM** = **Java Memory Model** (not "module").
 
+[Java Memory Model in 10 minutes](https://www.youtube.com/watch?v=Z4hMFBvCDV4)
+
 ---
 
 ### **Java Memory Model (JMM)**
@@ -74,3 +76,10 @@ JMM ensures **correct communication between threads** and prevents unexpected re
 ---
 
 If you want, I can make you a **JMM cheat diagram** showing *Main Memory ↔ Thread Working Memory ↔ Synchronization Points*, which makes it easy to remember for interviews.
+
+
+---
+---
+
+# **JMM cheat diagram** showing *Main Memory ↔ Thread Working Memory ↔ Synchronization Points*, which makes it easy to remember for interviews
+
