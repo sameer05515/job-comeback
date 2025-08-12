@@ -186,7 +186,7 @@
 - [what is difference between wait, sleep and join](./java/multithreading/difference-between-wait-sleep-and-join.md)
 - [What is difference between volatile, synchronized and atomic variables](./java/multithreading/difference-between-volatile-synchronized-and-atomic-variables.md)
 - [What is garbage collection in java](./java/memory-management/garbage-collection.md)
-- Feature flags in CI/CD
+- [Feature flags in CI/CD](./devops/feature-flags-in-ci--cd.md)
 
 - please explain what will be output of below program?
 
@@ -206,7 +206,7 @@ System.out.println(x);
 
 - please explain, why ```<input value="Hello" />``` is not editable
 
-```
+```js
 export default function App() {
 return (
 <>
@@ -220,7 +220,7 @@ return (
 
 - What is the console output of below program
 
-```
+```js
 import React from "react";
 
 export default function App() {
