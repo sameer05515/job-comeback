@@ -83,3 +83,55 @@ If you want, I can make you a **JMM cheat diagram** showing *Main Memory ↔ Thr
 
 # **JMM cheat diagram** showing *Main Memory ↔ Thread Working Memory ↔ Synchronization Points*, which makes it easy to remember for interviews
 
+Here’s a **text-based JMM cheat “diagram”** you can memorize quickly for interviews:
+
+```
+               ┌──────────────────────────────┐
+               │          Main Memory          │
+               │ (All shared variables live)   │
+               └──────────────┬───────────────┘
+                              ▲
+              (write / read   │   (read / write
+               via sync)      │    via sync)
+                              │
+          ┌───────────────────┴───────────────────┐
+          │             Thread 1                   │
+          │ ┌───────────────────────────────────┐ │
+          │ │   Working Memory (Thread-local)    │ │
+          │ │ - Cached copies of variables       │ │
+          │ │ - Can be stale until sync occurs   │ │
+          │ └───────────────────────────────────┘ │
+          └───────────────────▲───────────────────┘
+                              │
+     ┌────────────────────────┴─────────────────────────┐
+     │              Synchronization Points               │
+     │ (volatile, synchronized blocks, locks, final,     │
+     │  thread start/join, Atomic vars, etc.)            │
+     └───────────────────────────────────────────────────┘
+                              │
+          ┌───────────────────┴───────────────────┐
+          │             Thread 2                   │
+          │ ┌───────────────────────────────────┐ │
+          │ │   Working Memory (Thread-local)    │ │
+          │ │ - Cached copies of variables       │ │
+          │ │ - Can be stale until sync occurs   │ │
+          │ └───────────────────────────────────┘ │
+          └───────────────────────────────────────┘
+```
+
+---
+
+### **Key things to remember for interviews**
+
+1. **Main Memory** → where all shared variables actually live.
+2. **Thread Working Memory** → each thread keeps its own cached copy of variables.
+3. **Without synchronization** → threads may see stale values.
+4. **Synchronization Points** force:
+
+   * **Flush** → thread writes changes from working memory → main memory.
+   * **Invalidate & Reload** → thread reads fresh values from main memory.
+5. **Tools**: `volatile`, `synchronized`, `Lock`, `final` (safe publication), `Atomic` classes.
+
+---
+
+If you want, I can also prepare a **10-second JMM “story” mnemonic** so you recall the rules instantly in interviews without redrawing this. Would you like me to make that?
