@@ -275,7 +275,7 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 - [What are 3rd party api libraries to be used with multi threading](./java/multithreading/3rd-party-api-libraries-to-be-used-with-multi-threading.md)
 - [what is difference between Field injection and Constructor injection? which one is preffered ?](./spring-boot/field-injection-and-constructor-injection-comparison.md)
 - [Spring boot lazy loading](./spring-boot/lazy-loading-in-spring-boot.md)
-- difference between @Controller and @RestController
+- [difference between @Controller and @RestController](./spring-boot/controller-and-restcontroller-comparison.md)
 - Which design patterns you have used in Microservices
 - What are different ways of communication in microservices?
 - [What is difference between `git fetch` and `git pull`](./devops/git--what-is-difference-between-git-fetch-and-git-pull.md)
