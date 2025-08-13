@@ -191,6 +191,8 @@
 - [What is garbage collection in java](./java/memory-management/garbage-collection.md)
 - [Feature flags in CI/CD](./devops/feature-flags-in-ci--cd.md)
 
+- [Controlled vs Uncontrolled Components](./reactjs/controlled-vs-uncontrolled-components.md)
+
 - please explain what will be output of below program?
 
 ```java
