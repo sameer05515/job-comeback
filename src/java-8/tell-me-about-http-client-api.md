@@ -353,3 +353,78 @@ public class MultipleAsyncPostFunctional {
 * No manual `forEach()` after completion — it’s handled inside the functional chain.
 
 If you want, I can show a **non-blocking version** that just prints results as they arrive instead of waiting for all. That’s a pattern often asked in *reactive programming* interviews.
+
+
+---
+---
+
+# HttpClient se ek api invoke kar ke, response body ko kisi class me parse kar sakte hain??
+
+Haan, bilkul kar sakte hain 👍
+
+Java 11+ ke `HttpClient` ka use karke API call karo, phir JSON ko `ObjectMapper` (Jackson) ya `Gson` se apni POJO class me map kar sakte ho.
+
+---
+
+### Example — `HttpClient` + Jackson
+
+```java
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class ApiExample {
+    public static void main(String[] args) throws Exception {
+        // Step 1: HttpClient banaye
+        HttpClient client = HttpClient.newHttpClient();
+
+        // Step 2: Request banaye
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://jsonplaceholder.typicode.com/todos/1"))
+                .GET()
+                .build();
+
+        // Step 3: Response fetch kare
+        HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+
+        // Step 4: Jackson se parse kare
+        ObjectMapper mapper = new ObjectMapper();
+        Todo todo = mapper.readValue(response.body(), Todo.class);
+
+        // Step 5: Output print kare
+        System.out.println(todo);
+    }
+}
+
+// Sample POJO
+class Todo {
+    public int userId;
+    public int id;
+    public String title;
+    public boolean completed;
+
+    @Override
+    public String toString() {
+        return "Todo{" +
+                "userId=" + userId +
+                ", id=" + id +
+                ", title='" + title + '\'' +
+                ", completed=" + completed +
+                '}';
+    }
+}
+```
+
+---
+
+✅ **Key Points**
+
+* Java 11 `HttpClient` sirf String ya stream return karta hai → parsing ke liye Jackson/Gson ki zarurat hoti hai.
+* `ObjectMapper` me `readValue(String json, Class<T> type)` direct POJO me convert kar deta hai.
+* Async version bhi `sendAsync()` ke saath ban sakta hai.
+
+---
+
+Agar tum chaho to main is example ka **async + multiple parallel requests** wala version bhi bana sakta hoon.
