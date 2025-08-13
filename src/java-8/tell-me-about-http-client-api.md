@@ -463,3 +463,29 @@ Agar tum chaho to main is example ka **async + multiple parallel requests** wala
 
 If you want, I can prepare a **comparison table** for these with pros/cons + when to use which, so it’s easy to recall in interviews. Would you like me to make that?
 
+---
+---
+
+# a **comparison table** for these with pros/cons + when to use which
+
+Here’s your **Java REST API Client Comparison Table** for quick interview revision:
+
+---
+
+| **Library / API**                   | **Type**               | **Pros**                                                                                                             | **Cons**                                                            | **When to Use**                                      |
+| ----------------------------------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------- |
+| **HttpURLConnection** (Core Java)   | Low-level              | - Built-in (no deps) <br> - Works in all Java versions                                                               | - Verbose code <br> - Manual stream parsing <br> - No async support | Very small apps or avoiding dependencies             |
+| **HttpClient** (Java 11+)           | Built-in modern client | - Clean API <br> - Async with `CompletableFuture` <br> - HTTP/2 support <br> - Handles JSON with ObjectMapper easily | - Requires Java 11+ <br> - Not as high-level as Spring              | Modern Java apps, async calls, no framework          |
+| **RestTemplate** (Spring)           | High-level synchronous | - Very easy for JSON ↔ POJO <br> - Built-in with Spring <br> - Rich config                                           | - Blocking <br> - Deprecated for new dev (still maintained)         | Legacy Spring apps, quick sync calls                 |
+| **WebClient** (Spring WebFlux)      | Reactive / async       | - Non-blocking <br> - Supports streaming & backpressure <br> - Integrates with Mono/Flux                             | - Slight learning curve <br> - Requires Reactor understanding       | Reactive Spring apps, async/massive concurrent calls |
+| **JAX-RS Client** (Jersey/RESTEasy) | Standard API           | - Java EE standard <br> - Pluggable providers <br> - Fluent API                                                      | - Needs JAX-RS implementation <br> - Not in Core Java               | Jakarta EE or JAX-RS-based apps                      |
+| **Apache HttpClient**               | Third-party            | - Battle-tested <br> - Rich features (connection pool, cookies) <br> - Works with older Java                         | - Heavier than OkHttp <br> - More boilerplate than Retrofit         | Complex enterprise apps needing fine control         |
+| **OkHttp**                          | Third-party            | - Lightweight <br> - Async + HTTP/2 <br> - Easy to use                                                               | - Minimal features vs Apache <br> - No built-in JSON mapping        | Mobile (Android) or small footprint apps             |
+| **Retrofit** (on OkHttp)            | Declarative            | - Interface-based <br> - Auto JSON ↔ POJO <br> - Minimal boilerplate                                                 | - Needs OkHttp <br> - Extra learning curve                          | Declarative REST clients, Android, clean API design  |
+| **Feign** (Spring Cloud)            | Declarative            | - Just define interface + annotations <br> - Built-in load balancing (Ribbon) <br> - Integrates with Eureka/Consul   | - Requires Spring Cloud <br> - Less control over low-level HTTP     | Microservices with Spring Cloud                      |
+
+---
+
+If you want, I can also make a **flowchart** that helps pick **which one to use** based on project type, Java version, and async/sync needs — perfect for interviews.
+
+Do you want me to prepare that decision flowchart?
