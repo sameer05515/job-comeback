@@ -277,6 +277,6 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 - [Spring boot lazy loading](./spring-boot/lazy-loading-in-spring-boot.md)
 - [difference between @Controller and @RestController](./spring-boot/controller-and-restcontroller-comparison.md)
 - [Which design patterns you have used in Microservices](./design-patterns/common-design-patterns-used-in-microservices.md)
-- What are different ways of communication in microservices?
+- [What are different ways of communication in microservices?](./microservices/microservices--how-microservices-communicate-each-other.md)
 - [What is difference between `git fetch` and `git pull`](./devops/git--what-is-difference-between-git-fetch-and-git-pull.md)
 - [What is difference between NoSql and SQL databases? which one should be used when?](./sql/sql-vs-nosql.md)
