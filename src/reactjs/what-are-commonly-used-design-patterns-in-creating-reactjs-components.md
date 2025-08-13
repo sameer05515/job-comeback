@@ -1,5 +1,14 @@
 Here are **commonly used design patterns** when creating ReactJS components:
 
+
+- 1. **Presentational & Container Components (Smart/Dumb)**
+- 2. **Higher-Order Components (HOC)**
+- 3. **Render Props**
+- 4. **Custom Hooks**
+- 5. **Compound Components**
+- 6. **Controlled vs Uncontrolled Components**
+- 7. **Provider Pattern (Context API)**
+
 ---
 
 ### 🔹 1. **Presentational & Container Components (Smart/Dumb)**
