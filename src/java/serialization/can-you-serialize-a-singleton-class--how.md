@@ -78,3 +78,47 @@ Same instance? true
 ```
 
 Let me know if you want a version using `enum` (another way to implement singleton).
+
+
+---
+---
+
+# readResolve() method kis class ya interface se aa raha hai??
+
+`readResolve()` **kisi specific class ya interface ka part nahi hai** —
+yeh actually **`java.io.Serializable` mechanism** ka ek *callback method* hai jo JVM deserialization ke time internally call karti hai.
+
+* Method ka signature hota hai:
+
+```java
+private Object readResolve() throws ObjectStreamException
+```
+
+* Agar aapki class `Serializable` implement karti hai **aur** aap `readResolve()` define karte ho,
+  to **deserialization ke baad** Java is method ka return value final object ke roop me use karegi.
+
+---
+
+📌 **Singleton case example:**
+
+```java
+import java.io.*;
+
+class Singleton implements Serializable {
+    private static final Singleton INSTANCE = new Singleton();
+    private Singleton() {}
+
+    public static Singleton getInstance() {
+        return INSTANCE;
+    }
+
+    private Object readResolve() throws ObjectStreamException {
+        return INSTANCE; // always return the same instance
+    }
+}
+```
+
+---
+
+Yaani `readResolve()` ka origin `Serializable` ka part hone wale **Object Input/Output Streams** ke internal deserialization process se hai,
+lekin yeh koi interface method override nahi karta — JVM reflection ke through is method ko dhoondh ke call karti hai.
