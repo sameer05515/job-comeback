@@ -428,3 +428,38 @@ class Todo {
 ---
 
 Agar tum chaho to main is example ka **async + multiple parallel requests** wala version bhi bana sakta hoon.
+
+
+---
+---
+
+
+
+# **Java me REST API invoke karne ke options**
+
+#### **1. Core Java / Built-in**
+
+* **`HttpURLConnection`** (Java 1.1 se) — old, verbose, manual stream handling.
+* **`HttpClient`** (Java 11 se) — modern, async + sync, cleaner API.
+* **`URLConnection`** (very old, generic for HTTP/FTP, rarely used for new code).
+
+#### **2. Spring Framework**
+
+* **`RestTemplate`** — Easy synchronous calls (Spring 5 se deprecated in favor of WebClient).
+* **`WebClient`** — Reactive, supports async + streaming.
+
+#### **3. Jakarta EE / JAX-RS**
+
+* **`Client` API** from `javax.ws.rs.client` (e.g., Jersey, RESTEasy).
+
+#### **4. Third-Party Libraries**
+
+* **Apache HttpClient** — powerful, customizable, still widely used.
+* **OkHttp** — lightweight, fast, async support.
+* **Retrofit** (on top of OkHttp) — declarative API client.
+* **Feign** — declarative, often used with Spring Cloud.
+
+---
+
+If you want, I can prepare a **comparison table** for these with pros/cons + when to use which, so it’s easy to recall in interviews. Would you like me to make that?
+
