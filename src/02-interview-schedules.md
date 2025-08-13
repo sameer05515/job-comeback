@@ -193,7 +193,7 @@
 
 - [Controlled vs Uncontrolled Components](./reactjs/controlled-vs-uncontrolled-components.md)
 
-- please explain what will be output of below program?
+- [please explain what will be output of below program?](./java/programs/003.md)
 
 ```java
 public class Main{
@@ -209,7 +209,7 @@ System.out.println(x);
 
 - What is difference between Functional and class components
 
-- please explain, why ```<input value="Hello" />``` is not editable
+- [please explain, why ```<input value="Hello" />``` is not editable](./reactjs/programs/001.md)
 
 ```js
 export default function App() {
@@ -223,7 +223,7 @@ return (
 
 ```
 
-- What is the console output of below program
+- [What is the console output of below program](./reactjs/programs/002.md)
 
 ```js
 import React from "react";
