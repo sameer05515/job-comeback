@@ -1,6 +1,15 @@
 # As a reactjs developer having 8+ years of experience, What are technical challenges you have observed and how you have handled them?
 
 As a ReactJS developer with 8+ years of experience, here are **key technical challenges** I've faced in real-world projects and how I’ve tackled them:
+- 1. **Component Re-renders & Performance**
+- 2. **State Management Complexity**
+- 3. **Form Handling and Validation**
+- 4. **Handling Asynchronous Data**
+- 5. **Large Component Files**
+- 6. **Cross-Browser & Responsive Design Issues**
+- 7. **Routing and Lazy Loading**
+- 8. **Testing**
+- 9. **Accessibility (A11y) & SEO (for SSR apps)**
 
 ---
 
