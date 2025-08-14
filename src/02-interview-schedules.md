@@ -292,8 +292,9 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 # 14 Aug 2025
 ## Tech Mahindra
 
-- ES6 Features
-- code to print only repeated values in given array
+- [ES6 Features](./javascript/ES6-features.md)
+- [code to print only repeated values with occurence count>1 in given array](./javascript/programs/002.md)
+`const arr = [5, 4, 1, 7, 9, 5, 7, 8, 7];`
 - 
 
 ---
@@ -303,7 +304,7 @@ Integer[] arr1 = {3, 5, 7, 9};
 Integer[] arr2 = {3, 4, 6, 9};
 ```
 
-- Spring boot auto configuration
+- [tell me about Spring boot auto configuration](./spring-boot/spring-boot-auto-configuration.md)
 - Spring boot dependency management
 
 ---
