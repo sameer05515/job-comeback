@@ -61,3 +61,81 @@ For interviews, you can remember:
 ---
 
 If you want, I can make you a **Spring Boot Auto-Configuration flow diagram** so you can recall this in 5 seconds during interviews.
+
+
+---
+---
+
+# Spring Boot Auto-Configuration flow diagram (Text only)
+
+Here’s a **text-only Spring Boot Auto-Configuration flow diagram** you can keep in your notes for interviews:
+
+---
+
+```
+ ┌─────────────────────────────────────────────────────┐
+ │ Application Startup (@SpringBootApplication)         │
+ └─────────────────────────────────────────────────────┘
+                          │
+                          ▼
+ ┌─────────────────────────────────────────────────────┐
+ │ @EnableAutoConfiguration triggered                   │
+ └─────────────────────────────────────────────────────┘
+                          │
+                          ▼
+ ┌─────────────────────────────────────────────────────┐
+ │ SpringFactoriesLoader loads                          │
+ │ META-INF/spring.factories → list of AutoConfig classes│
+ └─────────────────────────────────────────────────────┘
+                          │
+                          ▼
+ ┌─────────────────────────────────────────────────────┐
+ │ Each AutoConfig class evaluated with @Conditional... │
+ │   - @ConditionalOnClass       (check classpath)      │
+ │   - @ConditionalOnMissingBean (avoid duplicate beans)│
+ │   - @ConditionalOnProperty    (check config values)  │
+ └─────────────────────────────────────────────────────┘
+                          │
+                          ▼
+ ┌─────────────────────────────────────────────────────┐
+ │ Matching AutoConfig classes register default beans   │
+ │   (e.g., DataSource, DispatcherServlet, JPA, etc.)   │
+ └─────────────────────────────────────────────────────┘
+                          │
+                          ▼
+ ┌─────────────────────────────────────────────────────┐
+ │ Developer overrides:                                │
+ │   - Custom beans in @Configuration classes           │
+ │   - Properties in application.properties/yml         │
+ └─────────────────────────────────────────────────────┘
+                          │
+                          ▼
+ ┌─────────────────────────────────────────────────────┐
+ │ Final ApplicationContext ready with merged beans     │
+ └─────────────────────────────────────────────────────┘
+```
+
+---
+
+If you want, I can also make you a **side-by-side table** showing *"Auto-Configuration Internals"* vs *"Developer Overrides"* so you can answer follow-up questions.
+
+---
+---
+
+# a **side-by-side table** showing *"Auto-Configuration Internals"* vs *"Developer Overrides"*
+
+Here’s your **side-by-side table** for **Auto-Configuration Internals vs Developer Overrides**:
+
+| **Auto-Configuration Internals**                                                                                                 | **Developer Overrides**                                                                                                  |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Triggered by `@EnableAutoConfiguration` (via `@SpringBootApplication`)                                                           | Define custom beans in your own `@Configuration` classes                                                                 |
+| Uses `SpringFactoriesLoader` to load `META-INF/spring.factories` entries                                                         | Provide your own bean with same type — Spring Boot prefers user-defined beans over auto-configured ones                  |
+| Conditions control execution: `@ConditionalOnClass`, `@ConditionalOnMissingBean`, `@ConditionalOnProperty`, etc.                 | Change conditions via `application.properties` or `application.yml` to enable/disable specific auto-configurations       |
+| Registers default beans only if conditions match (e.g., if `DataSource` class is present and no custom `DataSource` bean exists) | Use `@Primary` to make your bean take precedence without removing auto-configuration entirely                            |
+| Organized in `spring-boot-autoconfigure` module                                                                                  | Use `exclude` attribute in `@SpringBootApplication` or `@EnableAutoConfiguration` to disable certain auto-configurations |
+| Loads configuration classes before the application context is fully created                                                      | Can extend/modify beans after creation using `BeanPostProcessor` or `@Bean` methods                                      |
+
+---
+
+If you want, I can now create a **“Spring Boot Auto-Config – Interview 30-sec Answer Card”** that combines the flow diagram + table into a single compact note for quick revision. That way you can explain auto-configuration in under 30 seconds in interviews.
+

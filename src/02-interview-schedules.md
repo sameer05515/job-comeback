@@ -305,7 +305,7 @@ Integer[] arr2 = {3, 4, 6, 9};
 ```
 
 - [tell me about Spring boot auto configuration](./spring-boot/spring-boot-auto-configuration.md)
-- Spring boot dependency management
+- [Tell me about Spring boot dependency management]
 
 ---
 ---
