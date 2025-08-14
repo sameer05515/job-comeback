@@ -294,7 +294,9 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 
 - [ES6 Features](./javascript/ES6-features.md)
 - [code to print only repeated values with occurence count>1 in given array](./javascript/programs/002.md)
-`const arr = [5, 4, 1, 7, 9, 5, 7, 8, 7];`
+```js
+const arr = [5, 4, 1, 7, 9, 5, 7, 8, 7];
+```
 - 
 
 ---
