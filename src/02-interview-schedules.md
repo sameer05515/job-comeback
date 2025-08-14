@@ -284,3 +284,27 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 - [What is difference between `git fetch` and `git pull`](./devops/git--what-is-difference-between-git-fetch-and-git-pull.md)
 - [What is difference between NoSql and SQL databases? which one should be used when?](./sql/sql-vs-nosql.md)
 - [design-patterns](./design-patterns/design-patterns-discussion.md)
+
+
+---
+---
+
+# 14 Aug 2025
+## Tech Mahindra
+
+- ES6 Features
+- code to print only repeated values in given array
+- 
+
+---
+- [Merge & Sort -without duplicates](./java-8/programs/007.md)
+```java
+Integer[] arr1 = {3, 5, 7, 9};
+Integer[] arr2 = {3, 4, 6, 9};
+```
+
+- Spring boot auto configuration
+- Spring boot dependency management
+
+---
+---
