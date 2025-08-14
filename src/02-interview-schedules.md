@@ -278,6 +278,7 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 - [what is difference between Field injection and Constructor injection? which one is preffered ?](./spring-boot/field-injection-and-constructor-injection-comparison.md)
 - [Spring boot lazy loading](./spring-boot/lazy-loading-in-spring-boot.md)
 - [difference between @Controller and @RestController](./spring-boot/controller-and-restcontroller-comparison.md)
+- [one-page Spring Boot annotations cheat sheet](./spring-boot/controller-and-restcontroller-comparison.md#one-page-spring-boot-annotations-cheat-sheet)
 - [Which design patterns you have used in Microservices](./design-patterns/common-design-patterns-used-in-microservices.md)
 - [What are different ways of communication in microservices?](./microservices/microservices--how-microservices-communicate-each-other.md)
 - [What is difference between `git fetch` and `git pull`](./devops/git--what-is-difference-between-git-fetch-and-git-pull.md)
