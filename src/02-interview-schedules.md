@@ -297,7 +297,8 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 ```js
 const arr = [5, 4, 1, 7, 9, 5, 7, 8, 7];
 ```
-- 
+
+
 
 ---
 - [Merge & Sort -without duplicates](./java-8/programs/007.md)
