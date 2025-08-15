@@ -1,6 +1,8 @@
 Here’s a list of **Java Multithreading and Concurrency** interview questions only (no answers):
 
 - [Multithreading Basics: CPU, Core, Program, Process, Thread & much more](https://www.youtube.com/watch?v=091vJWjl1A4&list=PLA3GkZPtsafYhmrZR_1nmQqfFSnkftOud)
+- [Java CompletableFuture Explained in 10 Minutes! 🚀 (Beginners Must Watch 2025)](https://www.youtube.com/watch?v=JoYFkYqE8S0)
+- [Java Executor Framework Mastery! 🚀 | Boost Your Code Performance 100x](https://www.youtube.com/watch?v=ip68xxgffC8)
 
 ---
 
