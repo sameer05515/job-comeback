@@ -36,6 +36,10 @@ System.out.println(x);
 
 - [stream question](./java-8/programs/003.md)
 
+- write a program to reverse a string
+
+- Write a java stream program to find 3rd largest number from given array
+
 
 
 ---
