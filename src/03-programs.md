@@ -42,6 +42,8 @@ System.out.println(x);
 
 - [Java Multithreading Interview 🔥 | Producer–Consumer using wait/notify & BlockingQueue](./java/programs/producerconsumer-using-waitnotify--blockingqueue.md)
 
+- [Spring Batch for Beginners | Process Million of Record Faster Using Spring Batch](https://www.youtube.com/watch?v=hr2XTbKSdAQ)
+
 
 
 ---
