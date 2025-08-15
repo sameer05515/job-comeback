@@ -1,5 +1,7 @@
 Here’s a list of **Java Multithreading and Concurrency** interview questions only (no answers):
 
+- [Multithreading Basics: CPU, Core, Program, Process, Thread & much more](https://www.youtube.com/watch?v=091vJWjl1A4&list=PLA3GkZPtsafYhmrZR_1nmQqfFSnkftOud)
+
 ---
 
 ### 🔹 **Basic Level**
