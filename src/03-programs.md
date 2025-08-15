@@ -40,6 +40,8 @@ System.out.println(x);
 
 - Write a java stream program to find 3rd largest number from given array
 
+- [Java Multithreading Interview 🔥 | Producer–Consumer using wait/notify & BlockingQueue](https://www.youtube.com/watch?v=ITPesAZFvWI)
+
 
 
 ---
