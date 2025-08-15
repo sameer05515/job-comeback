@@ -1,5 +1,7 @@
 # tell me about Spring boot auto configuration
 
+[How Spring boot auto-configure works internally ( English )](https://www.youtube.com/watch?v=WsH5CAQLUf0)
+
 Spring Boot **auto-configuration** is a feature that automatically configures your Spring application based on the dependencies available on the classpath and sensible defaults, so you don’t have to manually configure beans.
 
 ---
