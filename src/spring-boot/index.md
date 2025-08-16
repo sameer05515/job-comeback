@@ -1,1 +1,2 @@
 - [Internal Working of Spring Boot | Interview-Level Understanding | SpringBootApplication Annotation](https://www.youtube.com/watch?v=tHDrxMklmPQ)
+- [Spring Boot | Exploring Asynchronous 🚀 Calls with @Async Annotation | JavaTechie](https://www.youtube.com/watch?v=R_gejlOXR7g)
