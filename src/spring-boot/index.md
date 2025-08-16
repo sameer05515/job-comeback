@@ -1,0 +1,1 @@
+- [Internal Working of Spring Boot | Interview-Level Understanding | SpringBootApplication Annotation](https://www.youtube.com/watch?v=tHDrxMklmPQ)
