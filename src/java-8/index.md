@@ -1,2 +1,3 @@
 - [Java 8 complete tutorial in 3 hour with Realtime Example](https://www.youtube.com/watch?v=ePJrt5-G8eM)
 - [Java 8 Stream API Cheat Sheet for Interviews | PlayBook](https://www.youtube.com/watch?v=-RHvF37el-A)
+- [Java 8 🔥 | Programming Interview Questions & Answers | Stream API](https://www.youtube.com/watch?v=1Ps5F1PU72M)
