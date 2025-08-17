@@ -1,0 +1,1 @@
+- [JavaScript logical and tricky interview questions | JS output question | Js most asked question](https://www.youtube.com/watch?v=riloPTtAuAM)
