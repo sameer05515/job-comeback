@@ -1,1 +1,4 @@
 - [JavaScript logical and tricky interview questions | JS output question | Js most asked question](https://www.youtube.com/watch?v=riloPTtAuAM)
+- [Javascript Interview Questions ( Objects ) - Output Based, Destructuring, Object Referencing](https://www.youtube.com/watch?v=XnFIX3c7xoI)
+- [Javascript Interview Questions ( 'this' Keyword ) - Output Based, Scope, Implicit Binding](https://www.youtube.com/watch?v=rv7Q11KWmKU)
+- 
