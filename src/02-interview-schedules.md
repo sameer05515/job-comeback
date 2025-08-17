@@ -311,6 +311,7 @@ Integer[] arr2 = {3, 4, 6, 9};
 - [Tell me about Spring boot dependency management](./spring-boot/spring-boot-dependency-management.md)
 
 - [java me stream produce karne ke different tareeke](./java-8/stream-produce-karne-ke-different-tareeke.md)
+- [Find Nth Highest Salary Using Java Streams API](./java-8/programs/find-nth-highest-salary-using-java-streams-api.md)
 
 ---
 ---
