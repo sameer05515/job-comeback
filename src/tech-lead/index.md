@@ -1,0 +1,1 @@
+- [SOLID Design Principles in java with Example | JavaTechie](https://www.youtube.com/watch?v=BM_lSZPMClo)
