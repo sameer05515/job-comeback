@@ -1,5 +1,26 @@
 ### 🧑‍💻 **About Me – Full Stack Developer (Java + ReactJS)**
 
+---
+
+Hi,
+I’m Premendra Kumar. I completed my B.Tech. from BCE Bhagalpur in 2009. I started my career as a Java developer.
+
+I have 8+ years of full-stack development experience using Java, Spring Boot, microservices and ReactJS.
+
+My last company was Zycus Infotech, where I worked as a Senior Software Engineer on the ESG Lythouse project. I developed REST APIs for the GMI and EU Taxonomy modules and integrated them with the frontend. I completed these tasks within tight deadlines and received rewards and recognition for my work.
+
+I have completed certifications in Java 8, Spring Boot, ReactJS, Spring Security (JWT), Docker, Kubernetes, and GitHub Actions.
+
+I enjoy working on scalable enterprise applications, mainly using Spring Boot and ReactJS functional components. I follow clean code practices and focus on performance and maintainability.
+
+While I have mostly worked as an individual contributor, I’ve also handled sprint planning, team collaboration, and mentoring.
+
+My long-term goal is to become a Software Architect, building high-impact systems with clean and scalable architecture.
+
+In my free time, I like to explore new technologies, travel, and meet new people.
+
+---
+
 I am a passionate and performance-driven **Full Stack Developer** with over **8 years of experience** in developing scalable enterprise applications using **Java (Spring Boot)** and **ReactJS**, and an overall **14+ years of expertise** in backend systems.
 
 I’ve actively contributed to **microservices-based projects**, where I built robust REST APIs following clean code practices and integrated them seamlessly with modern frontend interfaces using ReactJS functional components.
