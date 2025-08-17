@@ -228,3 +228,73 @@ public class Test12 {
 
 
 ```
+
+```shell
+================ find occurrence of each characters in given word using chars method ================
+a : 3
+r : 1
+d : 2
+e : 3
+v : 1
+h : 1
+y : 2
+i : 5
+l : 1
+m : 2
+n : 2
+o : 1
+================ find occurrence of each characters in given word using split method ================
+a : 3
+r : 1
+d : 2
+e : 3
+v : 1
+h : 1
+y : 2
+i : 5
+l : 1
+m : 2
+n : 2
+o : 1
+================ find all duplicate element from a given String ================
+a : 3
+d : 2
+e : 3
+y : 2
+i : 5
+m : 2
+n : 2
+================ find all duplicate elements from a given String ================
+[a, d, e, y, i, m, n]
+================ find all unique elements from a given String ================
+[r, v, h, l, o]
+================ find first non-repeat element from given string ================
+================ to preserve insertion order, we need to use LinkedHashmap in place of default HashMap implementation in Collectors.groupingBy ================
+First non-repeat character is: 'l'
+================ find first non-repeat element from given string ================
+================ to preserve insertion order, we need to use LinkedHashmap in place of default HashMap implementation in Collectors.groupingBy ================
+firstNonRepeatKey : l
+================ find nth repeat character from given string ================
+================ to preserve insertion order, we need to use LinkedHashmap in place of default HashMap implementation in Collectors.groupingBy ================
+3th repeat character is: 'm'
+================ second-highest number from given array ================
+2th highest number is: '21'
+================ longest string from given array ================
+Longest string: microservices
+================ find elements from array which starts with 1 ================
+[1, 11, 123]
+================ String.join example ================
+1-2-3
+================ skip and limit method use case example ================
+2
+3
+4
+5
+6
+7
+8
+9
+5000=[Prem5]
+
+Process finished with exit code 0
+```
