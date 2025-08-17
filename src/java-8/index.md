@@ -2,3 +2,4 @@
 - [Java 8 Stream API Cheat Sheet for Interviews | PlayBook](https://www.youtube.com/watch?v=-RHvF37el-A)
 - [Java 8 🔥 | Programming Interview Questions & Answers | Stream API](https://www.youtube.com/watch?v=1Ps5F1PU72M)
 - [Java 8 Q&A | 🔥 Asked in Myntra | Find Nth Highest Salary Using Java Streams API](https://www.youtube.com/watch?v=eBDN04LlEOg)
+- [Java8 | Multithreading | 🔥 Asked in Oracle | Print Even & Odd Numbers Using 2 Thread](https://www.youtube.com/watch?v=qd-xfcaNUmA)
