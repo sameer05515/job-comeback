@@ -48,6 +48,7 @@ System.out.println(x);
 
 - [Find Nth Highest Salary Using Java Streams API](./java-8/programs/find-nth-highest-salary-using-java-streams-api.md)
 - [Even-Odd print with threads and wait-notify](./java/programs/even-odd-print.md)
+- [Java 8 commonly asked coding questions](./java-8/programs/commonly-asked-coding-questions.md)
 
 
 
