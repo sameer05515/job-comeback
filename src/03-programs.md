@@ -46,6 +46,9 @@ System.out.println(x);
 
 - [Java Executor Framework Mastery! 🚀 | Boost Your Code Performance 100x](https://www.youtube.com/watch?v=ip68xxgffC8)
 
+- [Find Nth Highest Salary Using Java Streams API](./java-8/programs/find-nth-highest-salary-using-java-streams-api.md)
+- [Even-Odd print with threads and wait-notify](./java/programs/even-odd-print.md)
+
 
 
 ---
