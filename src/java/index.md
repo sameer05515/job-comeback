@@ -1,3 +1,3 @@
 - [Java HashMap Explained! 🔥 The Only Tutorial You Need](https://www.youtube.com/watch?v=tNRLAEuKn1w)
 - [LinkedHashMap Explained in Simple Terms | LRU Cache Made EASY](https://www.youtube.com/watch?v=Qd-3Xj8h0EE)
-- 
+- [Java Generics Explained: Classes, Methods, Interfaces, Enums, & Exceptions](https://www.youtube.com/watch?v=UypoeUL4T_U)
