@@ -316,3 +316,212 @@ Integer[] arr2 = {3, 4, 6, 9};
 
 ---
 ---
+
+# 19 Aug 2025
+## Sopra Steria
+
+Bhai, ye toh ekdum **interview recap / notes** lag raha hai 👌. Main isko ek **short + to-the-point cheat sheet** bana deta hoon taaki aap revise kar sako aur interview me confident ho jao.
+
+---
+
+
+
+### React / Frontend
+
+* **50 child components, 1 component change → prevent others re-render**
+
+  * Use `React.memo`, `useMemo`, `useCallback`
+  * Proper key usage
+  * State ko granular break karo, unnecessary props pass mat karo.
+
+* **When Context vs Redux?**
+
+  * **Context** → small apps, theme, auth, language (lightweight, no boilerplate).
+  * **Redux** → large apps, complex state, async flows, predictable debugging (DevTools, middleware).
+
+* **Error Boundary**
+
+  * Class component with `static getDerivedStateFromError` & `componentDidCatch`.
+  * Catches **render, lifecycle, constructor errors** in child tree.
+  * Useful when 3rd-party component crashes → isolate & prevent whole app crash.
+
+---
+
+### Java / Backend
+
+* **ClassNotFoundException vs NoClassDefFoundError**
+
+  * `ClassNotFoundException` → checked, class not found at runtime when explicitly loaded (`Class.forName`).
+  * `NoClassDefFoundError` → error, class available at compile but missing at runtime.
+
+* **Implicit methods in any class**
+
+  * `toString()`, `equals()`, `hashCode()`, `clone()`, `finalize()`, `getClass()`, `notify()`, `wait()`, etc. (from `Object`).
+
+* **Why wait/notify in Object, not Thread?**
+
+  * Because threads synchronize on an **object’s monitor lock**.
+  * Lock belongs to object, so wait/notify logically fit in `Object`.
+
+* **Java 8 Features**
+
+  * Lambdas, Streams, Functional interfaces, Optional, Default & static methods in interfaces, Date/Time API, CompletableFuture, Collectors.
+
+* **Composition vs Aggregation**
+
+  * **Composition** → Strong HAS-A, lifecycle bound (Engine inside Car).
+  * **Aggregation** → Weak HAS-A, independent lifecycles (Library & Books).
+
+* **SOLID Principles**
+
+  * S → Single Responsibility
+  * O → Open/Closed
+  * L → Liskov Substitution
+  * I → Interface Segregation
+  * D → Dependency Inversion
+
+* **Open/Closed Principle**
+
+  * Classes open for extension, closed for modification.
+  * Example: Use inheritance/interfaces instead of modifying existing class.
+
+* **Liskov Substitution Principle**
+
+  * Subclass should be replaceable for parent without breaking behavior.
+  * Example: Rectangle vs Square violation.
+
+---
+
+### Security
+
+* **OAuth**
+
+  * Open standard for delegated authorization.
+  * Access without sharing credentials.
+  * Example: Login with Google, Facebook.
+
+* **Add Spring Security in Spring Boot**
+
+  * Add `spring-boot-starter-security` dependency.
+  * By default: all endpoints secured with Basic Auth.
+  * Customize via `SecurityFilterChain` or extending `WebSecurityConfigurerAdapter` (till Spring 2.6).
+
+---
+
+### Hibernate
+
+* **N+1 Problem**
+
+  * 1 query for parent, N queries for children.
+  * Fix → `fetch join`, `EntityGraph`, batch fetching.
+
+---
+
+### Git
+
+* **Rebase vs Merge**
+
+  * Merge → preserves history, adds merge commit.
+  * Rebase → rewrites history, cleaner linear commits.
+  * Use rebase for local feature branches, merge for shared branches.
+
+---
+
+### Spring
+
+* **DI vs IoC**
+
+  * **IoC (Inversion of Control)** → Framework controls object lifecycle.
+  * **DI (Dependency Injection)** → One form of IoC, dependencies injected by container (constructor, setter, field).
+
+---
+
+
+
+
+---
+
+## ✅ Code Review me kya check karte ho?
+
+* **Readability & Maintainability**
+
+  * Proper naming conventions, small methods, meaningful variables.
+  * No deep nesting, proper comments (only where required).
+
+* **Code Quality**
+
+  * No duplicate code.
+  * Follows SOLID, DRY, KISS, YAGNI principles.
+
+* **Error Handling & Logging**
+
+  * Proper exception handling (no silent catches).
+  * Logs with correct log level (info/warn/error).
+
+* **Performance**
+
+  * Avoid unnecessary loops, queries, memory leaks.
+  * Use caching if needed.
+
+* **Security**
+
+  * Input validation, SQL Injection prevention, secure API calls.
+
+* **Tests & Coverage**
+
+  * Unit tests, integration tests exist.
+  * Coverage threshold (like >80%).
+
+* **Style Guide / Standards**
+
+  * Follows project coding guidelines (Java/React lint rules, Prettier).
+
+---
+
+## ✅ JUnit & Related Tools
+
+* **JUnit**
+
+  * Core for writing unit tests in Java.
+  * Assertions (`assertEquals`, `assertThrows`), lifecycle (`@BeforeEach`, `@AfterEach`).
+
+* **Mockito**
+
+  * Mock dependencies → isolate unit under test.
+
+* **Cobertura / JaCoCo**
+
+  * Code coverage analysis.
+  * % of lines/branches tested.
+
+* **Cucumber (BDD)**
+
+  * Gherkin syntax: `Given-When-Then`.
+  * For behavior-driven tests (business readable).
+
+* **Frontend Testing**
+
+  * **Jest** → JS unit tests (snapshot, async tests).
+  * **Vitest** → Faster, modern alternative to Jest (works well with Vite + React).
+
+---
+
+## ✅ SonarQube
+
+* **Static code analysis tool**.
+* Checks for:
+
+  * Bugs, Vulnerabilities, Code Smells.
+  * Duplications, Coverage %, Maintainability index.
+* Integrates with CI/CD (Jenkins, GitLab, GitHub Actions).
+* Enforces **Quality Gates** before merge.
+
+---
+
+👉 Interview me direct bolna:
+*"Code review me main readability, maintainability, error handling, performance, security aur tests pe focus karta hoon. JUnit ke sath Mockito use karta hoon, coverage ke liye JaCoCo/Cobertura, BDD ke liye Cucumber. Frontend me Jest/Vitest use kiya hai. Static analysis ke liye SonarQube integrate karke quality gates enforce karte hain."*
+
+---
+
+Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools vs Static Analysis)** bana dun taaki aur crisp lage interviews me?
+
