@@ -21,4 +21,4 @@
 - [**Less probable interview question:** Find pairs of users who logged in on the same day from the logins table.](./programs/021.md)
 - [Retrieve the top 2 customers by total purchase amount in each region.](./programs/022.md)
 - [Find all orders that were delivered late (deliveryDate > promisedDate).](./programs/023.md)
-- Write a query to remove duplicate rows but keep the first occurrence in a table with no unique key.
+- [Write a query to remove duplicate rows but keep the first occurrence in a table with no unique key.](./programs/024.md)
