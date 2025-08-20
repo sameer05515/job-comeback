@@ -18,7 +18,7 @@
 - [Retrieve customers who placed more than 5 orders in a single month.](./programs/018.md)
 - [Find products that were sold but never restocked from products and restocks tables.](./programs/019.md)
 - [List all employees who manage more than 3 people (self-join scenario).](./programs/020.md)
-- [Find pairs of users who logged in on the same day from the logins table.](./programs/021.md)
-- Retrieve the top 2 customers by total purchase amount in each region.
+- [**Less probable interview question:** Find pairs of users who logged in on the same day from the logins table.](./programs/021.md)
+- [Retrieve the top 2 customers by total purchase amount in each region.](./programs/022.md)
 - Find all orders that were delivered late (deliveryDate > promisedDate).
 - Write a query to remove duplicate rows but keep the first occurrence in a table with no unique key.
