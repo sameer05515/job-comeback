@@ -13,7 +13,7 @@
 
 
 - [Find the 3rd highest salary from the employees table without using LIMIT.](./programs/015.md)
-- List departments where the average salary is greater than the overall company average salary.
+- [List departments where the average salary is greater than the overall company average salary.](./programs/016.md)
 - Find students who scored the maximum marks in each subject from the marks table.
 - Retrieve customers who placed more than 5 orders in a single month.
 - Find products that were sold but never restocked from products and restocks tables.
