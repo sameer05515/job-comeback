@@ -1,7 +1,7 @@
 # SQL Programs
 
 - [Find the second highest salary from the employees table.](./programs/005.md)
-- List all employees who have never submitted a project using employees and projects tables.
+- [List all employees who have never submitted a project using employees and projects tables.](./programs/007.md)
 - [Get department-wise average salary from the employees table.](./programs/006.md)
 - Find duplicate email IDs in the users table.
 - Fetch the top 3 most sold products from the sales table.
