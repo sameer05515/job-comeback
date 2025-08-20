@@ -3,7 +3,7 @@
 - [Find the second highest salary from the employees table.](./programs/005.md)
 - [List all employees who have never submitted a project using employees and projects tables.](./programs/007.md)
 - [Get department-wise average salary from the employees table.](./programs/006.md)
-- Find duplicate email IDs in the users table.
+- [Find duplicate email IDs in the users table.](./programs/008.md)
 - Fetch the top 3 most sold products from the sales table.
 - List customers who purchased in January but not in February from the orders table.
 - Find employees who earn more than their manager (self-join on employees table).
