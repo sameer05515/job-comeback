@@ -15,7 +15,7 @@
 - [Find the 3rd highest salary from the employees table without using LIMIT.](./programs/015.md)
 - [List departments where the average salary is greater than the overall company average salary.](./programs/016.md)
 - [Find students who scored the maximum marks in each subject from the marks table.](./programs/017.md)
-- Retrieve customers who placed more than 5 orders in a single month.
+- [Retrieve customers who placed more than 5 orders in a single month.](./programs/018.md)
 - Find products that were sold but never restocked from products and restocks tables.
 - List all employees who manage more than 3 people (self-join scenario).
 - Find pairs of users who logged in on the same day from the logins table.
