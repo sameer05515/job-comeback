@@ -17,7 +17,7 @@
 - [Find students who scored the maximum marks in each subject from the marks table.](./programs/017.md)
 - [Retrieve customers who placed more than 5 orders in a single month.](./programs/018.md)
 - [Find products that were sold but never restocked from products and restocks tables.](./programs/019.md)
-- List all employees who manage more than 3 people (self-join scenario).
+- [List all employees who manage more than 3 people (self-join scenario).](./programs/020.md)
 - Find pairs of users who logged in on the same day from the logins table.
 - Retrieve the top 2 customers by total purchase amount in each region.
 - Find all orders that were delivered late (deliveryDate > promisedDate).
