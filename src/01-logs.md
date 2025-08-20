@@ -62,3 +62,7 @@ https://www.udemy.com/course/mongodb-with-spring-boot-spring-data-mongorepositor
 ---
 ---
 
+
+# 20 Aug 2025
+
+- collected [20 sql query interview questions](./sql/index.md)
