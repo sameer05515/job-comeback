@@ -16,7 +16,7 @@
 - [List departments where the average salary is greater than the overall company average salary.](./programs/016.md)
 - [Find students who scored the maximum marks in each subject from the marks table.](./programs/017.md)
 - [Retrieve customers who placed more than 5 orders in a single month.](./programs/018.md)
-- Find products that were sold but never restocked from products and restocks tables.
+- [Find products that were sold but never restocked from products and restocks tables.](./programs/019.md)
 - List all employees who manage more than 3 people (self-join scenario).
 - Find pairs of users who logged in on the same day from the logins table.
 - Retrieve the top 2 customers by total purchase amount in each region.
