@@ -10,3 +10,15 @@
 - [Retrieve the longest order processing time from orders table (difference between order_date and delivery_date).](./programs/012.md)
 - [List all students who scored above class average in marks table.](./programs/013.md)
 - [Find users who logged in on at least 3 consecutive days from logins table.](./programs/014.md)
+
+
+- [Find the 3rd highest salary from the employees table without using LIMIT.](./programs/015.md)
+- List departments where the average salary is greater than the overall company average salary.
+- Find students who scored the maximum marks in each subject from the marks table.
+- Retrieve customers who placed more than 5 orders in a single month.
+- Find products that were sold but never restocked from products and restocks tables.
+- List all employees who manage more than 3 people (self-join scenario).
+- Find pairs of users who logged in on the same day from the logins table.
+- Retrieve the top 2 customers by total purchase amount in each region.
+- Find all orders that were delivered late (deliveryDate > promisedDate).
+- Write a query to remove duplicate rows but keep the first occurrence in a table with no unique key.
