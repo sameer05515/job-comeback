@@ -525,3 +525,17 @@ Bhai, ye toh ekdum **interview recap / notes** lag raha hai 👌. Main isko ek *
 
 Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools vs Static Analysis)** bana dun taaki aur crisp lage interviews me?
 
+
+
+# 20 Aug 2025
+## SSS - Encora Innovation Labs
+
+- Create Employee, Department Classes. Use Streams to give each department Average Employee Salary
+- What is the use of introduction of static methods in Functional Interfaces
+- How many types of dependency injection is there
+- How to avoid cyclic dependency in spring/spring boot
+- How were u sharing information between the services
+- @Primary vs @Qualifier Annotation
+- How to access S3 bucket from SDK and IAM
+- How to deploy war application in ec2 instance
+- How to deploy jar application in ec2 instance
