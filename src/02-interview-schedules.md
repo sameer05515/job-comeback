@@ -535,7 +535,7 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - How many types of dependency injection is there
 - [How to avoid cyclic dependency in spring/spring boot](./spring-boot/avoid-cyclic-dependency.md)
 - How were u sharing information between the services
-- @Primary vs @Qualifier Annotation
+- [@Primary vs @Qualifier Annotation](./spring-boot/primary-vs-qualifier-annotation.md)
 - How to access S3 bucket from SDK and IAM
 - How to deploy war application in ec2 instance
 - How to deploy jar application in ec2 instance
