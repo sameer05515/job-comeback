@@ -14,3 +14,5 @@
 
 
 ---
+
+- [Mastering Logging in Spring Boot: A Complete Guide, from Logback to SLF4J](https://www.youtube.com/watch?v=bphMYrTv8pA)
