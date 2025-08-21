@@ -530,7 +530,7 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 # 20 Aug 2025
 ## SSS - Encora Innovation Labs
 
-- Create Employee, Department Classes. Use Streams to give each department Average Employee Salary
+- [Create Employee, Department Classes. Use Streams to give each department Average Employee Salary](./java-8/programs/009.md)
 - What is the use of introduction of static methods in Functional Interfaces
 - How many types of dependency injection is there
 - How to avoid cyclic dependency in spring/spring boot
