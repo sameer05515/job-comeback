@@ -1,7 +1,7 @@
 # Javascript ES6+ coding questions
 
 - [Write a function to flatten a nested array of arbitrary depth using ES6 features.](./programs/003.md)
-- Implement a function to remove duplicates from an array without using Set.
+- [Implement a function to remove duplicates from an array without using Set.](./programs/004.md)
 - Create a function that memoizes another function using closures.
 - Write a function to deep clone an object using ES6 features.
 - Implement a function that converts a given string to camelCase.
