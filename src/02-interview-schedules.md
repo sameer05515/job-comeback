@@ -531,7 +531,7 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 ## SSS - Encora Innovation Labs
 
 - [Create Employee, Department Classes. Use Streams to give each department Average Employee Salary](./java-8/programs/009.md)
-- What is the use of introduction of static methods in Functional Interfaces
+- [What is the use of introduction of static methods in Functional Interfaces](./java-8/java-8-use-of-static-method-in-functional-interfaces.md)
 - How many types of dependency injection is there
 - How to avoid cyclic dependency in spring/spring boot
 - How were u sharing information between the services
