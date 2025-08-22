@@ -539,3 +539,25 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - How to access S3 bucket from SDK and IAM
 - How to deploy war application in ec2 instance
 - How to deploy jar application in ec2 instance
+
+
+---
+---
+
+# 22 Aug 2025
+## Infogain
+
+- [classic Group Anagrams problem](./java-8/programs/)
+
+> given Input: ["eat","tea","tan","ate","nat","bat"]   
+> please group strings in subarrays, if they are anagrams, output should be like   
+> // Output: [["eat","tea","ate"],["tan","nat"],["bat"]]   
+
+
+- Hashmap vs Hashset
+- Encapsulation
+- JVM Architecture
+
+
+---
+---
