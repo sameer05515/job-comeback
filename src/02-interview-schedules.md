@@ -560,6 +560,7 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
   - [JVM Architecture ✅ : Understanding the Heart of Java ❤️](https://www.youtube.com/watch?v=Ms7KDg_TVcI)
 
 - volatile and atomic in multithreading
+- How to avoid deadlocks in multithreading?
 
 
 ---
