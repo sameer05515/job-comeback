@@ -6,6 +6,8 @@ Here’s a list of **Java Multithreading and Concurrency** interview questions o
 
 - [Java Multithreading: Synchronization, Locks, Executors, Deadlock, CountdownLatch & CompletableFuture](https://www.youtube.com/watch?v=4aYvLz4E1Ts)
 
+- [Volatile vs Atomic in Java: Thread Safety Explained](https://www.youtube.com/watch?v=WDn_Bax0UFo)
+
 ---
 
 ### 🔹 **Basic Level**
