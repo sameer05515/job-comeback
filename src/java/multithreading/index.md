@@ -4,6 +4,8 @@ Here’s a list of **Java Multithreading and Concurrency** interview questions o
 - [Java CompletableFuture Explained in 10 Minutes! 🚀 (Beginners Must Watch 2025)](https://www.youtube.com/watch?v=JoYFkYqE8S0)
 - [Java Executor Framework Mastery! 🚀 | Boost Your Code Performance 100x](https://www.youtube.com/watch?v=ip68xxgffC8)
 
+- [Java Multithreading: Synchronization, Locks, Executors, Deadlock, CountdownLatch & CompletableFuture](https://www.youtube.com/watch?v=4aYvLz4E1Ts)
+
 ---
 
 ### 🔹 **Basic Level**
