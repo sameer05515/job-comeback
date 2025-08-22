@@ -16,3 +16,5 @@
 ---
 
 - [Mastering Logging in Spring Boot: A Complete Guide, from Logback to SLF4J](https://www.youtube.com/watch?v=bphMYrTv8pA)
+
+- [How to Integrate Swagger in Spring Boot | Step-by-Step Tutorial](https://www.youtube.com/watch?v=7QlvGBJ9Tng)
