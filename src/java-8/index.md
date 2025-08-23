@@ -4,3 +4,5 @@
 - [Java 8 Q&A | 🔥 Asked in Myntra | Find Nth Highest Salary Using Java Streams API](https://www.youtube.com/watch?v=eBDN04LlEOg)
 - [Java8 | Multithreading | 🔥 Asked in Oracle | Print Even & Odd Numbers Using 2 Thread](https://www.youtube.com/watch?v=qd-xfcaNUmA)
 - [Master Java Streams: Complete Guide from Basics to Advanced in One Video](https://www.youtube.com/watch?v=E10Q6-nWO9g)
+
+- [Top 50+ Tricky Java Streams Coding Interview Questions You Must Know to Crack Your Next Interview!](https://www.youtube.com/watch?v=tT3gUj6cq2U)
