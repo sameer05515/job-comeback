@@ -554,13 +554,13 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 > // Output: [["eat","tea","ate"],["tan","nat"],["bat"]]   
 
 
-- Hashmap vs Hashset
+- [Hashmap vs Hashset](./java/hashmap-vs-hashset.md)
 - Encapsulation
 - JVM Architecture
   - [JVM Architecture ✅ : Understanding the Heart of Java ❤️](https://www.youtube.com/watch?v=Ms7KDg_TVcI)
 
 - volatile and atomic in multithreading
-- How to avoid deadlocks in multithreading?
+- [How to avoid deadlocks in multithreading?](./java/multithreading/how-to-avoid-deadlocks-in-multithreading.md)
 
 
 ---
