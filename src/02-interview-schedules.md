@@ -572,4 +572,5 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - [Application.yml and application.properties. Precedence](./spring-boot/application-yml-and-application-properties--precedence.md)
 - [@Primary vs @Qualifier Annotation](./spring-boot/primary-vs-qualifier-annotation.md)
 - [notify vs notifyAll](./java/multithreading/notify-vs-notifyall.md)
-- CountdownLatch
+- [CountdownLatch and CyclicBarrier](./java/multithreading/CountdownLatch-and-CyclicBarrier.md)
+- Optimistic lock
