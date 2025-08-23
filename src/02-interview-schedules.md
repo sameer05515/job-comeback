@@ -565,3 +565,11 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 
 ---
 ---
+
+# 23 Aug 2025
+## Tech Mahindra
+
+- Application.yml and application.properties. Precedence
+- @Primary vs @Qualifier
+- notify vs notifyAll
+- CountdownLatch
