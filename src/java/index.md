@@ -5,3 +5,5 @@
 - [Master SonarQube, SonarLint, and SonarCloud: Ultimate Guide to Enhancing Your Code Quality](https://www.youtube.com/watch?v=iZtA-1zBvzY)
 
 - [Complete Java Collections Framework & Streams Masterclass 2024](https://www.youtube.com/watch?v=92k5uokmW9o)
+
+- [Java String vs StringBuilder vs StringBuffer: Best Practices & Performance](https://www.youtube.com/watch?v=HvpUTLSt5XM)
