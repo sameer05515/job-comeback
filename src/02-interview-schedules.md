@@ -576,3 +576,4 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - Optimistic lock
 - [Compare Reactjs, angular and vuejs. Why Reactjs is so popular?](./reactjs/react-vs-angular-vs-vue.md)
 - [hashmap me bucket ka size kab badhta hai?](./java/hashmap-ka-bucket-size-kab-badhta-hai.md)
+- [Hashmap vs Hashtable](./java/hashmap-vs-hashtable.md)
