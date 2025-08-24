@@ -3,3 +3,5 @@
 - [Java Generics Explained: Classes, Methods, Interfaces, Enums, & Exceptions](https://www.youtube.com/watch?v=UypoeUL4T_U)
 
 - [Master SonarQube, SonarLint, and SonarCloud: Ultimate Guide to Enhancing Your Code Quality](https://www.youtube.com/watch?v=iZtA-1zBvzY)
+
+- [Complete Java Collections Framework & Streams Masterclass 2024](https://www.youtube.com/watch?v=92k5uokmW9o)

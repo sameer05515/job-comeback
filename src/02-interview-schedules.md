@@ -574,3 +574,4 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - [notify vs notifyAll](./java/multithreading/notify-vs-notifyall.md)
 - [CountdownLatch and CyclicBarrier](./java/multithreading/CountdownLatch-and-CyclicBarrier.md)
 - Optimistic lock
+- [Compare Reactjs, angular and vuejs. Why Reactjs is so popular?](./reactjs/react-vs-angular-vs-vue.md)
