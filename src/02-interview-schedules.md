@@ -547,7 +547,7 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 # 22 Aug 2025
 ## Infogain
 
-- [classic Group Anagrams problem](./java-8/programs/)
+- [classic Group Anagrams problem](./java-8/programs/classic-group-anagrams-problem.md)
 
 > given Input: ["eat","tea","tan","ate","nat","bat"]   
 > please group strings in subarrays, if they are anagrams, output should be like   
