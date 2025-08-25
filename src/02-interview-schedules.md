@@ -578,3 +578,6 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - [hashmap me bucket ka size kab badhta hai?](./java/hashmap-ka-bucket-size-kab-badhta-hai.md)
 - [Hashmap vs Hashtable](./java/hashmap-vs-hashtable.md)
 - [String vs StringBuffer vs StringBuilder](./java/string-vs-stringbuffer-vs-stringbuilder.md)
+
+- [Top 50+ Tricky Java Streams Coding Interview Questions You Must Know to Crack Your Next Interview!](https://www.youtube.com/watch?v=tT3gUj6cq2U)
+  - [Code related to video](./java-8/programs/010.md)
