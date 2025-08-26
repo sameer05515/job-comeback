@@ -8,9 +8,13 @@
 - DAO and service layer code
 - Application - **CIPA**
 
-# 2012-2019
+# 2012-2013
 - jsp/servlets
-- Application - iAgent, WebDOTS, Zetta
+- Application - iAgent
+
+# 2014-2019
+- jsp/servlets, spring boot, java 8, microservices, struts, reactjs
+- Application - WebDOTS, Zetta
 
 # 2019-2024
 - Spring boot, microservices, reactjs, java 8
