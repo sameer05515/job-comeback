@@ -9,7 +9,7 @@ Main tujhe ek **developer-focused revision plan** deta hoon 👇
 
 ### 1. **Basics Recap (Day 1-2)**
 
-* Pod, ReplicaSet, Deployment, Service, ConfigMap, Secret
+* [Pod, ReplicaSet, Deployment, Service, ConfigMap, Secret](./pod-replicaset-deployment-service-configmap-secret.md)
 * Difference between Deployment vs StatefulSet
 * NodePort vs ClusterIP vs LoadBalancer
 
