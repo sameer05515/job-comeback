@@ -10,8 +10,8 @@ Main tujhe ek **developer-focused revision plan** deta hoon 👇
 ### 1. **Basics Recap (Day 1-2)**
 
 * [Pod, ReplicaSet, Deployment, Service, ConfigMap, Secret](./pod-replicaset-deployment-service-configmap-secret.md)
-* Difference between Deployment vs StatefulSet
-* NodePort vs ClusterIP vs LoadBalancer
+* [Difference between Deployment vs StatefulSet](./difference-between-deployment-vs-statefulset.md)
+* [NodePort vs ClusterIP vs LoadBalancer](./nodeport-vs-clusterip-vs-loadbalancer.md)
 
 👉 Task: Ek simple **Spring Boot REST API (Hello World)** ko Dockerize karke K8s me deploy kar.
 
