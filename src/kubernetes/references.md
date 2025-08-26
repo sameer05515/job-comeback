@@ -1,0 +1,1 @@
+- [Kubernetes Tutorial for Beginners | 2 Hours Course With Example | JavaTechie](https://www.youtube.com/watch?v=gMmcRbd8L5Y)
