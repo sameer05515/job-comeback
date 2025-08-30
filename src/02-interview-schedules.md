@@ -24,7 +24,7 @@
 - what is distributed transaction
 - tell me architecture of last project which you worked
 - what is SAGA pattern
-- If my messaging queue is not working, how to handle this situation in your microservices project
+- [If my messaging queue is not working, how to handle this situation in your microservices project](./microservices/queue-not-working.md)
 
 ---
 ---
