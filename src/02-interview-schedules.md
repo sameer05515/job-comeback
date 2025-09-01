@@ -602,3 +602,16 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 
 - [Top 50+ Tricky Java Streams Coding Interview Questions You Must Know to Crack Your Next Interview!](https://www.youtube.com/watch?v=tT3gUj6cq2U)
   - [Code related to video](./java-8/programs/010.md)
+
+
+# 01 Sep 2025
+## Combiva
+
+- what is difference between finally and finalize
+- RequestMapping
+- Spring Bean scopes
+- Spring boot auto-configuration
+- Redis
+- How high throughput is achieved in kafka
+- What is typescript
+- What are decorators in Typescript
