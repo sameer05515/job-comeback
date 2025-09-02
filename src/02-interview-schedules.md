@@ -615,3 +615,14 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - How high throughput is achieved in kafka
 - What is typescript
 - What are decorators in Typescript
+
+# 02 Sep 2025
+## Comviva 2nd Round
+
+- [Write a program](./java/programs/004.md)   
+> Suppose you have 2 threads.  
+> One of them prints (1,2,3.)    
+> and the other one prints (A,B,C,.).   
+> How will you ensure that they run in a sequence so that it prints (1,A,2,B)?
+
+- 
