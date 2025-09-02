@@ -609,7 +609,7 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 
 - what is difference between finally and finalize
 - RequestMapping
-- Spring Bean scopes
+- [Spring Bean scopes](./spring-boot/spring-bean-scopes.md)
 - Spring boot auto-configuration
 - Redis
 - How high throughput is achieved in kafka
