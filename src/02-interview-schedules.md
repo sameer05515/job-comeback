@@ -625,4 +625,4 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 > and the other one prints (A,B,C,.).   
 > How will you ensure that they run in a sequence so that it prints (1,A,2,B)?
 
-- 
+- [ACK 1 and ACK 3 in kafka](./kafka/ack-1-ack-3-in-kafka.md)
