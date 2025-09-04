@@ -626,3 +626,22 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 > How will you ensure that they run in a sequence so that it prints (1,A,2,B)?
 
 - [ACK 1 and ACK 3 in kafka](./kafka/ack-1-ack-3-in-kafka.md)
+
+# 03 Sep 2025
+## Comviva HR Round
+- Why should we hire you?
+- What are your weaknessess?
+
+
+---
+---
+
+# 04 Sep 2025
+## Trigent + Infosys
+- Java 17 features
+- Solid Design Patterns
+- ISR , related to kafka
+- Difference between iterable and for-each loop
+- Is modification allowed in iterable
+- Is modification allowed in for-each loop
+- [ordered and sorted in Collections framework](./java/collections/ordered-and-sorted-in-collections-framework.md)
