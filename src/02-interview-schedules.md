@@ -642,6 +642,6 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - Solid Design Patterns
 - [ISR , related to kafka](./kafka/isr.md)
 - [Difference between iterable and for-each loop](./java/collections/iterable-vs-for-each-loop.md)
-- Is modification allowed in iterable
-- Is modification allowed in for-each loop
+- [Is modification allowed in iterable](./java/collections/is-modification-allowed-in-iterable.md)
+- [Is modification allowed in for-each loop](./java/collections/is-modification-allowed-in-foreach-loop.md)
 - [ordered and sorted in Collections framework](./java/collections/ordered-and-sorted-in-collections-framework.md)
