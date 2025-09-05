@@ -640,7 +640,7 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 ## Trigent + Infosys
 - Java 17 features
 - Solid Design Patterns
-- ISR , related to kafka
+- [ISR , related to kafka](./kafka/isr.md)
 - [Difference between iterable and for-each loop](./java/collections/iterable-vs-for-each-loop.md)
 - Is modification allowed in iterable
 - Is modification allowed in for-each loop
