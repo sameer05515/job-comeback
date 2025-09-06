@@ -18,8 +18,8 @@
 
 
 Sure, here are some JavaScript coding questions:   
-1. Write a function that takes a string and returns the first non-repeated character.
-2. Create a function that checks if a given string is a palindrome.
+1. [Write a function that takes a string and returns the first non-repeated character.](./programs/005.md)
+2. [Create a function that checks if a given string is a palindrome.](./programs/006.md)
 3. Implement a function to flatten a nested array.
 4. Write a function that finds the longest word in a string.
 5. Create a function to remove all duplicates from an array.
