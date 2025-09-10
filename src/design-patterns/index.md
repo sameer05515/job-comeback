@@ -1,1 +1,2 @@
 - [Microservice | CQRS Design Pattern with SpringBoot & Apache Kafka | JavaTechie](https://www.youtube.com/watch?v=fzGZPf0FMao)
+- [CQRS Design Pattern in Microservices Interview Questions and Answers | Code Decode](https://www.youtube.com/watch?v=dwFNWiRHQXE)
