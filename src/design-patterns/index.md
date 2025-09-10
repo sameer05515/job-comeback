@@ -1,0 +1,1 @@
+- [Microservice | CQRS Design Pattern with SpringBoot & Apache Kafka | JavaTechie](https://www.youtube.com/watch?v=fzGZPf0FMao)
