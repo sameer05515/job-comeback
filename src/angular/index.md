@@ -1,0 +1,3 @@
+- [MASTER Angular in 90 Minutes with This Crash Course](https://www.youtube.com/watch?v=oUmVFHlwZsI)
+- [Angular for Beginners Course [Full Front End Tutorial with TypeScript]](https://www.youtube.com/watch?v=3qBXWUpoPHo)
+- [Angular 18 Full Course | Angular 18 Tutorial With Project](https://www.youtube.com/watch?v=QjaNv7s1gW0)
