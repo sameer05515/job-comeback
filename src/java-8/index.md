@@ -9,3 +9,5 @@
   - [Code related to video](./programs/010.md)
 
 - [Java Stream Gatherers Explained 🚀 | The Next Evolution of Streams @Javatechie ](https://www.youtube.com/watch?v=If6wFkY8ux4)
+
+- [Java 25 is here](https://www.youtube.com/watch?v=BOErAo3MJvM)
