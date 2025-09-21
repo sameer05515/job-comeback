@@ -7,3 +7,5 @@
 
 - [Top 50+ Tricky Java Streams Coding Interview Questions You Must Know to Crack Your Next Interview!](https://www.youtube.com/watch?v=tT3gUj6cq2U)
   - [Code related to video](./programs/010.md)
+
+- [Java Stream Gatherers Explained 🚀 | The Next Evolution of Streams @Javatechie ](https://www.youtube.com/watch?v=If6wFkY8ux4)
