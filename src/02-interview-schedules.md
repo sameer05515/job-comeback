@@ -607,7 +607,7 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 # 01 Sep 2025
 ## Combiva
 
-- what is difference between finally and finalize
+- [what is difference between finally and finalize](./java/final-finally-finalized.md)
 - RequestMapping
 - [Spring Bean scopes](./spring-boot/spring-bean-scopes.md)
 - [Spring boot auto-configuration](./spring-boot/3.md)
