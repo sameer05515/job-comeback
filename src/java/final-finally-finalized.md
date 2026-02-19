@@ -2382,3 +2382,271 @@ I can share:
 ✅ Retry + Circuit Breaker exception patterns
 
 Just tell me 👍
+
+
+---
+---
+
+# Distributed tracing (Zipkin / Sleuth)
+
+## 🔥 Spring Boot Distributed Tracing — Micrometer + Zipkin (Production Ready)
+
+> Spring Cloud Sleuth is **deprecated** → use **Micrometer Tracing**
+
+---
+
+## ✅ 1. Dependencies (Spring Boot 3+)
+
+### Maven
+
+```xml
+<dependencies>
+
+    <!-- Actuator -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+
+    <!-- Micrometer Tracing -->
+    <dependency>
+        <groupId>io.micrometer</groupId>
+        <artifactId>micrometer-tracing-bridge-brave</artifactId>
+    </dependency>
+
+    <!-- Zipkin Reporter -->
+    <dependency>
+        <groupId>io.zipkin.reporter2</groupId>
+        <artifactId>zipkin-reporter-brave</artifactId>
+    </dependency>
+
+</dependencies>
+```
+
+---
+
+## ✅ 2. Run Zipkin (Docker)
+
+```bash
+docker run -d -p 9411:9411 openzipkin/zipkin
+```
+
+Zipkin UI → [http://localhost:9411](http://localhost:9411)
+
+---
+
+## ✅ 3. application.yml
+
+```yaml
+spring:
+  application:
+    name: order-service
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0   # 100% traces (dev only)
+
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+
+logging:
+  pattern:
+    level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
+```
+
+---
+
+## ✅ 4. Automatic Trace in Logs
+
+No code needed — Spring auto injects:
+
+```
+INFO [order-service,4f3a2c...,9b1d...] Processing order
+```
+
+Fields:
+
+```
+traceId → request journey
+spanId  → single operation
+```
+
+---
+
+## ✅ 5. Controller Example
+
+```java
+@RestController
+@RequestMapping("/orders")
+@RequiredArgsConstructor
+public class OrderController {
+
+    private final OrderService service;
+
+    @GetMapping("/{id}")
+    public String getOrder(@PathVariable Long id) {
+        return service.process(id);
+    }
+}
+```
+
+---
+
+## ✅ 6. Service with Custom Span
+
+```java
+@Service
+@RequiredArgsConstructor
+public class OrderService {
+
+    private final Tracer tracer;
+
+    public String process(Long id) {
+
+        Span span = tracer.nextSpan().name("process-order").start();
+
+        try (Tracer.SpanInScope ws = tracer.withSpan(span)) {
+
+            Thread.sleep(100);
+            return "Order " + id;
+
+        } catch (Exception e) {
+            span.error(e);
+            throw new RuntimeException(e);
+        } finally {
+            span.end();
+        }
+    }
+}
+```
+
+---
+
+## ✅ 7. RestTemplate / WebClient Propagation
+
+### RestTemplate Bean
+
+```java
+@Bean
+RestTemplate restTemplate(RestTemplateBuilder builder) {
+    return builder.build();
+}
+```
+
+Trace headers auto propagated:
+
+```
+traceparent
+X-B3-TraceId
+X-B3-SpanId
+```
+
+---
+
+## ✅ 8. WebClient Example
+
+```java
+@Bean
+WebClient webClient(WebClient.Builder builder) {
+    return builder.build();
+}
+```
+
+---
+
+## ✅ 9. Manual Trace ID Access (Logging / Debug)
+
+```java
+@Autowired
+Tracer tracer;
+
+public void logTrace() {
+    String traceId = tracer.currentSpan().context().traceId();
+    System.out.println(traceId);
+}
+```
+
+---
+
+## ✅ 10. Exception + Tracing Integration
+
+```java
+@Slf4j
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    @Autowired
+    Tracer tracer;
+
+    @ExceptionHandler(Exception.class)
+    public ResponseEntity<String> handle(Exception ex) {
+
+        String traceId = tracer.currentSpan().context().traceId();
+
+        log.error("Error occurred traceId={}", traceId, ex);
+
+        return ResponseEntity.internalServerError()
+                .body("Error. traceId=" + traceId);
+    }
+}
+```
+
+---
+
+# 🔥 How Distributed Tracing Works (Flow)
+
+```
+Client → API Gateway → Order Service → Payment Service → DB
+            SAME TRACE ID FLOWS EVERYWHERE
+```
+
+Zipkin shows:
+
+```
+Trace
+ ├── Gateway Span
+ ├── Order Service Span
+ ├── Payment Service Span
+ └── DB Span
+```
+
+---
+
+# 🔥 Production Best Practices
+
+```
+✔ Sampling < 1% in production (0.1)
+✔ Never log sensitive data
+✔ Always include traceId in error response
+✔ Use centralized logging (ELK / Loki)
+✔ Correlate metrics + traces + logs
+✔ Use OpenTelemetry future-ready
+```
+
+---
+
+# 🚀 OpenTelemetry Alternative (Future Standard)
+
+Dependencies:
+
+```xml
+<dependency>
+    <groupId>io.opentelemetry</groupId>
+    <artifactId>opentelemetry-exporter-zipkin</artifactId>
+</dependency>
+```
+
+---
+
+# 🚀 If You Want Next Level
+
+I can share:
+
+✅ Complete microservices tracing project (Gateway + 2 services)
+✅ Grafana Tempo + Loki + Prometheus stack
+✅ Resilience4j retry + tracing integration
+✅ Kubernetes distributed tracing setup
+
+Just tell me 👍
