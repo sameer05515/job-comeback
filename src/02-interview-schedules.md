@@ -652,4 +652,4 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 
 # 19 Feb 2026
 ## Self Interview
-- [Java 8 vs 17 vs 21](./java/java-8-17-21.md)
+- [Java 8 vs 17 vs 21 vs 25](./java/java-8-17-21.md)
