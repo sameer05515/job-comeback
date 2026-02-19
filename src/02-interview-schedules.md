@@ -645,3 +645,11 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - [Is modification allowed in iterable](./java/collections/is-modification-allowed-in-iterable.md)
 - [Is modification allowed in for-each loop](./java/collections/is-modification-allowed-in-foreach-loop.md)
 - [ordered and sorted in Collections framework](./java/collections/ordered-and-sorted-in-collections-framework.md)
+
+
+---
+---
+
+# 19 Feb 2026
+## Self Interview
+- [Java 8 vs 17 vs 21](./java/java-8-17-21.md)
