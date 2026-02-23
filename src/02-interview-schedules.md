@@ -657,3 +657,4 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - [priority matrix for interview-02](./20-feb-26/02-study-priority-matrix.md)
 - [priority matrix for interview-03](./20-feb-26/03-mcq.md)
 - [Spring bean lifecycle](./spring-boot/spring-bean-lifecycle.md)
+- [difference between Collectors.groupingBy and Collectors.partitioningBy](./java-8/difference-between-collectors-groupingby-and-partitionby.md)
