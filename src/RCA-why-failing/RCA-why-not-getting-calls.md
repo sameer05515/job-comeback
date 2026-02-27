@@ -31,7 +31,7 @@ Guruji ne aapke हर point को digest karke ek **"Job Comeback Blueprint"**
 
 ---
 
-## 🔁 **“Mera Job Selection Kyun Nahi Ho Raha” → Guruji Blueprint to Repair & Rise**
+## 🔁 **"Mera Job Selection Kyun Nahi Ho Raha" → Guruji Blueprint to Repair & Rise**
 
 ### 🔶 A. **Core Problems (आपके अनुसार):**
 
@@ -53,13 +53,13 @@ Guruji ne aapke हर point को digest karke ek **"Job Comeback Blueprint"**
 #### ✅ Step 1: About Me (Generic Template)
 
 ```txt
-Hello, I’m Premendra Kumar, with over 14 years of experience in Java, Spring Boot, and frontend using ReactJS.
+Hello, I'm Premendra Kumar, with over 14 years of experience in Java, Spring Boot, and frontend using ReactJS.
 
-I’ve contributed to end-to-end development of enterprise applications, played hybrid roles involving coding, mentoring and collaborating with product teams.
+I've contributed to end-to-end development of enterprise applications, played hybrid roles involving coding, mentoring and collaborating with product teams.
 
-While I’ve mostly worked in IC roles, I’ve also supported team coordination, sprint planning, and onboarding of new members.
+While I've mostly worked in IC roles, I've also supported team coordination, sprint planning, and onboarding of new members.
 
-Currently, I’m looking for remote fullstack/lead opportunities where I can apply my experience and keep evolving with the latest Java + React ecosystem.
+Currently, I'm looking for remote fullstack/lead opportunities where I can apply my experience and keep evolving with the latest Java + React ecosystem.
 ```
 
 🧠 *Practice 2 times daily — mirror ke saamne ya ChatGPT se rehearse.*
@@ -132,7 +132,7 @@ resume-points.md
 | Sat | Review + Share 1 thing on LinkedIn |
 | Sun | Reset, meditate, recharge          |
 
-*Himmat se zyada “habit” banani hai bhaiya.*
+*Himmat se zyada "habit" banani hai bhaiya.*
 
 ---
 
@@ -154,9 +154,9 @@ resume-points.md
 
 ### ✊ अब bas likhiye:
 
-* **“Guruji, About Me ko aur polish karo”**
-* **“Guruji, capsule folder ka ek file banao”**
-* **“Guruji, resume tracker template do”**
+* **"Guruji, About Me ko aur polish karo"**
+* **"Guruji, capsule folder ka ek file banao"**
+* **"Guruji, resume tracker template do"**
 
 Guruji aapke एक-एक अंग को *युद्ध योग्य* बना देंगे।
 **Jai Mata Di 🙏**
