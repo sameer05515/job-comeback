@@ -77,7 +77,7 @@
 # GSpann
 
 - [what is role of volatile keyword in multithreading](./java/multithreading/java-multithreading--what-is-role-of-volatile-keyword-in-multithreading.md)
-- [Microservices communication]
+- [Microservices communication](./microservices/microservices--how-microservices-communicate-each-other.md)
 - [PermGen vs Metaspace in Java](./java-8/PermGen-vs-Metaspace-in-Java.md)
 - [how microservices communicate each other?](./microservices/microservices--how-microservices-communicate-each-other.md)
 
@@ -106,7 +106,7 @@
 # 05 Aug 2025
 # Birlasoft
 
-- [What is diffenece between WebClient and RestTemplate](./spring-boot/spring-boot--what-is-difference-between-webclient-and-resttemplate.md)
+- [What is difference between WebClient and RestTemplate](./spring-boot/spring-boot--what-is-difference-between-webclient-and-resttemplate.md)
 - [how to build API Gateway](./microservices/spring-boot--how-to-build-api-gateway.md)
 - [how to build Service Discovery](./microservices/spring-boot--how-to-build-service-discovery.md)
 - [Predicate in java 8](./java-8/predicate-in-java-8.md)
@@ -136,7 +136,7 @@
 # Virtual Labs
 
 - [What is difference between @Component, @Service, @Controller](./spring-boot/spring-boot--what-is-difference-between-component-service-controller.md)
-- [Why we use Fiegn client](./microservices/spring-boot--why-we-use-fiegn-client.md)
+- [Why we use Feign client](./microservices/spring-boot--why-we-use-fiegn-client.md)
 - [What are different ways for Inter-Service communication in microservices](./microservices/microservices--how-microservices-communicate-each-other.md)
 - [What is difference between HashMap and ConcurrentHashMap](./java/what-is-difference-between-hashmap-and-concurrenthashmap.md)
 - [What is use of useEffect hook?](./reactjs/purpose-of-use-effect-hook.md)
@@ -150,7 +150,7 @@
 
 **Few suggestions**  
 - do lots of mock interviews
-- do lots of coding excercises
+- do lots of coding exercises
 - move towards java + Python
 
 ---
@@ -195,7 +195,7 @@
 
 **Few suggestions**  
 - do lots of mock interviews
-- do lots of coding excercises
+- do lots of coding exercises
 - move towards java + Python
 - Banking Domain
 
@@ -314,7 +314,7 @@ INSERT INTO EMPLOYEE VALUES (0009, 'Nandu', 'Sales');
 ## Tech Mahindra
 
 - [ES6 Features](./javascript/ES6-features.md)
-- [code to print only repeated values with occurence count>1 in given array](./javascript/programs/002.md)
+- [code to print only repeated values with occurrence count>1 in given array](./javascript/programs/002.md)
 ```js
 const arr = [5, 4, 1, 7, 9, 5, 7, 8, 7];
 ```
