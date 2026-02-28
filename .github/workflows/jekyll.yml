@@ -5,7 +5,7 @@ name: Deploy Jekyll to GitHub Pages
 
 on:
   push:
-    branches: ["main"]   # or "master" if that's your default branch
+    branches: ["work-branch"]   # or "master" if that's your default branch
   workflow_dispatch:
 
 permissions:
