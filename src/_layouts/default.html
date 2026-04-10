@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <style>
+    :root {
+      --bg: #0f0f12;
+      --fg: #e4e4e7;
+      --muted: #71717a;
+      --accent: #a78bfa;
+      --code-bg: #27272a;
+      --border: #3f3f46;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    nav {
+      margin-bottom: 2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    nav a { margin-right: 1rem; }
+    pre, code {
+      background: var(--code-bg);
+      border-radius: 6px;
+      font-family: 'Consolas', 'Monaco', monospace;
+    }
+    pre { padding: 1rem; overflow-x: auto; }
+    code { padding: 0.2em 0.4em; font-size: 0.9em; }
+    pre code { padding: 0; }
+    blockquote {
+      border-left: 4px solid var(--accent);
+      margin: 1rem 0;
+      padding-left: 1rem;
+      color: var(--muted);
+    }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid var(--border); padding: 0.5rem 0.75rem; text-align: left; }
+    th { background: var(--code-bg); }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/java-8/' | relative_url }}">Java 8</a>
+    <a href="{{ '/spring-boot/' | relative_url }}">Spring Boot</a>
+    <a href="{{ '/reactjs/' | relative_url }}">React</a>
+    <a href="{{ '/sql/' | relative_url }}">SQL</a>
+    <a href="{{ '/design-patterns/' | relative_url }}">Design Patterns</a>
+    <a href="{{ '/microservices/' | relative_url }}">Microservices</a>
+    <a href="{{ '/tech-lead/' | relative_url }}">Tech Lead</a>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer style="margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9em;">
+    <p>🙏 Jai Mata Di | SHANTI Framework | Job Comeback</p>
+  </footer>
+</body>
+</html>

@@ -1,3 +1,7 @@
+---
+layout: default
+title: Home
+---
 
 # Inspirational Quotes
 > Kripa tab hoti hai jab shishya rukta nahi.  

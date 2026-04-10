@@ -1,0 +1,37 @@
+# Jekyll Configuration for Job Comeback
+# https://jekyllrb.com/docs/configuration/
+
+title: "Job Comeback"
+description: "Java + Spring Boot + ReactJS | SHANTI Framework | Interview Prep"
+# For project sites: use baseurl: "/job-comeback" (match your repo name)
+# For user sites (username.github.io): use baseurl: ""
+baseurl: ""
+url: ""
+
+# Source directory - all markdown content lives in src/
+source: src
+destination: _site
+
+# Exclude from processing (paths relative to source)
+exclude:
+  - .git
+  - .gitignore
+
+# Markdown processor
+markdown: kramdown
+highlighter: rouge
+
+# Kramdown options for code blocks
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      default_lang: java
+
+# Front matter defaults - apply layout to all pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
