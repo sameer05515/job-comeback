@@ -7,6 +7,25 @@ I’m Premendra Kumar. I completed my B.Tech. from BCE Bhagalpur in 2009. I star
 
 I have 8+ years of full-stack development experience using Java, Spring Boot, microservices and ReactJS.
 
+My last company was Comviva Technologies, where I worked as a Senior Technical Lead on the Mobiquity one issuing project. I developed REST APIs for transaction details, view rewards, view balance. I have also worked to implement these APIs in frontend. Also, I have integrated Redis in current project for distributed caching across microservices, reducing API response time by ~40%. I have also written test cases for applications with help of Cursor.
+
+I have completed certifications in Java 8, Spring Boot, ReactJS, Spring Security (JWT), Docker, Kubernetes, and GitHub Actions.
+
+I enjoy working on scalable enterprise applications, mainly using Spring Boot and ReactJS functional components. I follow clean code practices and focus on performance and maintainability.
+
+While I have mostly worked as an individual contributor, I’ve also handled sprint planning, team collaboration, and mentoring.
+
+My long-term goal is to become a Software Architect, building high-impact systems with clean and scalable architecture.
+
+In my free time, I like to explore new technologies, travel, and meet new people.
+
+---
+
+Hi,
+I’m Premendra Kumar. I completed my B.Tech. from BCE Bhagalpur in 2009. I started my career as a Java developer.
+
+I have 8+ years of full-stack development experience using Java, Spring Boot, microservices and ReactJS.
+
 My last company was Zycus Infotech, where I worked as a Senior Software Engineer on the ESG Lythouse project. I developed REST APIs for the GMI and EU Taxonomy modules and integrated them with the frontend. I completed these tasks within tight deadlines and received rewards and recognition for my work.
 
 I have completed certifications in Java 8, Spring Boot, ReactJS, Spring Security (JWT), Docker, Kubernetes, and GitHub Actions.
