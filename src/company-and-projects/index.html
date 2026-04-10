@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume of Premendra Kumar">
+    <meta name="keywords" content="Resume, Premendra Kumar, Technical Lead, Java, React, Spring Boot, Microservices, Docker, Kubernetes, Jenkins, GitHub Actions, MySQL, MongoDB, Kafka, Redis, AWS, SOLID, Design Patterns, API Design, Distributed Systems">
+    <meta name="author" content="Premendra Kumar">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="bingbot" content="index, follow">
+    <meta name="yandexbot" content="index, follow">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Resume of Premendra Kumar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
+
+        @media print {
+            @page {
+                margin: 12mm 14mm;
+                size: auto;
+            }
+
+            html {
+                font-size: 11pt;
+            }
+
+            body {
+                min-height: 0 !important;
+                background: #fff !important;
+                color: #111827 !important;
+            }
+
+            .resume-print-hide {
+                display: none !important;
+            }
+
+            .resume-root {
+                overflow: visible !important;
+                padding-bottom: 0 !important;
+            }
+
+            /* Prefer ink savings; keep borders readable */
+            * {
+                -webkit-print-color-adjust: economy;
+                print-color-adjust: economy;
+            }
+
+            a {
+                color: inherit;
+                text-decoration: underline;
+            }
+
+            .resume-break-inside-avoid {
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+
+            .resume-max-width {
+                max-width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-slate-50 via-white to-indigo-50/45 text-slate-800 antialiased selection:bg-indigo-100 selection:text-indigo-950 print:bg-white print:text-gray-900 print:min-h-0">
+
+    <p id="load-error" class="hidden mx-auto max-w-3xl px-4 py-3 text-sm text-red-700 bg-red-50 border-b border-red-200 print:hidden" role="alert"></p>
+
+    <div class="resume-root relative isolate overflow-hidden pb-16 print:pb-4">
+        <div class="resume-print-hide pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_90%_55%_at_50%_-25%,rgba(99,102,241,0.16),transparent)]"></div>
+        <div class="resume-print-hide pointer-events-none absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-indigo-200/60 to-transparent"></div>
+
+        <header class="mx-auto max-w-3xl px-4 pb-2 pt-14 print:pt-4 sm:px-6 lg:px-8 resume-max-width">
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                    <p id="header-eyebrow" class="text-xs font-semibold uppercase tracking-[0.22em] text-indigo-600 print:text-slate-700"></p>
+                    <h1 id="header-title" class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl"></h1>
+                </div>
+                <span id="availability-badge" class="hidden inline-flex w-fit items-center gap-2 rounded-full border border-indigo-100 bg-white/80 px-3 py-1 text-xs font-medium text-slate-600 shadow-sm backdrop-blur-sm print:border-slate-300 print:bg-white print:shadow-none">
+                    <span class="h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500 shadow-[0_0_0_3px_rgba(16,185,129,0.25)]" aria-hidden="true"></span>
+                    <span id="availability-label"></span>
+                </span>
+            </div>
+            <div class="mt-6 rounded-2xl border border-slate-200/70 bg-white/75 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-md sm:p-8 print:border-slate-300 print:bg-white print:shadow-none print:ring-0 print:backdrop-blur-none">
+                <p id="summary-text" class="text-pretty text-base leading-relaxed text-slate-600 sm:text-lg"></p>
+            </div>
+        </header>
+
+        <section class="mx-auto max-w-3xl px-4 pt-8 print:pt-6 sm:px-6 lg:px-8 resume-max-width">
+            <div id="skills-card" class="rounded-2xl border border-slate-200/70 bg-white/75 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-md sm:p-8 print:border-slate-300 print:bg-white print:shadow-none print:ring-0"></div>
+        </section>
+
+        <main class="mx-auto max-w-3xl px-4 pb-8 pt-10 print:pt-6 print:pb-4 sm:px-6 lg:px-8 resume-max-width">
+            <div id="portfolio-intro"></div>
+
+            <div id="company-and-projects" class="relative space-y-8"></div>
+        </main>
+
+        <section class="mx-auto max-w-3xl px-4 pt-2 pb-8 print:pb-6 sm:px-6 lg:px-8 resume-max-width">
+            <div id="education-card" class="rounded-2xl border border-slate-200/70 bg-white/75 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-md sm:p-8 print:border-slate-300 print:bg-white print:shadow-none print:ring-0"></div>
+        </section>
+
+        <section class="mx-auto max-w-3xl px-4 pt-2 pb-4 print:pb-6 sm:px-6 lg:px-8 resume-max-width">
+            <div id="certifications-card" class="rounded-2xl border border-slate-200/70 bg-white/75 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-md sm:p-8 print:border-slate-300 print:bg-white print:shadow-none print:ring-0"></div>
+        </section>
+
+        <footer class="mx-auto max-w-3xl px-4 pt-6 print:pt-4 sm:px-6 lg:px-8 resume-max-width">
+            <p id="footer-text" class="border-t border-slate-200/80 pt-8 print:pt-4 print:border-slate-300 text-center text-xs text-slate-400 print:text-slate-500"></p>
+        </footer>
+    </div>
+
+    <script>
+        const chipClass =
+            "rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80 print:shadow-none print:ring-slate-300 print:bg-neutral-50";
+
+        async function loadJson(filename) {
+            const url = new URL(filename, window.location.href);
+            const res = await fetch(url);
+            if (!res.ok) {
+                throw new Error(`Failed to load ${filename} (${res.status})`);
+            }
+            return res.json();
+        }
+
+        function loadScript(filename) {
+            return new Promise((resolve, reject) => {
+                const s = document.createElement("script");
+                s.async = true;
+                s.src = new URL(filename, window.location.href).href;
+                s.onload = () => resolve();
+                s.onerror = () => reject(new Error(`Failed to load ${filename}`));
+                document.head.appendChild(s);
+            });
+        }
+
+        async function loadResumeData() {
+            try {
+                const manifest = await loadJson("data.json");
+                const f = manifest.files;
+                const [meta, summary, skills, portfolioSection, experience, education, certifications] =
+                    await Promise.all([
+                        loadJson(f.meta),
+                        loadJson(f.summary),
+                        loadJson(f.skills),
+                        loadJson(f.portfolioSection),
+                        loadJson(f.experience),
+                        loadJson(f.education),
+                        loadJson(f.certifications),
+                    ]);
+                return {
+                    meta,
+                    summary,
+                    skills,
+                    portfolioSection,
+                    experience,
+                    education,
+                    certifications,
+                };
+            } catch (fetchErr) {
+                await loadScript("resume-data.js");
+                const b = window.__RESUME_BUNDLE__;
+                if (!b) {
+                    throw fetchErr;
+                }
+                return {
+                    meta: b.meta,
+                    summary: b.summary,
+                    skills: b.skills,
+                    portfolioSection: b.portfolioSection,
+                    experience: b.experience,
+                    education: b.education,
+                    certifications: b.certifications,
+                };
+            }
+        }
+
+        function renderSummary(summary, container) {
+            container.replaceChildren();
+            for (const seg of summary.segments) {
+                if (seg.strong) {
+                    const strong = document.createElement("span");
+                    strong.className = "font-semibold text-slate-900";
+                    strong.textContent = seg.text;
+                    container.appendChild(strong);
+                } else {
+                    container.appendChild(document.createTextNode(seg.text));
+                }
+            }
+        }
+
+        function renderSkills(skills, root) {
+            root.replaceChildren();
+
+            const headWrap = document.createElement("div");
+            headWrap.className = "mb-6 flex items-start gap-4";
+            headWrap.innerHTML = `
+                <span class="resume-print-hide mt-1 h-10 w-1 shrink-0 rounded-full bg-gradient-to-b from-indigo-500 to-violet-500" aria-hidden="true"></span>
+                <div class="min-w-0 flex-1">
+                    <h2 class="text-lg font-semibold tracking-tight text-slate-900"></h2>
+                    <p class="mt-1 text-sm text-slate-500 print:text-slate-600"></p>
+                </div>`;
+            headWrap.querySelector("h2").textContent = skills.title;
+            headWrap.querySelector("p").textContent = skills.subtitle;
+            root.appendChild(headWrap);
+
+            const dl = document.createElement("dl");
+            dl.className = "grid grid-cols-1 gap-5 sm:grid-cols-2";
+
+            for (const cat of skills.categories) {
+                const wrap = document.createElement("div");
+                const span = cat.colSpan === 2 ? "sm:col-span-2" : "";
+                if (cat.variant === "featured") {
+                    wrap.className =
+                        `${span} resume-break-inside-avoid rounded-xl border border-slate-100 bg-gradient-to-br from-indigo-50/80 to-white p-4 ring-1 ring-indigo-100/80 print:border-slate-300 print:bg-neutral-50 print:ring-slate-200`.trim();
+                } else {
+                    wrap.className =
+                        `${span} resume-break-inside-avoid rounded-xl border border-slate-100 bg-slate-50/80 p-4 ring-1 ring-slate-900/[0.03] print:border-slate-300 print:bg-neutral-50 print:ring-0`.trim();
+                }
+
+                const dt = document.createElement("dt");
+                dt.className = "text-sm font-semibold text-slate-900";
+                dt.appendChild(document.createTextNode(cat.name));
+                if (cat.qualifier) {
+                    const q = document.createElement("span");
+                    q.className = "font-normal text-slate-400";
+                    q.textContent = " " + cat.qualifier;
+                    dt.appendChild(q);
+                }
+
+                const dd = document.createElement("dd");
+                dd.className = "mt-3 flex flex-wrap gap-2";
+                for (const s of cat.skills) {
+                    const chip = document.createElement("span");
+                    chip.className = chipClass;
+                    chip.textContent = s;
+                    dd.appendChild(chip);
+                }
+
+                wrap.appendChild(dt);
+                wrap.appendChild(dd);
+                dl.appendChild(wrap);
+            }
+
+            root.appendChild(dl);
+        }
+
+        function renderPortfolioSection(data, root) {
+            root.replaceChildren();
+            const outer = document.createElement("div");
+            outer.className =
+                "mb-10 flex flex-col gap-4 border-b border-slate-200/80 pb-8 print:mb-8 print:border-slate-300 sm:flex-row sm:items-end sm:justify-between";
+
+            const inner = document.createElement("div");
+            inner.className = "flex items-start gap-4";
+
+            const bar = document.createElement("span");
+            bar.className =
+                "resume-print-hide mt-1 h-10 w-1 shrink-0 rounded-full bg-gradient-to-b from-indigo-500 to-violet-500 sm:hidden";
+            bar.setAttribute("aria-hidden", "true");
+
+            const text = document.createElement("div");
+            const eyebrow = document.createElement("p");
+            eyebrow.className = "text-xs font-semibold uppercase tracking-[0.22em] text-indigo-600 print:text-slate-700";
+            eyebrow.textContent = data.eyebrow;
+
+            const h2 = document.createElement("h2");
+            h2.className = "mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl";
+            h2.textContent = data.title;
+
+            const sub = document.createElement("p");
+            sub.className = "mt-2 max-w-xl text-sm text-slate-500 print:text-slate-600 sm:text-base";
+            sub.textContent = data.subtitle;
+
+            text.appendChild(eyebrow);
+            text.appendChild(h2);
+            text.appendChild(sub);
+
+            inner.appendChild(bar);
+            inner.appendChild(text);
+            outer.appendChild(inner);
+            root.appendChild(outer);
+        }
+
+        function renderExperience(companies, container) {
+            container.replaceChildren();
+
+            const line = document.createElement("div");
+            line.className =
+                "resume-print-hide absolute left-[1.125rem] top-3 bottom-3 hidden w-px bg-gradient-to-b from-indigo-200 via-slate-200 to-transparent sm:block";
+            line.setAttribute("aria-hidden", "true");
+            container.appendChild(line);
+
+            for (const company of companies) {
+                const companyContainer = document.createElement("article");
+                companyContainer.className =
+                    "resume-break-inside-avoid group relative rounded-2xl border border-slate-200/80 bg-white/90 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-sm transition duration-300 hover:border-indigo-200/90 hover:shadow-md sm:ml-0 sm:p-8 sm:pl-10 print:border-slate-300 print:bg-white print:shadow-none print:ring-0 print:backdrop-blur-none print:!pl-6";
+
+                const timelineDot = document.createElement("span");
+                timelineDot.className =
+                    "resume-print-hide absolute left-0 top-8 hidden h-3 w-3 -translate-x-[1.375rem] rounded-full border-2 border-white bg-indigo-500 shadow-sm ring-2 ring-indigo-200 sm:block";
+                timelineDot.setAttribute("aria-hidden", "true");
+                companyContainer.appendChild(timelineDot);
+
+                const companyHeader = document.createElement("header");
+                companyHeader.className = "mb-6 border-b border-slate-100 pb-6";
+
+                const titleRow = document.createElement("div");
+                titleRow.className =
+                    "flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-start sm:justify-between";
+
+                const h2 = document.createElement("h2");
+                h2.className = "text-xl font-semibold tracking-tight text-slate-900";
+                h2.textContent = company.name;
+
+                const designation = document.createElement("span");
+                designation.className =
+                    "inline-flex w-fit shrink-0 items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-indigo-800 ring-1 ring-indigo-100/80 print:border print:border-slate-400 print:bg-white print:text-slate-800 print:ring-0";
+                designation.textContent = company.designation;
+
+                titleRow.appendChild(h2);
+                titleRow.appendChild(designation);
+                companyHeader.appendChild(titleRow);
+
+                const companyDesc = document.createElement("p");
+                companyDesc.className = "mt-4 text-pretty leading-relaxed text-slate-600";
+                companyDesc.textContent = company.description;
+                companyHeader.appendChild(companyDesc);
+
+                companyContainer.appendChild(companyHeader);
+
+                const projectsWrap = document.createElement("div");
+                projectsWrap.className = "space-y-5";
+
+                for (const project of company.projects) {
+                    const projectSection = document.createElement("section");
+                    projectSection.className =
+                        "resume-break-inside-avoid rounded-xl border border-slate-100 bg-gradient-to-br from-slate-50/95 to-white p-5 shadow-inner ring-1 ring-slate-200/50 transition hover:ring-indigo-100 sm:p-6 print:border-slate-300 print:bg-neutral-50 print:shadow-none print:ring-0";
+
+                    const projectLabel = document.createElement("p");
+                    projectLabel.className = "text-[10px] font-bold uppercase tracking-widest text-indigo-500 print:text-slate-600";
+                    projectLabel.textContent = "Project";
+                    projectSection.appendChild(projectLabel);
+
+                    const h3 = document.createElement("h3");
+                    h3.className = "mt-1 text-lg font-semibold text-slate-900";
+                    h3.textContent = project.name;
+                    projectSection.appendChild(h3);
+
+                    const projectDesc = document.createElement("p");
+                    projectDesc.className =
+                        "mt-2 text-pretty text-sm leading-relaxed text-slate-600 sm:text-base";
+                    projectDesc.textContent = project.description;
+                    projectSection.appendChild(projectDesc);
+
+                    const ul = document.createElement("ul");
+                    ul.className = "mt-5 space-y-2";
+                    ul.setAttribute("role", "list");
+
+                    for (const responsibility of project.responsibilities) {
+                        const li = document.createElement("li");
+                        li.className =
+                            "flex gap-3 rounded-lg border border-slate-100/90 bg-white/80 py-2 pl-2 pr-3 text-sm leading-relaxed text-slate-700 shadow-sm sm:text-base print:border-slate-300 print:bg-white print:shadow-none";
+                        const bullet = document.createElement("span");
+                        bullet.className =
+                            "mt-2 ml-1 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500 print:bg-slate-700";
+                        bullet.setAttribute("aria-hidden", "true");
+                        const text = document.createElement("span");
+                        text.textContent = responsibility;
+                        li.appendChild(bullet);
+                        li.appendChild(text);
+                        ul.appendChild(li);
+                    }
+
+                    projectSection.appendChild(ul);
+                    projectsWrap.appendChild(projectSection);
+                }
+
+                companyContainer.appendChild(projectsWrap);
+                container.appendChild(companyContainer);
+            }
+        }
+
+        function renderEducation(data, root) {
+            root.replaceChildren();
+
+            const headWrap = document.createElement("div");
+            headWrap.className = "mb-6 flex items-start gap-4";
+            headWrap.innerHTML = `
+                <span class="resume-print-hide mt-1 h-10 w-1 shrink-0 rounded-full bg-gradient-to-b from-indigo-500 to-violet-500" aria-hidden="true"></span>
+                <div>
+                    <h2 class="text-lg font-semibold tracking-tight text-slate-900"></h2>
+                    <p class="mt-1 text-sm text-slate-500 print:text-slate-600"></p>
+                </div>`;
+            headWrap.querySelector("h2").textContent = data.title;
+            headWrap.querySelector("p").textContent = data.subtitle;
+            root.appendChild(headWrap);
+
+            const ol = document.createElement("ol");
+            ol.className = "relative space-y-4 border-l border-slate-200 pl-6";
+
+            for (const entry of data.entries) {
+                const li = document.createElement("li");
+                li.className = "relative resume-break-inside-avoid";
+
+                const dot = document.createElement("span");
+                dot.setAttribute("aria-hidden", "true");
+                if (entry.highlight) {
+                    dot.className =
+                        "absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full border-2 border-white bg-indigo-500 shadow-sm ring-2 ring-indigo-100";
+                } else {
+                    dot.className =
+                        "absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full border-2 border-white bg-slate-400 shadow-sm ring-2 ring-slate-100";
+                }
+
+                const card = document.createElement("div");
+                card.className = entry.highlight
+                    ? "rounded-xl border border-slate-100 bg-slate-50/90 p-4 ring-1 ring-slate-900/[0.03] print:border-slate-300 print:bg-neutral-50 print:ring-0"
+                    : "rounded-xl border border-slate-100 bg-white p-4 ring-1 ring-slate-900/[0.03] print:border-slate-300 print:ring-0";
+
+                const row = document.createElement("div");
+                row.className =
+                    "flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between";
+
+                const degree = document.createElement("p");
+                degree.className = "font-semibold text-slate-900";
+                degree.textContent = entry.degree;
+
+                const meta = document.createElement("span");
+                meta.className = entry.highlight
+                    ? "shrink-0 rounded-full bg-white px-2.5 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-slate-200/80"
+                    : "shrink-0 rounded-full bg-slate-50 px-2.5 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-slate-200/80";
+                meta.textContent = entry.meta;
+
+                row.appendChild(degree);
+                row.appendChild(meta);
+
+                const inst = document.createElement("p");
+                inst.className = "mt-2 text-sm text-slate-600";
+                inst.textContent = entry.institution;
+
+                card.appendChild(row);
+                card.appendChild(inst);
+                li.appendChild(dot);
+                li.appendChild(card);
+                ol.appendChild(li);
+            }
+
+            root.appendChild(ol);
+        }
+
+        function renderCertifications(data, root) {
+            root.replaceChildren();
+
+            const headWrap = document.createElement("div");
+            headWrap.className = "mb-6 flex items-start gap-4";
+            headWrap.innerHTML = `
+                <span class="resume-print-hide mt-1 h-10 w-1 shrink-0 rounded-full bg-gradient-to-b from-indigo-500 to-violet-500" aria-hidden="true"></span>
+                <div>
+                    <h2 class="text-lg font-semibold tracking-tight text-slate-900"></h2>
+                    <p class="mt-1 text-sm text-slate-500 print:text-slate-600"></p>
+                </div>`;
+            headWrap.querySelector("h2").textContent = data.title;
+            headWrap.querySelector("p").textContent = data.subtitle;
+            root.appendChild(headWrap);
+
+            const ul = document.createElement("ul");
+            ul.className = "space-y-2.5";
+
+            data.items.forEach((item, i) => {
+                const li = document.createElement("li");
+                const alt = i % 2 === 0;
+                li.className = alt
+                    ? "resume-break-inside-avoid flex gap-3 rounded-xl border border-slate-100 bg-slate-50/90 px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base print:border-slate-300 print:ring-0 print:bg-neutral-50"
+                    : "resume-break-inside-avoid flex gap-3 rounded-xl border border-slate-100 bg-white px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base print:border-slate-300 print:ring-0";
+
+                const check = document.createElement("span");
+                check.className =
+                    "mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700";
+                check.setAttribute("aria-hidden", "true");
+                check.textContent = "✓";
+
+                const span = document.createElement("span");
+                span.className = "leading-snug";
+                span.textContent = item;
+
+                li.appendChild(check);
+                li.appendChild(span);
+                ul.appendChild(li);
+            });
+
+            root.appendChild(ul);
+        }
+
+        function showLoadError(message) {
+            const el = document.getElementById("load-error");
+            el.textContent = message;
+            el.classList.remove("hidden");
+        }
+
+        async function init() {
+            try {
+                const {
+                    meta,
+                    summary,
+                    skills,
+                    portfolioSection,
+                    experience,
+                    education,
+                    certifications,
+                } = await loadResumeData();
+
+                document.title = meta.documentTitle;
+
+                document.getElementById("header-eyebrow").textContent = meta.headerEyebrow;
+                document.getElementById("header-title").textContent = meta.headerTitle;
+
+                const badge = document.getElementById("availability-badge");
+                if (meta.availability && meta.availability.visible) {
+                    badge.classList.remove("hidden");
+                    badge.classList.add("inline-flex");
+                    document.getElementById("availability-label").textContent = meta.availability.label || "";
+                }
+
+                renderSummary(summary, document.getElementById("summary-text"));
+                renderSkills(skills, document.getElementById("skills-card"));
+                renderPortfolioSection(portfolioSection, document.getElementById("portfolio-intro"));
+                renderExperience(experience, document.getElementById("company-and-projects"));
+                renderEducation(education, document.getElementById("education-card"));
+                renderCertifications(certifications, document.getElementById("certifications-card"));
+                document.getElementById("footer-text").textContent = meta.footer || "";
+            } catch (e) {
+                console.error(e);
+                showLoadError(
+                    "Could not load résumé data (JSON fetch and resume-data.js both failed). Serve this folder over HTTP, or run node src/company-and-projects/scripts/build-resume-bundle.js and refresh."
+                );
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

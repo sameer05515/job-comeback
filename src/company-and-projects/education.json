@@ -1,0 +1,24 @@
+{
+  "title": "Education",
+  "subtitle": "Degrees and milestones.",
+  "entries": [
+    {
+      "degree": "B.Tech, Computer Science & Engineering",
+      "meta": "2005 – 2009 · 72.31%",
+      "institution": "BCE Bhagalpur, Bhagalpur, Bihar",
+      "highlight": true
+    },
+    {
+      "degree": "Intermediate (Science – Mathematics)",
+      "meta": "2004",
+      "institution": "Munshi Singh College, Motihari, Bihar (BIEC)",
+      "highlight": false
+    },
+    {
+      "degree": "Matriculation",
+      "meta": "2002",
+      "institution": "Gopal Sah Vidyalaya, Motihari, Bihar (BSEB)",
+      "highlight": false
+    }
+  ]
+}

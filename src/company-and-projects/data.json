@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "files": {
+    "meta": "meta.json",
+    "summary": "summary.json",
+    "skills": "skills.json",
+    "portfolioSection": "portfolio-section.json",
+    "experience": "experience.json",
+    "education": "education.json",
+    "certifications": "certifications.json"
+  }
+}
