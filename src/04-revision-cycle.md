@@ -19,3 +19,5 @@ https://github.com/sameer05515/job-comeback/blob/work-branch/src/02-interview-sc
 [115 Java Interview Questions and Answers – The ULTIMATE List (PDF Download)](https://sameer05515.github.io/stavya-para-paroktih/#9dc18fdd-1b29-4b21-b65c-eaf00fe21b15)
 
 [Interview QA | 40+ Spring & Spring Boot Annotations Everyone Should Know | JavaTechie](https://www.youtube.com/watch?v=htyq-mER0AE)
+
+[Every Data Structure Simply Explained in 25 Minutes!](https://www.youtube.com/watch?v=vVL6NFzr0Rg)
