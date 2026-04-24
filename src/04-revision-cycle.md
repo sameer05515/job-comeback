@@ -23,3 +23,5 @@ https://github.com/sameer05515/job-comeback/blob/work-branch/src/02-interview-sc
 [Every Data Structure Simply Explained in 25 Minutes!](https://www.youtube.com/watch?v=vVL6NFzr0Rg)
 
 [7 Authentication Concepts Every Developer Should Know](https://www.youtube.com/watch?v=iX8g4LqF8p8)
+
+[🚀 Apache Kafka Crash Course With Spring Boot 3.0.x | @Javatechie](https://www.youtube.com/watch?v=c7LPlWvxZcQ&t=11s)
