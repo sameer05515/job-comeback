@@ -21,3 +21,5 @@ https://github.com/sameer05515/job-comeback/blob/work-branch/src/02-interview-sc
 [Interview QA | 40+ Spring & Spring Boot Annotations Everyone Should Know | JavaTechie](https://www.youtube.com/watch?v=htyq-mER0AE)
 
 [Every Data Structure Simply Explained in 25 Minutes!](https://www.youtube.com/watch?v=vVL6NFzr0Rg)
+
+[7 Authentication Concepts Every Developer Should Know](https://www.youtube.com/watch?v=iX8g4LqF8p8)
