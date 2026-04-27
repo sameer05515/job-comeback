@@ -1,4 +1,4 @@
-```
+```java
 package com.p.java8.array;
 
 import java.util.Arrays;
