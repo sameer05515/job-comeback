@@ -42,7 +42,7 @@
 - [Write a query to find largest number from a table (say column is id, integer value)](./sql/003.md)
 - [write query to find third largest salary](./sql/003.md)
 - [Write a java stream program to find 3rd largest number from given array](./java-8/programs/008.md)
-- what is distributed transaction
+- [what is distributed transaction](./microservices/distributed-transactions.md)
 - tell me architecture of last project which you worked
 - what is SAGA pattern
 - [If my messaging queue is not working, how to handle this situation in your microservices project](./microservices/queue-not-working.md)
