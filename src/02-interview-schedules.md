@@ -35,7 +35,7 @@
 
 ## Interview me below questions pucha gaya tha
 
-- write a program to reverse a string
+- [write a program to reverse a string](./java/programs/reverse-a-string.md)
 - [what is difference between String and StringBuffer](./java/java--what-is-difference-between-string-and-stringbuffer.md)
 - How to make a class immutable
 - [Pass by value and pass by reference](./java/java--pass-by-value-and-pass-by-reference-in-java.md)
