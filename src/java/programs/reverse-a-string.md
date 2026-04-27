@@ -20,8 +20,18 @@ public class Arr {
         }
 
         System.out.println(rev);
+
+        reversed = str.chars()
+                .mapToObj(c -> (char) c)
+                .collect(StringBuilder::new,
+                        (sb, c) -> sb.insert(0, c),
+                        StringBuilder::append)
+                .toString();
+
+        System.out.println(reversed);
     }
 }
+
 
 
 ```
