@@ -37,7 +37,7 @@
 
 - [write a program to reverse a string](./java/programs/reverse-a-string.md)
 - [what is difference between String and StringBuffer](./java/java--what-is-difference-between-string-and-stringbuffer.md)
-- How to make a class immutable
+- [How to make a class immutable](./java/make-a-class-immutable.md)
 - [Pass by value and pass by reference](./java/java--pass-by-value-and-pass-by-reference-in-java.md)
 - [Write a query to find largest number from a table (say column is id, integer value)](./sql/003.md)
 - [write query to find third largest salary](./sql/003.md)
