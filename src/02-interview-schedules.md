@@ -65,7 +65,7 @@
 - What lazy operations
 - [What are new features introduced in java 17](./java/java--what-are-new-features-introduced-in-java-17.md)
 - [What are key features introduced in java 8](./java-8/001.md)
-- What is default methods in predicate
+- [What is default methods in predicate](./java-8/default-methods-in-predicate.md)
 - [What is state in Reactjs](./reactjs/reactjs--what-is-state-in-reactjs.md)
 - [stateful and stateless functions in Stream API](./java-8/java8--stateful-and-stateless-functions-in-stream-api.md)
 - [Javascript's ES6+ features](./javascript/ES6-features.md)
