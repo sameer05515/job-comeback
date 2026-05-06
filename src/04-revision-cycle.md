@@ -27,3 +27,23 @@ https://github.com/sameer05515/job-comeback/blob/work-branch/src/02-interview-sc
 [🚀 Apache Kafka Crash Course With Spring Boot 3.0.x | @Javatechie](https://www.youtube.com/watch?v=c7LPlWvxZcQ&t=11s)
 
 [🚀 🔥 Mastering Microservices: Spring boot, Spring Cloud and Keycloak In 7 Hours](https://www.youtube.com/watch?v=jdeSV0GRvwI)
+
+[70+ Trickiest Core Java Interview Questions and Answers](https://www.youtube.com/watch?v=aTX1RTojkTE)
+
+
+
+---
+---
+
+# Angular
+
+[Angular Interview Questions 2026 | Angular Interview Questions and Answers | MindMajix](https://www.youtube.com/watch?v=lIMzdWuSh00)
+
+
+
+---
+---
+
+# AWS
+
+[AWS Interview Questions 2026 | AWS Developer Interview Questions and Answers | MindMajix](https://www.youtube.com/watch?v=05Cy8Y6NGaE)
