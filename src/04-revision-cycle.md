@@ -47,3 +47,13 @@ https://github.com/sameer05515/job-comeback/blob/work-branch/src/02-interview-sc
 # AWS
 
 [AWS Interview Questions 2026 | AWS Developer Interview Questions and Answers | MindMajix](https://www.youtube.com/watch?v=05Cy8Y6NGaE)
+
+
+---
+---
+
+# ReactJS
+
+[React js - Top 30 Interview Questions and Answers for Beginners](https://www.youtube.com/watch?v=b8pAPWsWIE4&list=PL3aZbxdSiCbM9EfasmUTQ4njpZ-E5P6zd)
+
+[Top 100 React JS Interview Questions and Answers](https://www.youtube.com/watch?v=IMEzmmP3WAs&list=PL3aZbxdSiCbM9EfasmUTQ4njpZ-E5P6zd&index=2)
