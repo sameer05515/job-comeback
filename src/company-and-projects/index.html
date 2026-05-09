@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company & Projects</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-100 via-white to-indigo-50/60 text-slate-800 antialiased">
+
+    <main class="mx-auto max-w-3xl px-4 py-12 sm:px-6 lg:px-8">
+        <header class="mb-10 text-center sm:text-left">
+            <p class="text-sm font-medium uppercase tracking-wider text-indigo-600">Portfolio</p>
+            <h1 class="mt-1 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Company & Projects</h1>
+            <p class="mt-2 max-w-2xl text-slate-600">Roles, products, and highlights from recent work.</p>
+        </header>
+        <div id="company-and-projects" class="space-y-8"></div>
+    </main>
+
+    <script>
+        const companyAndProjects = [
+            {
+                name: "Comviva Technologies",
+                designation: "Senior Technical Lead",
+                description: "Comviva Technologies is a global leader in digital transformation, offering end-to-end solutions for telecom operators and enterprises. We help businesses build and deploy innovative digital services that drive growth and efficiency.",
+                projects: [
+                    {
+                        name: "Mobiquity One Issuing",
+                        description: "Mobiquity One Issuing is a digital solution for telecom operators to issue SIM cards to their customers. It is a web-based application that allows telecom operators to issue SIM cards to their customers online.",
+                        responsibilities: [
+                            "Developed the backend API for the Mobiquity One Issuing application using Java and Spring Boot.",
+                            "Developed the frontend UI for the Mobiquity One Issuing application using React and Redux.",
+                            "Integrated the backend API with the frontend UI using RESTful APIs.",
+                            "Implemented the authentication and authorization for the Mobiquity One Issuing application using JWT and OAuth2.",
+                            "Implemented the logging and monitoring for the Mobiquity One Issuing application using Log4j and Prometheus.",
+                        ]
+                    }
+                ]
+            },
+            {
+                name:"Zycus Infotech Pvt Ltd",
+                designation: "Senior Staff Engineer",
+                description: "Zycus Infotech Pvt Ltd is a software development company that provides software solutions to businesses.",
+                projects: [
+                    {
+                        name: "ESG Lythouse",
+                        description: "ESG Lythouse is a software solution for businesses to manage their ESG process.",
+                        responsibilities: [
+                            "Developed the backend API for the ESG Lythouse application using Java and Spring Boot.",
+                        ]
+                    }
+                ]
+            },
+            {
+                name:"EVC Ventures",
+                designation: "Senior Backend Developer",
+                description: "EVC Ventures is a software development company that provides software solutions to businesses.",
+                projects: [
+                    {
+                        name: "IITD Admin",
+                        description: "IITD Admin is a software solution for businesses to manage their procurement process.",
+                        responsibilities: [
+                            "Developed the backend API for the IITD Admin application using Java and Spring Boot.",
+                        ]
+                    }
+                ]               
+            },
+            {
+                name:"RSystems International Pvt Ltd",
+                designation: "Project Leader",
+                description: "RSystems International Pvt Ltd is a software development company that provides software solutions to businesses.",
+                projects: [
+                    {
+                        name: "Ephesoft Transact",
+                        description: "Ephesoft Transact is a software solution for businesses to manage their procurement process.",
+                        responsibilities: [
+                            "Developed the backend API for the Ephesoft Transact application using Java and Spring Boot.",
+                        ]
+                    }
+                ]
+            },
+            {
+                name:"Dhani Stocks Ltd",
+                designation: "Technical Lead",
+                description: "Dhani Stocks Ltd is a software development company that provides software solutions to businesses.",
+                projects: [
+                    {
+                        name: "ShubhWeb",
+                        description: "ShubhWeb is a software solution for businesses to manage their procurement process.",
+                        responsibilities: [
+                            "Developed the backend API for the ShubhWeb application using Java and Spring Boot.",
+                        ]
+                    }
+                ]
+            },
+            {
+                name:"Concentrix Daksh Services Pvt Ltd",
+                designation: "Asst Manager, IT Applications",
+                description: "Concentrix Daksh Services Pvt Ltd is a software development company that provides software solutions to businesses.",
+                projects: [
+                    {
+                        name: "Zetta",
+                        description: "Zetta is a software solution for businesses to manage their procurement process.",
+                        responsibilities: [
+                            "Developed the backend API for the Zetta application using Java and Spring Boot.",
+                        ]
+                    }
+                ]
+            },
+            {
+                name:"Novelvox Software India Pvt Ltd",
+                designation: "Application Developer",
+                description: "Novelvox Software India Pvt Ltd is a software development company that provides software solutions to businesses.",
+                projects: [
+                    {
+                        name: "iAgent",
+                        description: "iAgent is a software solution for businesses to manage their procurement process.",
+                        responsibilities: [
+                            "Developed the backend API for the iAgent application using Java and Spring Boot.",
+                        ]
+                    }
+                ]
+            },
+            {
+                name:"HCL Infosystems Ltd",
+                designation: "Backend Developer",
+                description: "HCL Infosystems Ltd is a software development company that provides software solutions to businesses.",
+                projects: [
+                    {
+                        name: "CIPA",
+                        description: "CIPA is a software solution for businesses to manage their procurement process.",
+                        responsibilities: [
+                            "Developed the backend API for the CIPA application using Java and Spring Boot.",
+                        ]
+                    }   
+                ]
+            },
+            {
+                name:"GreenApple Webware",
+                designation: "Backend Developer",
+                description: "GreenApple Webware is a software development company that provides software solutions to businesses.",
+                projects: [
+                    {
+                        name: "OSCART",
+                        description: "OSCART is a software solution for businesses to manage their procurement process.",
+                        responsibilities: [
+                            "Developed the backend API for the OSCART application using Java and Spring Boot.",
+                        ]
+                    }
+                ]
+            }  
+        ];
+
+        const companyAndProjectsContainer = document.getElementById("company-and-projects");
+        companyAndProjects.forEach(company => {
+            const companyContainer = document.createElement("article");
+            companyContainer.className =
+                "rounded-2xl border border-slate-200/80 bg-white/90 p-6 shadow-sm ring-1 ring-slate-900/5 backdrop-blur-sm sm:p-8";
+
+            const companyHeader = document.createElement("header");
+            companyHeader.className = "mb-6 border-b border-slate-100 pb-6";
+            const h2 = document.createElement("h2");
+            h2.className = "text-xl font-semibold text-indigo-950";
+            h2.textContent = company.name;
+            const companyDesc = document.createElement("p");
+            companyDesc.className = "mt-3 leading-relaxed text-slate-600";
+            companyDesc.textContent = company.description;
+            companyHeader.appendChild(h2);
+            companyHeader.appendChild(companyDesc);
+            companyContainer.appendChild(companyHeader);
+
+            const projectsWrap = document.createElement("div");
+            projectsWrap.className = "space-y-6";
+
+            company.projects.forEach(project => {
+                const projectSection = document.createElement("section");
+                projectSection.className =
+                    "rounded-xl bg-slate-50/90 p-5 ring-1 ring-slate-200/70 sm:p-6";
+
+                const h3 = document.createElement("h3");
+                h3.className = "text-lg font-semibold text-slate-900";
+                h3.textContent = project.name;
+                projectSection.appendChild(h3);
+
+                const projectDesc = document.createElement("p");
+                projectDesc.className = "mt-2 leading-relaxed text-slate-600";
+                projectDesc.textContent = project.description;
+                projectSection.appendChild(projectDesc);
+
+                const ul = document.createElement("ul");
+                ul.className = "mt-5 list-none space-y-3";
+                ul.setAttribute("role", "list");
+
+                project.responsibilities.forEach(responsibility => {
+                    const li = document.createElement("li");
+                    li.className = "flex gap-3 text-sm leading-relaxed text-slate-700 sm:text-base";
+                    const bullet = document.createElement("span");
+                    bullet.className = "mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500";
+                    bullet.setAttribute("aria-hidden", "true");
+                    const text = document.createElement("span");
+                    text.textContent = responsibility;
+                    li.appendChild(bullet);
+                    li.appendChild(text);
+                    ul.appendChild(li);
+                });
+
+                projectSection.appendChild(ul);
+                projectsWrap.appendChild(projectSection);
+            });
+
+            companyContainer.appendChild(projectsWrap);
+            companyAndProjectsContainer.appendChild(companyContainer);
+        });
+    </script>
+</body>
+</html>
