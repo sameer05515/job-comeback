@@ -162,12 +162,20 @@
             const h2 = document.createElement("h2");
             h2.className = "text-xl font-semibold text-indigo-950";
             h2.textContent = company.name;
+            companyHeader.appendChild(h2);
+            companyContainer.appendChild(companyHeader);
+
+            const designation = document.createElement("p");
+            designation.className = "text-sm font-medium uppercase tracking-wider text-indigo-600";
+            designation.textContent = company.designation;
+            companyHeader.appendChild(designation);
+
             const companyDesc = document.createElement("p");
             companyDesc.className = "mt-3 leading-relaxed text-slate-600";
             companyDesc.textContent = company.description;
-            companyHeader.appendChild(h2);
+            
             companyHeader.appendChild(companyDesc);
-            companyContainer.appendChild(companyHeader);
+            
 
             const projectsWrap = document.createElement("div");
             projectsWrap.className = "space-y-6";
