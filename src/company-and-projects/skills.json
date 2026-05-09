@@ -1,0 +1,57 @@
+{
+  "title": "Technical skills",
+  "subtitle": "Stack and patterns I use day to day.",
+  "categories": [
+    {
+      "name": "Backend",
+      "qualifier": "(Expert)",
+      "skills": [
+        "Java 8+",
+        "Spring Boot",
+        "Microservices",
+        "JPA",
+        "Hibernate",
+        "REST"
+      ],
+      "variant": "default",
+      "colSpan": 1
+    },
+    {
+      "name": "Frontend",
+      "qualifier": "(Advanced)",
+      "skills": ["ReactJS", "JavaScript (ES6+)", "HTML", "CSS"],
+      "variant": "default",
+      "colSpan": 1
+    },
+    {
+      "name": "Databases",
+      "skills": ["MySQL", "MongoDB"],
+      "variant": "default",
+      "colSpan": 1
+    },
+    {
+      "name": "DevOps",
+      "skills": ["Docker", "Kubernetes", "Jenkins", "GitHub Actions"],
+      "variant": "default",
+      "colSpan": 1
+    },
+    {
+      "name": "Messaging / caching",
+      "skills": ["Kafka", "Redis"],
+      "variant": "default",
+      "colSpan": 1
+    },
+    {
+      "name": "Cloud",
+      "skills": ["AWS"],
+      "variant": "default",
+      "colSpan": 1
+    },
+    {
+      "name": "Architecture",
+      "skills": ["SOLID", "Design patterns", "API design", "Distributed systems"],
+      "variant": "featured",
+      "colSpan": 2
+    }
+  ]
+}
