@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company & Projects</title>
+    <title>Resume — Company & Projects</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,33 +12,216 @@
         body { font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
     </style>
 </head>
-<body class="min-h-screen bg-gradient-to-b from-slate-50 via-white to-indigo-50/40 text-slate-800 antialiased">
+<body class="min-h-screen bg-gradient-to-b from-slate-50 via-white to-indigo-50/45 text-slate-800 antialiased selection:bg-indigo-100 selection:text-indigo-950">
 
-    <div class="relative isolate overflow-hidden">
-        <div class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_80%_50%_at_50%_-20%,rgba(99,102,241,0.15),transparent)]"></div>
+    <div class="relative isolate overflow-hidden pb-16">
+        <div class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_90%_55%_at_50%_-25%,rgba(99,102,241,0.16),transparent)]"></div>
+        <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 h-px bg-gradient-to-r from-transparent via-indigo-200/60 to-transparent"></div>
 
-        <header class="mx-auto max-w-3xl px-4 pb-4 pt-14 sm:px-6 lg:px-8">
-            <p class="text-center text-xs font-semibold uppercase tracking-[0.2em] text-indigo-600 sm:text-left">Professional summary</p>
-            <div class="mt-6 rounded-2xl border border-slate-200/80 bg-white/70 p-6 shadow-sm ring-1 ring-slate-900/5 backdrop-blur-md sm:p-8">
+        <header class="mx-auto max-w-3xl px-4 pb-2 pt-14 sm:px-6 lg:px-8">
+            <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-[0.22em] text-indigo-600">Resume</p>
+                    <h1 class="mt-2 text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl">Professional summary</h1>
+                </div>
+                <span class="inline-flex w-fit items-center gap-2 rounded-full border border-indigo-100 bg-white/80 px-3 py-1 text-xs font-medium text-slate-600 shadow-sm backdrop-blur-sm">
+                    <span class="h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-500 shadow-[0_0_0_3px_rgba(16,185,129,0.25)]" aria-hidden="true"></span>
+                    Open to opportunities
+                </span>
+            </div>
+            <div class="mt-6 rounded-2xl border border-slate-200/70 bg-white/75 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-md sm:p-8">
                 <p class="text-pretty text-base leading-relaxed text-slate-600 sm:text-lg">
-                    I am a passionate and performance-driven Full Stack Developer with over <span class="font-semibold text-slate-800">9+ years</span> of experience building scalable enterprise applications with Java (Spring Boot) and ReactJS, and <span class="font-semibold text-slate-800">14.5+ years</span> overall in backend systems.
+                    I am a passionate and performance-driven Full Stack Developer with over <span class="font-semibold text-slate-900">9+ years</span> of experience building scalable enterprise applications with Java (Spring Boot) and ReactJS, and <span class="font-semibold text-slate-900">14.5+ years</span> overall in backend systems.
                 </p>
             </div>
         </header>
 
-        <main class="mx-auto max-w-3xl px-4 pb-20 pt-6 sm:px-6 lg:px-8">
-            <div class="mb-10 flex flex-col gap-2 border-b border-slate-200/80 pb-8 sm:flex-row sm:items-end sm:justify-between">
-                <div>
-                    <p class="text-xs font-semibold uppercase tracking-[0.2em] text-indigo-600">Portfolio</p>
-                    <h1 class="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Companies & projects</h1>
+        <section class="mx-auto max-w-3xl px-4 pt-8 sm:px-6 lg:px-8">
+            <div class="rounded-2xl border border-slate-200/70 bg-white/75 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-md sm:p-8">
+                <div class="mb-6 flex items-start gap-4">
+                    <span class="mt-1 h-10 w-1 shrink-0 rounded-full bg-gradient-to-b from-indigo-500 to-violet-500" aria-hidden="true"></span>
+                    <div class="min-w-0 flex-1">
+                        <h2 class="text-lg font-semibold tracking-tight text-slate-900">Technical skills</h2>
+                        <p class="mt-1 text-sm text-slate-500">Stack and patterns I use day to day.</p>
+                    </div>
                 </div>
-                <p class="max-w-md text-sm text-slate-500 sm:text-right">Roles, products, and highlights from recent work.</p>
+                <dl class="grid grid-cols-1 gap-5 sm:grid-cols-2">
+                    <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-4 ring-1 ring-slate-900/[0.03]">
+                        <dt class="text-sm font-semibold text-slate-900">Backend <span class="font-normal text-slate-400">(Expert)</span></dt>
+                        <dd class="mt-3 flex flex-wrap gap-2">
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Java 8+</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Spring Boot</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Microservices</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">JPA</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Hibernate</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">REST</span>
+                        </dd>
+                    </div>
+                    <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-4 ring-1 ring-slate-900/[0.03]">
+                        <dt class="text-sm font-semibold text-slate-900">Frontend <span class="font-normal text-slate-400">(Advanced)</span></dt>
+                        <dd class="mt-3 flex flex-wrap gap-2">
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">ReactJS</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">JavaScript (ES6+)</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">HTML</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">CSS</span>
+                        </dd>
+                    </div>
+                    <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-4 ring-1 ring-slate-900/[0.03]">
+                        <dt class="text-sm font-semibold text-slate-900">Databases</dt>
+                        <dd class="mt-3 flex flex-wrap gap-2">
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">MySQL</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">MongoDB</span>
+                        </dd>
+                    </div>
+                    <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-4 ring-1 ring-slate-900/[0.03]">
+                        <dt class="text-sm font-semibold text-slate-900">DevOps</dt>
+                        <dd class="mt-3 flex flex-wrap gap-2">
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Docker</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Kubernetes</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Jenkins</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">GitHub Actions</span>
+                        </dd>
+                    </div>
+                    <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-4 ring-1 ring-slate-900/[0.03]">
+                        <dt class="text-sm font-semibold text-slate-900">Messaging / caching</dt>
+                        <dd class="mt-3 flex flex-wrap gap-2">
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Kafka</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Redis</span>
+                        </dd>
+                    </div>
+                    <div class="rounded-xl border border-slate-100 bg-slate-50/80 p-4 ring-1 ring-slate-900/[0.03]">
+                        <dt class="text-sm font-semibold text-slate-900">Cloud</dt>
+                        <dd class="mt-3 flex flex-wrap gap-2">
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">AWS</span>
+                        </dd>
+                    </div>
+                    <div class="sm:col-span-2 rounded-xl border border-slate-100 bg-gradient-to-br from-indigo-50/80 to-white p-4 ring-1 ring-indigo-100/80">
+                        <dt class="text-sm font-semibold text-slate-900">Architecture</dt>
+                        <dd class="mt-3 flex flex-wrap gap-2">
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">SOLID</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Design patterns</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">API design</span>
+                            <span class="rounded-lg bg-white px-2.5 py-1 text-xs font-medium text-slate-700 shadow-sm ring-1 ring-slate-200/80">Distributed systems</span>
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </section>
+
+        <main class="mx-auto max-w-3xl px-4 pb-8 pt-10 sm:px-6 lg:px-8">
+            <div class="mb-10 flex flex-col gap-4 border-b border-slate-200/80 pb-8 sm:flex-row sm:items-end sm:justify-between">
+                <div class="flex items-start gap-4">
+                    <span class="mt-1 h-10 w-1 shrink-0 rounded-full bg-gradient-to-b from-indigo-500 to-violet-500 sm:hidden" aria-hidden="true"></span>
+                    <div>
+                        <p class="text-xs font-semibold uppercase tracking-[0.22em] text-indigo-600">Portfolio</p>
+                        <h2 class="mt-2 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">Companies & projects</h2>
+                        <p class="mt-2 max-w-xl text-sm text-slate-500 sm:text-base">Roles, products, and highlights from recent work.</p>
+                    </div>
+                </div>
             </div>
 
             <div id="company-and-projects" class="relative space-y-8">
                 <div class="absolute left-[1.125rem] top-3 bottom-3 hidden w-px bg-gradient-to-b from-indigo-200 via-slate-200 to-transparent sm:block" aria-hidden="true"></div>
             </div>
         </main>
+
+        <section class="mx-auto max-w-3xl px-4 pt-2 pb-8 sm:px-6 lg:px-8">
+            <div class="rounded-2xl border border-slate-200/70 bg-white/75 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-md sm:p-8">
+                <div class="mb-6 flex items-start gap-4">
+                    <span class="mt-1 h-10 w-1 shrink-0 rounded-full bg-gradient-to-b from-indigo-500 to-violet-500" aria-hidden="true"></span>
+                    <div>
+                        <h2 class="text-lg font-semibold tracking-tight text-slate-900">Education</h2>
+                        <p class="mt-1 text-sm text-slate-500">Degrees and milestones.</p>
+                    </div>
+                </div>
+                <ol class="relative space-y-4 border-l border-slate-200 pl-6">
+                    <li class="relative">
+                        <span class="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full border-2 border-white bg-indigo-500 shadow-sm ring-2 ring-indigo-100" aria-hidden="true"></span>
+                        <div class="rounded-xl border border-slate-100 bg-slate-50/90 p-4 ring-1 ring-slate-900/[0.03]">
+                            <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                                <p class="font-semibold text-slate-900">B.Tech, Computer Science & Engineering</p>
+                                <span class="shrink-0 rounded-full bg-white px-2.5 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-slate-200/80">2005 – 2009 · 72.31%</span>
+                            </div>
+                            <p class="mt-2 text-sm text-slate-600">BCE Bhagalpur, Bhagalpur, Bihar</p>
+                        </div>
+                    </li>
+                    <li class="relative">
+                        <span class="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full border-2 border-white bg-slate-400 shadow-sm ring-2 ring-slate-100" aria-hidden="true"></span>
+                        <div class="rounded-xl border border-slate-100 bg-white p-4 ring-1 ring-slate-900/[0.03]">
+                            <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                                <p class="font-semibold text-slate-900">Intermediate (Science – Mathematics)</p>
+                                <span class="shrink-0 rounded-full bg-slate-50 px-2.5 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-slate-200/80">2004</span>
+                            </div>
+                            <p class="mt-2 text-sm text-slate-600">Munshi Singh College, Motihari, Bihar (BIEC)</p>
+                        </div>
+                    </li>
+                    <li class="relative">
+                        <span class="absolute -left-[5px] top-2 h-2.5 w-2.5 rounded-full border-2 border-white bg-slate-400 shadow-sm ring-2 ring-slate-100" aria-hidden="true"></span>
+                        <div class="rounded-xl border border-slate-100 bg-white p-4 ring-1 ring-slate-900/[0.03]">
+                            <div class="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+                                <p class="font-semibold text-slate-900">Matriculation</p>
+                                <span class="shrink-0 rounded-full bg-slate-50 px-2.5 py-0.5 text-xs font-medium text-slate-600 ring-1 ring-slate-200/80">2002</span>
+                            </div>
+                            <p class="mt-2 text-sm text-slate-600">Gopal Sah Vidyalaya, Motihari, Bihar (BSEB)</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="mx-auto max-w-3xl px-4 pt-2 pb-4 sm:px-6 lg:px-8">
+            <div class="rounded-2xl border border-slate-200/70 bg-white/75 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-md sm:p-8">
+                <div class="mb-6 flex items-start gap-4">
+                    <span class="mt-1 h-10 w-1 shrink-0 rounded-full bg-gradient-to-b from-indigo-500 to-violet-500" aria-hidden="true"></span>
+                    <div>
+                        <h2 class="text-lg font-semibold tracking-tight text-slate-900">Certifications</h2>
+                        <p class="mt-1 text-sm text-slate-500">Udemy courses completed.</p>
+                    </div>
+                </div>
+                <ul class="space-y-2.5">
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-slate-50/90 px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">Modern Java – Java 8 Features (Udemy)</span>
+                    </li>
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-white px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">Learn Mockito and JUnit (Udemy)</span>
+                    </li>
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-slate-50/90 px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">Understanding TypeScript – 2022 Edition (Udemy)</span>
+                    </li>
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-white px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">JSON Web Token (JWT) with Spring Security and Angular (Udemy)</span>
+                    </li>
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-slate-50/90 px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">Docker &amp; Kubernetes – Practical Guide (Udemy)</span>
+                    </li>
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-white px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">GitHub Actions – Complete Guide (Udemy)</span>
+                    </li>
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-slate-50/90 px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">Master Microservices with Spring Boot, Docker, Kubernetes (Udemy)</span>
+                    </li>
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-white px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">Design Microservices Architecture (Udemy)</span>
+                    </li>
+                    <li class="flex gap-3 rounded-xl border border-slate-100 bg-slate-50/90 px-4 py-3 text-sm text-slate-700 ring-1 ring-slate-900/[0.03] sm:text-base">
+                        <span class="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-xs font-bold text-emerald-700" aria-hidden="true">✓</span>
+                        <span class="leading-snug">React – Complete Guide 2024 (incl. Redux, Next.js) (Udemy)</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="mx-auto max-w-3xl px-4 pt-6 sm:px-6 lg:px-8">
+            <p class="border-t border-slate-200/80 pt-8 text-center text-xs text-slate-400">Built as a static résumé page · Tailwind CSS</p>
+        </footer>
     </div>
 
     <script>
@@ -179,7 +362,7 @@
         companyAndProjects.forEach(company => {
             const companyContainer = document.createElement("article");
             companyContainer.className =
-                "group relative rounded-2xl border border-slate-200/80 bg-white/90 p-6 shadow-sm ring-1 ring-slate-900/5 backdrop-blur-sm transition duration-300 hover:border-indigo-200/80 hover:shadow-md sm:ml-0 sm:p-8 sm:pl-10";
+                "group relative rounded-2xl border border-slate-200/80 bg-white/90 p-6 shadow-[0_1px_0_0_rgba(15,23,42,0.04)] ring-1 ring-slate-900/[0.04] backdrop-blur-sm transition duration-300 hover:border-indigo-200/90 hover:shadow-md sm:ml-0 sm:p-8 sm:pl-10";
 
             const timelineDot = document.createElement("span");
             timelineDot.className =
@@ -199,7 +382,7 @@
 
             const designation = document.createElement("span");
             designation.className =
-                "inline-flex w-fit shrink-0 items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-indigo-700 ring-1 ring-indigo-100";
+                "inline-flex w-fit shrink-0 items-center rounded-full bg-indigo-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-indigo-800 ring-1 ring-indigo-100/80";
             designation.textContent = company.designation;
 
             titleRow.appendChild(h2);
@@ -219,7 +402,7 @@
             company.projects.forEach(project => {
                 const projectSection = document.createElement("section");
                 projectSection.className =
-                    "rounded-xl border border-slate-100 bg-gradient-to-br from-slate-50/90 to-white p-5 shadow-inner ring-1 ring-slate-200/60 sm:p-6";
+                    "rounded-xl border border-slate-100 bg-gradient-to-br from-slate-50/95 to-white p-5 shadow-inner ring-1 ring-slate-200/50 transition hover:ring-indigo-100 sm:p-6";
 
                 const projectLabel = document.createElement("p");
                 projectLabel.className = "text-[10px] font-bold uppercase tracking-widest text-indigo-500";
@@ -237,18 +420,17 @@
                 projectSection.appendChild(projectDesc);
 
                 const ul = document.createElement("ul");
-                ul.className = "mt-5 space-y-2.5";
+                ul.className = "mt-5 space-y-2";
                 ul.setAttribute("role", "list");
 
                 project.responsibilities.forEach(responsibility => {
                     const li = document.createElement("li");
                     li.className =
-                        "flex gap-3 rounded-lg bg-white/60 py-1.5 pl-1 text-sm leading-relaxed text-slate-700 ring-1 ring-slate-100/80 sm:text-base";
+                        "flex gap-3 rounded-lg border border-slate-100/90 bg-white/80 py-2 pl-2 pr-3 text-sm leading-relaxed text-slate-700 shadow-sm sm:text-base";
                     const bullet = document.createElement("span");
-                    bullet.className = "mt-2 ml-2 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500";
+                    bullet.className = "mt-2 ml-1 h-1.5 w-1.5 shrink-0 rounded-full bg-indigo-500";
                     bullet.setAttribute("aria-hidden", "true");
                     const text = document.createElement("span");
-                    text.className = "pr-3";
                     text.textContent = responsibility;
                     li.appendChild(bullet);
                     li.appendChild(text);
