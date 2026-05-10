@@ -186,7 +186,8 @@ window.__RESUME_BUNDLE__ = {
           "name": "ShubhWeb",
           "description": "ShubhWeb is a software solution for businesses to manage their procurement process.",
           "responsibilities": [
-            "Developed the backend API for the ShubhWeb application using Java and Spring Boot."
+            "Developed the backend API for the ShubhWeb application using Java and Spring Boot.",
+            "Successfully integrated EDIS and NSDL apis with help of team."
           ]
         }
       ]
