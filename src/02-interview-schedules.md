@@ -677,3 +677,12 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - When aiming for exactly-once processing with Kafka and Avro, what configurations and design choices are required, and what limitations or caveats do you consider?
 - for AWS services, how would you implement observability for services on EKS using CloudWatch Container Insights, Prometheus/Grafana, and OpenTelemetry, and wire alerts for SLO breaches?
 - could you describe your approach to end-to-end observability for services on Kubernetes, covering metrics, logs, tracing, and alerting with tools like Prometheus, Grafana, and OpenTelemetry?
+
+
+---
+---
+
+# 08 May 2026
+## Amantya tech
+- [What is oauth](./spring-boot/what-is-oauth.md)
+- [What is role and responsibilities for a team leader](./tech-lead/role-and-responsibility.md)
