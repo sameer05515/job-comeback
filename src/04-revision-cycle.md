@@ -30,6 +30,8 @@ https://github.com/sameer05515/job-comeback/blob/work-branch/src/02-interview-sc
 
 [70+ Trickiest Core Java Interview Questions and Answers](https://www.youtube.com/watch?v=aTX1RTojkTE)
 
+[Complete Spring Security Tutorial in One Video | JWT | OAuth2 | RBAC](https://www.youtube.com/watch?v=ibxPpCVJXNY)
+
 
 
 ---
