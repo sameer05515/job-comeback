@@ -35,14 +35,14 @@
 
 ## Interview me below questions pucha gaya tha
 
-- write a program to reverse a string
+- [write a program to reverse a string](./java/programs/reverse-a-string.md)
 - [what is difference between String and StringBuffer](./java/java--what-is-difference-between-string-and-stringbuffer.md)
-- How to make a class immutable
+- [How to make a class immutable](./java/make-a-class-immutable.md)
 - [Pass by value and pass by reference](./java/java--pass-by-value-and-pass-by-reference-in-java.md)
 - [Write a query to find largest number from a table (say column is id, integer value)](./sql/003.md)
 - [write query to find third largest salary](./sql/003.md)
 - [Write a java stream program to find 3rd largest number from given array](./java-8/programs/008.md)
-- what is distributed transaction
+- [what is distributed transaction](./microservices/distributed-transactions.md)
 - tell me architecture of last project which you worked
 - what is SAGA pattern
 - [If my messaging queue is not working, how to handle this situation in your microservices project](./microservices/queue-not-working.md)
@@ -65,7 +65,7 @@
 - What lazy operations
 - [What are new features introduced in java 17](./java/java--what-are-new-features-introduced-in-java-17.md)
 - [What are key features introduced in java 8](./java-8/001.md)
-- What is default methods in predicate
+- [What is default methods in predicate](./java-8/default-methods-in-predicate.md)
 - [What is state in Reactjs](./reactjs/reactjs--what-is-state-in-reactjs.md)
 - [stateful and stateless functions in Stream API](./java-8/java8--stateful-and-stateless-functions-in-stream-api.md)
 - [Javascript's ES6+ features](./javascript/ES6-features.md)
@@ -659,3 +659,30 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 - [Spring bean lifecycle](./spring-boot/spring-bean-lifecycle.md)
 - [difference between Collectors.groupingBy and Collectors.partitioningBy](./java-8/difference-between-collectors-groupingby-and-partitionby.md)
 - [ClassNotFoundException vs NoClassDefFoundError](./java/classnotfound-vs-noclassdeffounderror.md)
+
+
+---
+---
+
+# 16 April 2026
+## Accenture
+- [How can you connect multiple databases or data sources in a single spring boot application?](./spring-boot/connect-multiple-datasource-in-single-sb-appln.md)
+
+---
+---
+
+# 17 April 2026
+## BerriBot TCS
+- How do you guarantee idempotency for operations that may be retried by clients or the platform, and what patterns would you use to prevent duplicate processing?
+- When aiming for exactly-once processing with Kafka and Avro, what configurations and design choices are required, and what limitations or caveats do you consider?
+- for AWS services, how would you implement observability for services on EKS using CloudWatch Container Insights, Prometheus/Grafana, and OpenTelemetry, and wire alerts for SLO breaches?
+- could you describe your approach to end-to-end observability for services on Kubernetes, covering metrics, logs, tracing, and alerting with tools like Prometheus, Grafana, and OpenTelemetry?
+
+
+---
+---
+
+# 08 May 2026
+## Amantya tech
+- [What is oauth](./spring-boot/what-is-oauth.md)
+- [What is role and responsibilities for a team leader](./tech-lead/role-and-responsibility.md)

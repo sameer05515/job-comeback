@@ -1,0 +1,10 @@
+{
+  "documentTitle": "Resume — Company & Projects",
+  "headerEyebrow": "Resume",
+  "headerTitle": "Professional summary",
+  "availability": {
+    "visible": true,
+    "label": "Open to opportunities"
+  },
+  "footer": "Built as a static résumé page · Tailwind CSS"
+}
