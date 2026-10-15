@@ -686,3 +686,106 @@ Kya chahte ho main iska ek **side-by-side table (Backend Tools vs Frontend Tools
 ## Amantya tech
 - [What is oauth](./spring-boot/what-is-oauth.md)
 - [What is role and responsibilities for a team leader](./tech-lead/role-and-responsibility.md)
+
+
+# 15 July 2026
+- What is circuit braker pattern?
+- What is Immutability?
+- What is API Versioning?
+- Kafka
+- DLQ
+
+# Interview Highlights – 03 August 2026
+
+## Company
+
+**RSystems**
+
+## Overall Observation
+
+The interviewer was looking beyond framework knowledge. The focus was on:
+
+* Decision-making ability
+* Problem-solving approach
+* System design thinking
+* Ability to justify architectural decisions with real-world examples
+
+## Questions Asked
+
+### 1. Redis
+
+* Why did you use Redis in Comviva's Mobiquity One Issuing project?
+* Why Redis instead of other alternatives?
+* Explain the use case and architecture.
+
+### 2. Distributed Logging & Tracing
+
+* How do you implement distributed logging in a microservices architecture?
+* How do you trace a request across multiple microservices?
+* Tools and concepts (e.g., correlation/trace IDs, distributed tracing).
+
+### 3. Netflix System Design
+
+* Design a system like Netflix.
+* Discuss scalability, load balancing, caching, CDN, database choices, microservices, and streaming architecture.
+* Explain architectural trade-offs.
+
+### 4. Executor Framework
+
+* Difference between ExecutorService and ThreadPoolExecutor.
+* What happens if a Fixed Thread Pool has 100 threads and all are busy?
+* How are new tasks handled?
+* What are the possible solutions?
+
+  * Queue sizing
+  * Rejection policies
+  * Scaling strategy
+  * Async processing
+
+### 5. `@Transactional`
+
+* Explain `@Transactional`.
+* Transaction propagation modes.
+* Important propagation types:
+
+  * REQUIRED
+  * REQUIRES_NEW
+  * SUPPORTS
+  * MANDATORY
+  * NOT_SUPPORTED
+  * NEVER
+  * NESTED
+* Practical use cases for each.
+
+### 6. Circuit Breaker Pattern
+
+* Why is Circuit Breaker required?
+* How does it prevent cascading failures?
+* States:
+
+  * Closed
+  * Open
+  * Half-Open
+* Common implementations (e.g., Resilience4j).
+
+---
+
+# Key Learning
+
+This interview emphasized **architectural thinking** over memorized answers.
+
+For every technology, be prepared to answer:
+
+1. Why did you choose it?
+2. What alternatives did you consider?
+3. What trade-offs exist?
+4. What problem does it solve?
+5. How would it behave under high traffic or failure conditions?
+
+The interviewer expected design-oriented thinking rather than only API or framework knowledge.
+
+
+# 15 Oct 2026
+## EPAM first round
+
+- [Coding questions](./java/epam-first-round.md)
