@@ -789,3 +789,9 @@ The interviewer expected design-oriented thinking rather than only API or framew
 ## EPAM first round
 
 - [Coding questions](./java/epam-first-round.md)
+
+# 16 Oct 2026
+## EPAM second round
+
+- [REST API - Richardson Maturity Model](https://www.youtube.com/watch?v=IIB-WMpETls)
+- [what is difference between stubbing and mocking in junit?](./junit/stubbing-vs-mocking.md)
