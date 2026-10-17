@@ -795,3 +795,4 @@ The interviewer expected design-oriented thinking rather than only API or framew
 
 - [REST API - Richardson Maturity Model](https://www.youtube.com/watch?v=IIB-WMpETls)
 - [what is difference between stubbing and mocking in junit?](./junit/stubbing-vs-mocking.md)
+- [A aur B me circular dependency hai. isko spring me kaise handle karenge](./spring-boot/avoid-circular-dependency.md)
